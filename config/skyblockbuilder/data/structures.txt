@@ -1,0 +1,13 @@
+flying_stuff:fil_0
+flying_stuff:floating_tower
+flying_stuff:floating_village
+flying_stuff:glaciated_great_sky_island
+flying_stuff:glaciated_sky_castle
+flying_stuff:glaciated_sky_dungeon
+flying_stuff:golden_floating_dungeon
+flying_stuff:great_sky_island
+flying_stuff:grounddecogolden
+flying_stuff:portal
+flying_stuff:skyarena
+flying_stuff:skyarenaice
+skyvillages:skyvillage
