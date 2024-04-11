@@ -1,12 +1,15 @@
-logs/
-saves/
-mods/
-crash-reports/
+/logs/
+/saves/
+/mods/
+/crash-reports/
 
 .curseclient
 minecraftinstance.json
 options.txt
 usercache.json
 usernamecache.json
-resourcepacks/
+/resourcepacks/
 .gitignore
+/local
+/journeymap
+rhino.local.properties
