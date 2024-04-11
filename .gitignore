@@ -1,5 +1,6 @@
 logs/
 saves/
+mods/
 crash-reports/
 
 .curseclient
@@ -8,3 +9,4 @@ options.txt
 usercache.json
 usernamecache.json
 resourcepacks/
+.gitignore
