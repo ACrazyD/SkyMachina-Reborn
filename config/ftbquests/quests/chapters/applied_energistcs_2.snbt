@@ -1,0 +1,401 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "applied_energistcs_2"
+	group: "3483E4EBAD9C4714"
+	icon: "ae2:creative_energy_cell"
+	id: "033E8D21A95583DB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You have an ME Crafting Terminal ready to use."
+				""
+				"You're welcome."
+			]
+			id: "23FD1322DFB4CA86"
+			subtitle: "You don't need to pick it up!"
+			tasks: [{
+				icon: "ae2:crafting_terminal"
+				id: "6657FEDFA5FAADD0"
+				observe_type: 0
+				timer: 0L
+				title: "ME Crafting Terminal"
+				to_observe: "ae2:cable_bus"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You have a fully loaded ME Drive with 8 64k ME Item Storage Cells and 2 64k ME Fluid Storage Cells."
+				""
+				"Under the ME Drive is a Creative Energy Cell."
+				""
+				"You're welcome."
+			]
+			id: "2B816005CA6F01E2"
+			subtitle: "You don't need to pick it up!"
+			tasks: [{
+				icon: "ae2:drive"
+				id: "1ABC14B21D30EF8E"
+				observe_type: 0
+				timer: 0L
+				title: "ME Drive"
+				to_observe: "ae2:drive"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5E10F448F38B7DE3"
+				"700A3F6157EC6803"
+			]
+			description: ["Insert Blank Patterns into the slot and encode crafting recipes into Blank Patterns for the Pattern Provider to use."]
+			icon: "ae2:pattern_encoding_terminal"
+			id: "1D470C8FB386C65B"
+			subtitle: "Encoding Blank Patterns!"
+			tasks: [
+				{
+					id: "3F91B60E94621200"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "00A5A100509DE4A5"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5E10F448F38B7DE3"
+				"700A3F6157EC6803"
+			]
+			description: [
+				"Provides Patterns to blocks that can craft with them. Face a Molecular Assembler to allow the Patterns for basic Crafting. Face a machine to allow processing Patterns."
+				""
+				"Basic autocrafting just requires 1 of these containing a Pattern (up to 9) facing the block you want to craft with."
+				""
+				"To register an autocraft as complete, the system needs to have the crafted items inserted back into the system, this block will work for that as anything inserted into it will be inserted back into the system."
+			]
+			id: "617B498A98E3C9F1"
+			subtitle: "Holds Patterns!"
+			tasks: [{
+				id: "2DB2AE0081D58AE2"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5E10F448F38B7DE3"
+				"700A3F6157EC6803"
+			]
+			description: [
+				"Performs simple crafting recipes. Requires a Pattern Provider with Crafting Patterns inside."
+				""
+				"When you request a craft this is the block that will actually craft items."
+			]
+			id: "4EBD125B7959B412"
+			subtitle: "Super crafter!"
+			tasks: [{
+				id: "1EF6A8F8F6E56C88"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Used to create Printed Circuits and Processors, which are used for almost everything throughout AE2."]
+			icon: "ae2:inscriber"
+			id: "5E10F448F38B7DE3"
+			subtitle: "The start!"
+			tasks: [
+				{
+					id: "4E63A8183F5EFFDD"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					id: "39660EFA71231E19"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "2C4FC66F440E711E"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "4DAD5551E49F237B"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "3EF13A0EDD5E664A"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5E10F448F38B7DE3"
+				"700A3F6157EC6803"
+			]
+			description: [
+				"Can be used to import or export item or fluids."
+				""
+				"Set a filter above a slot to export that item or fluid from the network into the ME Interface."
+				""
+				"Insert an item or fluid into a slot with no filter to insert into the network."
+			]
+			id: "0D3349AD94971FD6"
+			subtitle: "Import/export!"
+			tasks: [{
+				id: "545F00C1AA561209"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5E10F448F38B7DE3"
+				"700A3F6157EC6803"
+			]
+			description: ["The larger the Crafting Storage you have, the larger the recipes you can autocraft."]
+			id: "0FC970B194B0BB19"
+			subtitle: "Make the largest you can!"
+			tasks: [{
+				icon: "ae2:1k_crafting_storage"
+				id: "68D873E5432CB0F5"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:1k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:4k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:16k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:64k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:256k_crafting_storage"
+							}
+						]
+					}
+				}
+				title: "Crafting Storage"
+				type: "item"
+			}]
+			title: "Crafting Storage"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Charges item with AE power, can charge a Certus Quartz Crystal into a Charged Certus Quartz Crystal."
+				""
+				"Note this cannot charge GregTech items with EU, GregTech has charging methods for that. Certain items requiring FE can be charged, but others may require a Charging Station."
+			]
+			id: "4A3F8DFD73D62E32"
+			subtitle: "Charging things!"
+			tasks: [{
+				id: "6E21CCB85B13F7A3"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A3F8DFD73D62E32"]
+			description: [
+				"Used in some recipes and used to craft Fluix Crystals."
+				""
+				"To obtain Certus Quartz Crystals from AE2 place a Certus Quartz from GregTech in an Autoclave with some Water."
+			]
+			id: "06209FAA096BADA7"
+			subtitle: "Only AE2 version will charge!"
+			tasks: [{
+				id: "605EA51312743658"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["06209FAA096BADA7"]
+			description: ["Crafted by tossing Charged Certus Quartz Crystals, Redstone Dust, and Nether Quartz into Water or a Mixer containing Water."]
+			id: "700A3F6157EC6803"
+			subtitle: "Water source block not consumed!"
+			tasks: [{
+				id: "3A583D690E874272"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"As you can see you have a functioning AE2 ststem with storage. There is a Creative Energy Cell under it all powering it. Your entire AE2 system will be free to use."
+				""
+				"&nChannels are infinite.&r You are not limited by channels due to the mass amount of machines to deal with in GregTech."
+				""
+				"No recipes have been changed for AE2 allowing a very easy start into the modpack. There has only been helper recipes added to help automate things."
+				""
+				"Not even close to everything will be included in this chapter, just the basics for getting a starter autocrafting setup."
+				""
+				"&6With almost every item from AE2 you can hover your mouse over it and hold [G] to open an in game guide.&r"
+			]
+			id: "5F6990F09B6ABAE3"
+			shape: "gear"
+			subtitle: "A quick note!"
+			tasks: [{
+				id: "1FA75D7089EB6D46"
+				title: "A Note on AE2"
+				type: "checkmark"
+			}]
+			title: "Applied Energistics 2"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"700A3F6157EC6803"
+				"5E10F448F38B7DE3"
+			]
+			id: "6EAADE4CC19154FD"
+			tasks: [{
+				id: "234CEF5048FF0C0F"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06209FAA096BADA7"]
+			description: [
+				"Can produce 4 Charged Certus Quartz Crystals at a time very quickly."
+				""
+				"The base time is 1 second but this can be cut in half by providing Nitrogen Gas."
+				""
+				"Accepts both AE2 and GregTech Certus Quartz."
+				""
+				"The items listed are the minimum requirements without Hatches or Busses."
+			]
+			icon: "gtceu:certus_quartz_charger"
+			id: "6A5CE0941A5B2C26"
+			subtitle: "Multiblock Charger!"
+			tasks: [
+				{
+					id: "6FF9B20E7A5B14E9"
+					item: "gtceu:certus_quartz_charger"
+					type: "item"
+				}
+				{
+					id: "78DD28FD3DAC4D90"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					id: "29662C6F0BDAD661"
+					item: "ae2:quartz_vibrant_glass"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "494A5A0374A5DA26"
+					item: { Count: 18b, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E10F448F38B7DE3"]
+			id: "24774662E4449286"
+			tasks: [{
+				id: "4B12CCD73327C852"
+				item: "gtceu:large_inscriber"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Cable Facades can be placed on AE2 Cables to hide the cable and make it look like another block."
+				""
+				"The recipes are hidden in EMI because there are so many of them. Simply craft 4 Cable Anchors around any block in a crafting grid and you will craft 4 Cable Facades of that block type."
+				""
+				"Note that GregTech also has Facades, they are used for GregTech Cables only."
+			]
+			icon: {
+				Count: 1b
+				id: "ae2:facade"
+				tag: {
+					item: "minecraft:stone"
+				}
+			}
+			id: "1635D377F3044B5A"
+			subtitle: "Hiding Cables!"
+			tasks: [
+				{
+					id: "797D1EFAE7A4F1B4"
+					item: {
+						Count: 2b
+						id: "ae2:facade"
+						tag: {
+							item: "minecraft:stone"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0E059E95B9475951"
+					item: { Count: 4b, id: "ae2:cable_anchor" }
+					type: "item"
+				}
+			]
+			title: "Cable Facade"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["Just the basics!"]
+	title: "Applied Energistcs 2"
+}

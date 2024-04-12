@@ -1,0 +1,835 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "progression"
+	group: "226B543BC0A2CF0E"
+	icon: "gtceu:wetware_printed_circuit_board"
+	id: "02865F9ABD466F27"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["51BD52B13957E29B"]
+			id: "465D5CB64AFA988D"
+			optional: true
+			tasks: [{
+				id: "229B2B38449F9471"
+				item: "gtceu:ulv_machine_hull"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51BD52B13957E29B"]
+			id: "38935183BE5A12D4"
+			tasks: [{
+				id: "256C42B91E747EED"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38935183BE5A12D4"]
+			id: "3BE12FED085FFF2B"
+			tasks: [{
+				id: "21D814A393C8C126"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24CCB20291AB6ECF"]
+			id: "267CA02806083DB7"
+			tasks: [{
+				id: "56F1BAB383EF4644"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["267CA02806083DB7"]
+			id: "2ADE6ECA2DA871F4"
+			tasks: [{
+				id: "0937FBA97301747E"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2ADE6ECA2DA871F4"]
+			id: "331848B0676FDAC7"
+			tasks: [{
+				id: "722F20FD6333756E"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["331848B0676FDAC7"]
+			id: "096FD1224E8417D3"
+			tasks: [{
+				id: "53AAA4589BEAD95D"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["096FD1224E8417D3"]
+			id: "221276342794700B"
+			tasks: [{
+				id: "65F637A82B928172"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["221276342794700B"]
+			id: "46F858912ABD9279"
+			tasks: [{
+				id: "037C29F3B7A56964"
+				item: "gtceu:uhv_machine_hull"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "51BD52B13957E29B"
+			tasks: [{
+				id: "65FF885D8A8819F9"
+				item: "gtceu:bronze_brick_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38935183BE5A12D4"]
+			id: "3B1B34AF1F5053DA"
+			tasks: [{
+				id: "5ED6FFDD482AD987"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3BE12FED085FFF2B"
+				"3B1B34AF1F5053DA"
+			]
+			id: "63EB8079BFC83AD9"
+			tasks: [{
+				id: "48C110BFCAF44E4B"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"24CCB20291AB6ECF"
+				"63EB8079BFC83AD9"
+			]
+			id: "2CFADFF84F37806B"
+			tasks: [{
+				id: "31F2ED2B0C113060"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"267CA02806083DB7"
+				"2CFADFF84F37806B"
+			]
+			id: "6A871DF756F5F66E"
+			tasks: [{
+				id: "383BAFB0CF06092D"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2ADE6ECA2DA871F4"
+				"6A871DF756F5F66E"
+			]
+			id: "1C485D03D741F2F0"
+			tasks: [{
+				id: "7F1075E66E79CB26"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"331848B0676FDAC7"
+				"1C485D03D741F2F0"
+			]
+			id: "78CA67ADCE468FC8"
+			tasks: [{
+				id: "1B909C656E3506FF"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"096FD1224E8417D3"
+				"78CA67ADCE468FC8"
+			]
+			id: "1E300C35820449A8"
+			tasks: [{
+				id: "788047F02CF7F962"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"221276342794700B"
+				"1E300C35820449A8"
+			]
+			id: "4936D733C0DD239D"
+			tasks: [{
+				id: "58DF9395CBFC7553"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38935183BE5A12D4"]
+			id: "5B71E07BEB734BEC"
+			optional: true
+			tasks: [{
+				id: "121883FFA41C6570"
+				item: "gtceu:ulv_voltage_coil"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38935183BE5A12D4"]
+			id: "0D89C9D9244EEA90"
+			tasks: [{
+				id: "613B7DFE3F1F4294"
+				item: "gtceu:lv_voltage_coil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BE12FED085FFF2B"]
+			id: "3399C6A74F5D773B"
+			tasks: [{
+				id: "5B59B51C2E58F130"
+				item: "gtceu:mv_voltage_coil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24CCB20291AB6ECF"]
+			id: "310747F6561D4D5E"
+			tasks: [{
+				id: "2A58FC5F6FDAD1F5"
+				item: "gtceu:hv_voltage_coil"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BE12FED085FFF2B"]
+			id: "24CCB20291AB6ECF"
+			tasks: [{
+				id: "17FB7F76EF7C1E5E"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["267CA02806083DB7"]
+			id: "3EE50EEE2F9531A8"
+			tasks: [{
+				id: "3198FA8B5E72281F"
+				item: "gtceu:ev_voltage_coil"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2ADE6ECA2DA871F4"]
+			id: "3E386269517BDA3D"
+			tasks: [{
+				id: "579254B584526948"
+				item: "gtceu:iv_voltage_coil"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["331848B0676FDAC7"]
+			id: "743B1650F2BABC9C"
+			tasks: [{
+				id: "4B19B5FD6B6D0694"
+				item: "gtceu:luv_voltage_coil"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["096FD1224E8417D3"]
+			id: "7152CA9410C836EE"
+			tasks: [{
+				id: "33CB84C5BD290126"
+				item: "gtceu:zpm_voltage_coil"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["221276342794700B"]
+			id: "44C99BBDB58E81B3"
+			tasks: [{
+				id: "0933C574BA72994B"
+				item: "gtceu:uv_voltage_coil"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Machine Hulls are used to build machines. There is almost always exactly 1 Machine Hull in a recipe for any single block machine, even some multiblocks use them in their patterns."
+				""
+				"Each tier has its own Machine Hull, with Steam acting slightly differently, using Bronze Brick Casings for Low Pressure or Steel Brick Casings for High Pressure."
+				""
+				"The ULV Age isn't really a thing, there are some multiblock parts that are ULV but that's about it. This is mostly so you can run some multiblocks at very low EU rating. There are very few ULV single block machines."
+			]
+			id: "6D75F4A2619C544D"
+			shape: "gear"
+			subtitle: "Machines!"
+			tasks: [{
+				id: "5567D79B04A4B45E"
+				title: "Machine Hulls"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Multiblock Coil Blocks are used in a few multiblocks but most importantly the Electronic Blast Furnace (EBF). In any case where a multiblock has Coils in the pattern, you can increase the tier of Coils for an increased effect."
+				""
+				"When used in the EBF, they will increase the maximum heat that the EBF can produce. This will allow for higher tiered Hot Ingots to be produced."
+				""
+				"Increasing the tier of Coils you are using on your EBF should always be a priority."
+				""
+				"They are always crafted in an Assembler of their same tier."
+			]
+			id: "07710153423ED8F1"
+			shape: "gear"
+			subtitle: "Multiblock upgrades!"
+			tasks: [{
+				id: "75A33D35EE6D4F99"
+				title: "Coils"
+				type: "checkmark"
+			}]
+			title: "Multiblock Coil Blocks"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Voltage Coils are used in basically every Energy Hatch and Dynamo Hatch. They are ususally not the easiest thing to craft and are crucial for progressing with certain multiblocks, and most importantly increasing energy tiers."
+				""
+				"They are always crafted in an Assembler of their same tier."
+			]
+			id: "48084EBD92137C07"
+			shape: "gear"
+			subtitle: "EU!"
+			tasks: [{
+				id: "73291D8BD7AC9B9E"
+				title: "Energy Coils"
+				type: "checkmark"
+			}]
+			title: "Voltage Coils"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"This quest chapter shows the general overall progression."
+				""
+				"Refer to this if you start getting lost and don't know what to work towards."
+				""
+				"The quest chapters have quite a bit, but are incomplete, this should always point you in the right direction at least."
+			]
+			id: "41CD3ECCE2CBB8F0"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "What next?"
+			tasks: [{
+				id: "6FF07DC0BD2B2FF7"
+				title: "Progression"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3DBEE547D261C385"]
+			dependency_requirement: "one_completed"
+			id: "1832CACE0C1711A2"
+			subtitle: "LV!"
+			tasks: [{
+				id: "5F994CECA4D73CF5"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["796FEA798DC0D7BE"]
+			id: "2CAB9D5F4E25C0FD"
+			subtitle: "LV!"
+			tasks: [{
+				id: "77B55AD57477EAA2"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1832CACE0C1711A2"]
+			dependency_requirement: "one_completed"
+			id: "796FEA798DC0D7BE"
+			subtitle: "MV!"
+			tasks: [{
+				id: "1DE0ACAC8E3CCE15"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2CAB9D5F4E25C0FD"]
+			id: "370FF74143AA5FE5"
+			subtitle: "MV!"
+			tasks: [{
+				id: "3123743D2D9525E0"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6E28194D798B7271"]
+			id: "436403EF66524A2E"
+			subtitle: "LV!"
+			tasks: [{
+				id: "717EBE427D850030"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E28194D798B7271"]
+			id: "42B701743C3113FA"
+			subtitle: "MV!"
+			tasks: [{
+				id: "48295B1355A00626"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["370FF74143AA5FE5"]
+			id: "6E28194D798B7271"
+			subtitle: "HV!"
+			tasks: [{
+				id: "23D5BC0E0FF25A3C"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["42B701743C3113FA"]
+			id: "29E0D3CBACEBC421"
+			subtitle: "HV!"
+			tasks: [{
+				id: "51A4FC0B9BE7046D"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["74498151D70237CE"]
+			id: "65BBD215A0592820"
+			subtitle: "HV!"
+			tasks: [{
+				id: "396D60884D6CF948"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["29E0D3CBACEBC421"]
+			id: "797DE824B8D2B3B8"
+			subtitle: "EV!"
+			tasks: [{
+				id: "3C7DC67E1B97B9FA"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65BBD215A0592820"]
+			id: "1FBDB429931CF69A"
+			subtitle: "EV!"
+			tasks: [{
+				id: "41C0A45A15FE9622"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["05CC093AE3708040"]
+			id: "5C79FB932C896D15"
+			subtitle: "EV!"
+			tasks: [{
+				id: "18CF98ADBB807098"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["797DE824B8D2B3B8"]
+			id: "74498151D70237CE"
+			subtitle: "IV!"
+			tasks: [{
+				id: "61C825FD10D95DA0"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1FBDB429931CF69A"]
+			id: "6B04490B2A00CE91"
+			subtitle: "IV!"
+			tasks: [{
+				id: "5026C1A99352DCDC"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5C79FB932C896D15"]
+			id: "29755DD5D896C021"
+			subtitle: "IV!"
+			tasks: [{
+				id: "1EA2F55E7869E980"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["35D94861C1C17780"]
+			id: "626847809A73A0E3"
+			subtitle: "IV!"
+			tasks: [{
+				id: "40A7B5169A410CC6"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6B04490B2A00CE91"]
+			id: "05CC093AE3708040"
+			subtitle: "LuV!"
+			tasks: [{
+				id: "457F22FBEE8783C5"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["29755DD5D896C021"]
+			id: "437B3D58F129A2DB"
+			subtitle: "LuV!"
+			tasks: [{
+				id: "6AF29EB5137CE70E"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["626847809A73A0E3"]
+			id: "244858F51270FAED"
+			subtitle: "LuV!"
+			tasks: [{
+				id: "5781E67C85E6C1C1"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5AC9C25BA677D3D5"]
+			id: "11E791F2547C39A4"
+			subtitle: "LuV!"
+			tasks: [{
+				id: "650E299DC0E9C8F9"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["437B3D58F129A2DB"]
+			id: "35D94861C1C17780"
+			subtitle: "ZPM!"
+			tasks: [{
+				id: "7B6DB4D8634D8AE2"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["244858F51270FAED"]
+			id: "06D382C758D01F6F"
+			subtitle: "ZPM!"
+			tasks: [{
+				id: "4844CF6CF94EC5B5"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["11E791F2547C39A4"]
+			id: "62826B0A76A9BF37"
+			subtitle: "ZPM!"
+			tasks: [{
+				id: "6C5E770D58E0CF79"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06D382C758D01F6F"]
+			id: "5AC9C25BA677D3D5"
+			subtitle: "UV!"
+			tasks: [{
+				id: "17418CC6D060DCEF"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["62826B0A76A9BF37"]
+			id: "0A0C1DC7A5D954C3"
+			subtitle: "UV!"
+			tasks: [{
+				id: "5231F61F9A273C84"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0A0C1DC7A5D954C3"]
+			description: ["Now automate the entire process."]
+			id: "19C0AE458EF1D078"
+			rewards: [{
+				id: "6F8130EEE3A517F5"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			subtitle: "UHV!"
+			tasks: [{
+				id: "71B17186E6370DE1"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6E28194D798B7271"]
+			id: "46F7AED3047577B7"
+			subtitle: "ULV!"
+			tasks: [{
+				id: "5720ED473827EF7C"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42B0FC6BA95B3092"]
+			id: "3DBEE547D261C385"
+			subtitle: "ULV!"
+			tasks: [{
+				id: "1F27A1665DE6478C"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Circuits generally upgrade into other Circuits, but not forever. This chart shows which Circuits will upgrade into other Circuits, and which tiers the Circuits are."
+				""
+				"As Circuits are used for everything throughout the mod, this should be helpful to visualize certain Circuit paths."
+				""
+				"Each vertical line separates the different tiers. Each Circuit in the same tier can usually be used for anything Circuit related, except upgrading Circuits, that usually requires a specific Circuit type."
+				""
+				"More advanced Circuits of the same tier (as in the third LV Circuit) are usually much easier to craft, but not available right away."
+				""
+				"Things are slightly more open in the first few ages but once you get to the HV age Circuit paths become a bit more standardized."
+				""
+				"Fully automating a Circuit from start to finish will really help you out in the long run."
+			]
+			id: "4E81F1CE09055CDF"
+			shape: "gear"
+			subtitle: "Top to bottom, left to right!"
+			tasks: [{
+				id: "544ABE13C25786D3"
+				title: "Circuits"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19C0AE458EF1D078"]
+			description: ["That's about 2.5 million days, which is almost 7000 years."]
+			id: "2ED8A26D8B1617AB"
+			size: 2.0d
+			subtitle: "\"Fill this to win Minecraft\""
+			tasks: [{
+				id: "112CB41288E896D8"
+				item: {
+					Count: 1b
+					id: "gtceu:max_battery"
+					tag: {
+						Charge: 9223372036854775807L
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["35D94861C1C17780"]
+			description: [
+				"You're going to want the best Extruder you can use, not to mention that's a lot of Neutronium."
+				""
+				"15 billion EU is not a small amount, make sure you don't run out of energy during the craft or it will restart!"
+				""
+				"Hang it above your Bed, you did well."
+			]
+			id: "71D4D1C5CBA0AAD8"
+			size: 1.5d
+			subtitle: "It's official!"
+			tasks: [{
+				id: "5C96C192BF6685A9"
+				item: "gtceu:nan_certificate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+	]
+	subtitle: ["What next?"]
+	title: "Progression"
+}

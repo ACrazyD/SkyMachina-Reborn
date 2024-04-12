@@ -1,0 +1,865 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "energy_generation"
+	group: "226B543BC0A2CF0E"
+	icon: "gtceu:max_battery"
+	id: "388D10465CE66AB0"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"An overview of different things relating to energy generation, storage, and transfer."
+				""
+				"Moving up a voltage tier will be 4 times the energy values for 2 times the processing speed."
+			]
+			id: "65B4793490ED0C1E"
+			subtitle: "An overview!"
+			tasks: [{
+				id: "2CEFFF7E5066AA18"
+				title: "Energy Generation"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["Consumes Steam to generate 32 EU/t."]
+			id: "2249AF3FC20187B4"
+			subtitle: "LV!"
+			tasks: [{
+				id: "6A920F0D1D610457"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			description: ["Consumes Steam to generate 128 EU/t."]
+			id: "2D4FAD0465CCFCF6"
+			subtitle: "MV!"
+			tasks: [{
+				id: "1DE032A108E52530"
+				item: "gtceu:mv_steam_turbine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: ["Consumes Steam to generate 512 UE/t."]
+			id: "12A35D238EE4DDBC"
+			subtitle: "HV!"
+			tasks: [{
+				id: "160C39E0D03C8BD4"
+				item: "gtceu:hv_steam_turbine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Consumes Steam to generate 1024 EU/t."
+				""
+				"Different Turbine Rotors effect the Steam consumption and EU/t rates. These stats can be seen in the Turbine Rotor tooltip."
+				""
+				"Produces Distilled Water as a byproduct."
+				""
+				"Each Rotor Holder above HV adds 10% efficiency."
+			]
+			id: "4E71620095420D43"
+			subtitle: "HV!"
+			tasks: [{
+				id: "3311B5EDF8C2F224"
+				item: "gtceu:steam_large_turbine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			description: ["Consumes liquid fuels to generate 32 EU/t."]
+			id: "738CE483E02BA7DC"
+			subtitle: "LV!"
+			tasks: [{
+				id: "09E9F26747C04A1A"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Consumes liquid fuels to generate 128 EU/t."]
+			id: "7A36C0DA68D24DC9"
+			subtitle: "MV!"
+			tasks: [{
+				id: "185ECE380F11D720"
+				item: "gtceu:mv_combustion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Consumes liquid fuels to generate 512 EU/t."]
+			id: "6C9FBE8022A39BE4"
+			subtitle: "HV!"
+			tasks: [{
+				id: "1CD1770799484D96"
+				item: "gtceu:hv_combustion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["Consumes liquid fuels and Lubricant to generate 2048 EU/t."]
+			id: "47654BACEE394C6B"
+			subtitle: "EV!"
+			tasks: [{
+				id: "264F567C9F0331B9"
+				item: "gtceu:large_combustion_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "12C4695BDD858AA4"
+			subtitle: "IV!"
+			tasks: [{
+				id: "6CF63866F898E8F8"
+				item: "gtceu:extreme_combustion_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["Consumes gas fuels to generate 32 EU/t."]
+			id: "2ED946D4F08F3E17"
+			subtitle: "LV!"
+			tasks: [{
+				id: "1493F34284968270"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			description: ["Consumes gas fuels to generate 128 EU/t."]
+			id: "43C8AF734E1C35BE"
+			subtitle: "MV!"
+			tasks: [{
+				id: "55E3CDE54094B12F"
+				item: "gtceu:mv_gas_turbine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: ["Consumes gas fuels to generate 512 EU/t."]
+			id: "1A8085FA9B2CA182"
+			subtitle: "HV!"
+			tasks: [{
+				id: "5E99A0DF88AC0157"
+				item: "gtceu:hv_gas_turbine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Consumes gases to generate 4096 EU/t."
+				""
+				"Different Turbine Rotors effect the gas consumption and EU/t rates. These stats can be seen in the Turbine Rotor tooltip."
+				""
+				"Each Rotor Holder above EV adds 10% efficiency."
+			]
+			id: "36D586B5519D2A4D"
+			subtitle: "EV!"
+			tasks: [{
+				id: "369B76044A5A9443"
+				item: "gtceu:gas_large_turbine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Batteries can be placed inside a Battery Buffer or directly into machines as an energy storage method. If a Battery Buffer or machine that contains a Battery receives energy the Battery will charge. If a machine needs energy and either the machine itself or a Battery Buffer contains a battery with energy, the Battery will send the energy to the machine. You must use the proper tier of Battery."
+				""
+				"You may also use Batteries to charge handheld items that require EU by sneak right clicking while holding a Battery which will enable or disable the discharge mode."
+				""
+				"There are often a few types of Batteries per voltage tier that hold different amounts of energy."
+			]
+			icon: "gtceu:lv_lithium_battery"
+			id: "0960A7AC750133A8"
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "7A58C9D81B49919E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/lv"
+					}
+				}
+				title: "Any #gtceu:batteries/lv"
+				type: "item"
+			}]
+			title: "LV Batteries"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			description: ["See the \"LV Batteries\" quest for more information on Batteries."]
+			icon: "gtceu:mv_lithium_battery"
+			id: "327D6CCB63904DC3"
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "412A2DD65E9DFBA3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/mv"
+					}
+				}
+				title: "Any #gtceu:batteries/mv"
+				type: "item"
+			}]
+			title: "MV Batteries"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: ["See the \"LV Batteries\" quest for more information on Batteries."]
+			icon: "gtceu:hv_lithium_battery"
+			id: "6FBFCD749301A8FA"
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "44C83B5722B9EFAD"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/hv"
+					}
+				}
+				title: "Any #gtceu:batteries/hv"
+				type: "item"
+			}]
+			title: "HV Batteries"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: ["See the \"LV Batteries\" quest for more information on Batteries."]
+			icon: "gtceu:ev_vanadium_battery"
+			id: "3F28F5A6B9973665"
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "08FA6FA6B4B48B4B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/ev"
+					}
+				}
+				title: "Any #gtceu:batteries/ev"
+				type: "item"
+			}]
+			title: "EV Batteries"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: ["See the \"LV Batteries\" quest for more information on Batteries."]
+			icon: "gtceu:iv_vanadium_battery"
+			id: "712A3EE989775569"
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "12CE75CE5AA8271A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/iv"
+					}
+				}
+				title: "Any #gtceu:batteries/iv"
+				type: "item"
+			}]
+			title: "IV Batteries"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: ["See the \"LV Batteries\" quest for more information on Batteries."]
+			icon: "gtceu:luv_vanadium_battery"
+			id: "3E475A430EBA78F4"
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "1CF81E7F73766743"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/luv"
+					}
+				}
+				title: "Any #gtceu:batteries/luv"
+				type: "item"
+			}]
+			title: "LuV Batteries"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: ["See the \"LV Batteries\" quest for more information on Batteries."]
+			icon: "gtceu:zpm_naquadria_battery"
+			id: "30300B2D0D4327BB"
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "4DADBBFE1C0D7710"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/zpm"
+					}
+				}
+				title: "Any #gtceu:batteries/zpm"
+				type: "item"
+			}]
+			title: "ZPM Batteries"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["See the \"LV Batteries\" quest for more information on Batteries."]
+			icon: "gtceu:uv_naquadria_battery"
+			id: "5500DA4CFFFB969A"
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "41099E5B5B2E56E3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/uv"
+					}
+				}
+				title: "Any #gtceu:batteries/uv"
+				type: "item"
+			}]
+			title: "UV Batteries"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			description: ["See the \"LV Batteries\" quest for more information on Batteries."]
+			icon: "gtceu:max_battery"
+			id: "12A920473F3B1ECE"
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "759BBE13D3481C61"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/uhv"
+					}
+				}
+				title: "Any #gtceu:batteries/uhv"
+				type: "item"
+			}]
+			title: "UHV Batteries"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The Power Substation is an expandable multiblock designed to hold mass amounts of energy. The output rate depends on the Dynamo Hatch you use. Can support multiple different Dynamo Hatches to supply different energy ratings at the same time."
+				""
+				"The multiblock can be expanded to having 18 layers of Capacitors. The Capacitors do not have to be the same tier."
+				""
+				"Has a passive drain of 1% of the total capacity every 24 hours."
+			]
+			id: "5984D8577AAC3E97"
+			subtitle: "Expandable mass energy storage!"
+			tasks: [{
+				id: "2B9B7217BB1071D0"
+				item: "gtceu:power_substation"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6F3580FE739DF749"
+			tasks: [{
+				id: "5CC16145166FA4D3"
+				item: "gtceu:active_transformer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Consumes Plasma to generate 16,384 EU/t."
+				""
+				"Different Turbine Rotors effect the Plasma consumption and EU/t rates. These stats can be seen in the Turbine Rotor tooltip."
+				""
+				"Each Rotor Holder above IV adds 10% efficiency."
+			]
+			id: "740E058E286AE5D1"
+			subtitle: "LuV!"
+			tasks: [{
+				id: "502AEAB0EAC81E11"
+				item: "gtceu:plasma_large_turbine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: ["Has a loss of 0 EU per block."]
+			id: "43E21CF3A81E6A53"
+			subtitle: "0 loss per block!"
+			tasks: [{
+				id: "69C66C4E79BD5323"
+				item: "gtceu:manganese_phosphide_single_wire"
+				type: "item"
+			}]
+			title: "LV Superconductor"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			description: ["Has a loss of 0 EU per block."]
+			id: "738C37738EB8FB35"
+			subtitle: "0 loss per block!"
+			tasks: [{
+				id: "187BBC70BD730F74"
+				item: "gtceu:magnesium_diboride_single_wire"
+				type: "item"
+			}]
+			title: "MV Superconductor"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Has a loss of 0 EU per block."]
+			id: "3CFB4F21CC0170FC"
+			subtitle: "0 loss per block!"
+			tasks: [{
+				id: "1144E5EC2E113FA8"
+				item: "gtceu:mercury_barium_calcium_cuprate_single_wire"
+				type: "item"
+			}]
+			title: "HV Superconductor"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: ["Has a loss of 0 EU per block."]
+			id: "157AEBF3E53A0246"
+			subtitle: "0 loss per block!"
+			tasks: [{
+				id: "1B27451CA1C48750"
+				item: "gtceu:uranium_triplatinum_single_wire"
+				type: "item"
+			}]
+			title: "EV Superconductor"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: ["Has a loss of 0 EU per block."]
+			id: "7A4C80702FB850D0"
+			subtitle: "0 loss per block!"
+			tasks: [{
+				id: "4621075EA1CF33B9"
+				item: "gtceu:samarium_iron_arsenic_oxide_single_wire"
+				type: "item"
+			}]
+			title: "IV Superconductor"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Has a loss of 0 EU per block."]
+			id: "010DF958BC636339"
+			subtitle: "0 loss per block!"
+			tasks: [{
+				id: "05952BBB08294446"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
+				type: "item"
+			}]
+			title: "LuV Superconductor"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: ["Has a loss of 0 EU per block."]
+			id: "0B6FA3455400DEA4"
+			subtitle: "0 loss per block!"
+			tasks: [{
+				id: "0E64CD89FE40C0C9"
+				item: "gtceu:uranium_rhodium_dinaquadide_single_wire"
+				type: "item"
+			}]
+			title: "ZPM Superconductor"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: ["Has a loss of 0 EU per block."]
+			id: "2C9BA1D7048EBC9B"
+			subtitle: "0 loss per block!"
+			tasks: [{
+				id: "17E4FE9B5D467DD7"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire"
+				type: "item"
+			}]
+			title: "UV Superconductor"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Has a loss of 0 EU per block."]
+			id: "00A6AC24EC1F1E09"
+			subtitle: "0 loss per block!"
+			tasks: [{
+				id: "536A71AA1E7BEC3E"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_single_wire"
+				type: "item"
+			}]
+			title: "UHV Superconductor"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "362AF6497DA53159"
+			subtitle: "LV/MV!"
+			tasks: [{
+				id: "67D9056ED3F3349A"
+				item: "gtceu:lv_transformer_1a"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "320DD399BCE5A0FC"
+			subtitle: "MV/HV!"
+			tasks: [{
+				id: "50BD536CAF32F73A"
+				item: "gtceu:mv_transformer_1a"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "6D43206358F4C413"
+			subtitle: "HV/EV!"
+			tasks: [{
+				id: "04B11908B14BC6B2"
+				item: "gtceu:hv_transformer_1a"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "689D938C10F7BF92"
+			subtitle: "EV/IV!"
+			tasks: [{
+				id: "544E64A16D6C80CD"
+				item: "gtceu:ev_transformer_1a"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "50533D8302752FC6"
+			subtitle: "IV/LuV!"
+			tasks: [{
+				id: "33BE058C1333D2DB"
+				item: "gtceu:iv_transformer_1a"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "534A6845439A86C3"
+			subtitle: "LuV/ZPM!"
+			tasks: [{
+				id: "5D0E2F54417F288F"
+				item: "gtceu:luv_transformer_1a"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "4419EC560D9004D7"
+			subtitle: "ZPM/UV!"
+			tasks: [{
+				id: "47D2DCEFFA063957"
+				item: "gtceu:zpm_transformer_1a"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "3957EBE64100EA54"
+			subtitle: "UV/UHV!"
+			tasks: [{
+				id: "52E5EBED1B200575"
+				item: "gtceu:uv_transformer_1a"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Converts energy between EU and FE."
+				""
+				"Starts as FE converter, use Soft Mallet to change."
+			]
+			id: "70D724ED2A297BDC"
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "06AA15AC2FAC7948"
+				item: "gtceu:lv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "443AF3EFC5DED7ED"
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "0BF17C0A7FF9B411"
+				item: "gtceu:mv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Converts energy between EU and FE."
+				""
+				"Starts as FE converter, use Soft Mallet to change."
+			]
+			id: "046BEFE4C7841422"
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "275932791BC3AA66"
+				item: "gtceu:hv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Converts energy between EU and FE."
+				""
+				"Starts as FE converter, use Soft Mallet to change."
+			]
+			id: "122CF6BC293472B1"
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "7664BA6FD33A0EA6"
+				item: "gtceu:iv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Converts energy between EU and FE."
+				""
+				"Starts as FE converter, use Soft Mallet to change."
+			]
+			id: "3A744A2EC3163FB4"
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "061284475B07FD1D"
+				item: "gtceu:ev_1a_energy_converter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Converts energy between EU and FE."
+				""
+				"Starts as FE converter, use Soft Mallet to change."
+			]
+			id: "1F1305838AD7C3AF"
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "15F8B5B959CAE5F8"
+				item: "gtceu:luv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Converts energy between EU and FE."
+				""
+				"Starts as FE converter, use Soft Mallet to change."
+			]
+			id: "0555A98C1E49DC82"
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "6EEAE6B79B686894"
+				item: "gtceu:zpm_1a_energy_converter"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Converts energy between EU and FE."
+				""
+				"Starts as FE converter, use Soft Mallet to change."
+			]
+			id: "79E8E796B22E2A35"
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "3697BF9A45004422"
+				item: "gtceu:uv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Converts energy between EU and FE."
+				""
+				"Starts as FE converter, use Soft Mallet to change."
+			]
+			id: "75C8FD4FF2D59DD6"
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "3E1139D868D007CA"
+				item: "gtceu:uhv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"GregTech uses a special energy system called EU that generally does not interact with FE. They can be converted between each other at a 1:4 ratio though. 1 EU = 4 FE."
+				""
+				"GregTech also uses something called Amperage, or amps for short. An amp is basically a channel for an electrical current. You cannot just add 4 LV Steam Turbines together that are producing 32 EU/t to reach 128 EU/t. Instead you will end up with 4 amps of 32 EU/t. Wires/Cables and machines also have an amp rating. Single Block machines are usually only able to accept 1 amp of energy. Supplying too much EU/t or amps to a Wire/Cable will make them burn up and supplying too much EU/t to a machine will casuse the machine to explode."
+				""
+				"It is very important to know how much energy you are sending to have the proper sized cables and proper tier of machines."
+				""
+				"FE works completely differently, if you had 4 generators all producing 60 FE/t, you would end up just adding the numbers together and you would be producing 240 FE/t. There are no amps or electrical channels when it comes to FE."
+				""
+				"You can convert between the 2 using an Energy Converter, be sure to match the tier of the EU you require with the right tier Energy Converter as there is one for each voltage tier. Check the tooltip of the Energy Converter to see the conversion rates and tiers."
+				""
+				"You can stay completely with EU and use only GregTech if you wish, or you could convert FE generated using Advanced Genertors, however this would not be available until the IV age. If you wish to transfer your energy as FE you could generate EU, convert it to FE, transfer the FE wirelessly using a few methods like a Tesseract, then convert back to EU where you require it. This makes it so you could make a central bank of energy as FE and wirelessly transmit it where you need EU and convert it on site."
+			]
+			id: "3A15F06E67782700"
+			subtitle: "1:4!"
+			tasks: [{
+				id: "2D400A84C687B09E"
+				title: "RF - EU"
+				type: "checkmark"
+			}]
+			title: "EU/RF"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			description: ["Burns liquids and gasses to generate FE. All fuels from the Gas Turbines and Combustion Generators have been added. "]
+			id: "7F048FCDB9E7A7EF"
+			subtitle: "Liquids/Gasses - FE!"
+			tasks: [{
+				id: "094F08253A3E7751"
+				item: "advgenerators:fuel_turbine_controller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			description: ["Burns Steam to generate FE. Steam from GregTech or Advanced Generators is acceptable."]
+			id: "0150CAB597759564"
+			subtitle: "Steam - FE!"
+			tasks: [{
+				id: "0A46AB3BC14F4205"
+				item: "advgenerators:steam_turbine_controller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			description: ["Burns Carbon to generate Syngas, which can be burned in a Gas Turbine Controller"]
+			id: "76B203993AFC1C58"
+			subtitle: "Carbon - Syngas!"
+			tasks: [{
+				id: "178C78906E931092"
+				item: "advgenerators:syngas_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Available in the IV age, Advanced Generators offers flexible multiblock FE generators. The multiblocks are completely flexible as any block can go anywhere as long as they are all touching each other."
+				""
+				"See the tooltips of the different controllers to see what blocks can be installed in the multiblock and how many of each block."
+				""
+				"See the uses for the Controller blocks in EMI to see their fuels and energy generation rates."
+			]
+			id: "1894FB51BAF307CA"
+			subtitle: "Generate FE!"
+			tasks: [{
+				id: "2438DC5121109D19"
+				title: "Advanced Generators"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+	]
+	subtitle: ["An overview!"]
+	title: "Energy Generation"
+}

@@ -1,0 +1,208 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "uv_age"
+	group: "226B543BC0A2CF0E"
+	icon: "gtceu:crystal_processor_mainframe"
+	id: "499B2601C73387C3"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["43CF66852C64054A"]
+			id: "23E8354ADCDC88E7"
+			size: 2.0d
+			subtitle: "UHV Circuits!"
+			tasks: [{
+				id: "44E73B1541DA40A1"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5584A42209CECE21"]
+			description: ["Just as Darmstadtium was the main material for the UV age, Neutronium is the main material for the UHV age."]
+			id: "03FEA15DA06421A3"
+			size: 1.5d
+			subtitle: "UHV material!"
+			tasks: [{
+				id: "17D5E5E3BDA9295B"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3D197549A692020D"
+				"7D39B16BD86BD2E1"
+				"26BEC7B5B22F0B50"
+			]
+			description: ["Process Liquid Americium and Liquid Naquadria in a ZPM Fusion Reactor to produce Liquid Neutronium."]
+			id: "5584A42209CECE21"
+			subtitle: "ZPM Fusion Reactor!"
+			tasks: [{
+				id: "4410578DF60CBB4F"
+				item: "gtceu:neutronium_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"54F6971A5D9E2523"
+				"7DA464ACA458E2B5"
+			]
+			description: ["Process Liquid Lutetium and Liquid Chromium in a ZPM Fusion Reactor to produce Liquid Americium."]
+			id: "3D197549A692020D"
+			subtitle: "ZPM Fusion Reactor!"
+			tasks: [{
+				id: "3DCC44608A1867B5"
+				item: "gtceu:americium_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1B4BE2930D6FA40B"
+				"38F438621CB018BA"
+			]
+			description: ["Process Liquid Lanthanum and Liquid Silicon in an IV Fusion Reactor to produce Liquid Lutetium."]
+			id: "54F6971A5D9E2523"
+			subtitle: "IV Fusion Reactor!"
+			tasks: [{
+				id: "68FE329FFE3494AB"
+				item: "gtceu:lutetium_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66B59DA7705E5F65"]
+			description: ["Process Chromium in an MV Extractor to produce Liquid Chromium."]
+			id: "7DA464ACA458E2B5"
+			subtitle: "MV Extractor!"
+			tasks: [{
+				id: "0CB84784B2AD9CA0"
+				item: "gtceu:chromium_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["263DC1AC9513D704"]
+			description: ["Process Lanthanum Dust in an LV Extractor to produce Liquid Lanthanum."]
+			id: "1B4BE2930D6FA40B"
+			subtitle: "LV Extractor!"
+			tasks: [{
+				id: "3871A7E7F726D268"
+				item: "gtceu:lanthanum_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66B59DA7705E5F65"]
+			description: ["Process Silicon in an HV Extractor to produce Liquid Silicon."]
+			id: "38F438621CB018BA"
+			subtitle: "HV Extractor!"
+			tasks: [{
+				id: "626E6FF843AB545D"
+				item: "gtceu:silicon_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1956D78744A4C2A3"]
+			description: ["Process Rare Earth in an LV Centrifuge to produce a Small Pile of Lanthanum Dust."]
+			id: "263DC1AC9513D704"
+			subtitle: "LV Centrifuge!"
+			tasks: [{
+				id: "6CD1215F75895CD7"
+				item: "gtceu:small_lanthanum_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66B59DA7705E5F65"]
+			description: ["Process a variety of materials in a variety of machines to produce Rare Earth."]
+			id: "1956D78744A4C2A3"
+			subtitle: "Choices!"
+			tasks: [{
+				id: "5ED23DCEAA919DDE"
+				item: "gtceu:rare_earth_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			description: ["Process Enriched Naquadah in an HV Extractor to produce Liquid Enriched Naquadah."]
+			id: "24237B3FEC224D44"
+			subtitle: "HV Extractor!"
+			tasks: [{
+				id: "4D0845015C2F1DCE"
+				item: "gtceu:enriched_naquadah_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["66B59DA7705E5F65"]
+			description: ["You should already have Radon Gas (hopefully in large quantites) from producing the Nanoprocessor Circuit line."]
+			id: "6E0080E2F20ACE4F"
+			subtitle: "You should already have this!"
+			tasks: [{
+				id: "314BB1B6E4559992"
+				item: "gtceu:radon_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6E0080E2F20ACE4F"
+				"24237B3FEC224D44"
+			]
+			description: ["Process Liquid Enriched Naquadah and Radon Gas in an ZPM Fusion Reactor to produce Liquid Naquadria."]
+			id: "7D39B16BD86BD2E1"
+			subtitle: "ZPM Fusion Reactor!"
+			tasks: [{
+				id: "0172EF7EB3609162"
+				item: "gtceu:naquadria_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66B59DA7705E5F65"]
+			id: "26BEC7B5B22F0B50"
+			tasks: [{
+				id: "4006DB8DBD4488B0"
+				item: "gtceu:uv_fusion_reactor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+	]
+	subtitle: ["Darmstadtium!"]
+	title: "UV Age"
+}

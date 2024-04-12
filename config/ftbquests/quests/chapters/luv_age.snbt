@@ -1,0 +1,443 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "luv_age"
+	group: "226B543BC0A2CF0E"
+	icon: "gtceu:nano_processor_mainframe"
+	id: "090738B5A63D29EE"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0A462BB5304E1E82"]
+			id: "63493A70229956F4"
+			size: 2.0d
+			subtitle: "ZPM Circuits!"
+			tasks: [{
+				id: "418F757F44357DBB"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0F0196BE5D7B731A"
+				"0759334CF0F1E399"
+			]
+			description: ["Just as Rhodium Plated Palladium was the main material for the LuV age, Naquadah Alloy is the main material for the ZPM age."]
+			id: "503F831E45C9A245"
+			size: 1.5d
+			subtitle: "ZPM material!"
+			tasks: [{
+				id: "297C61B6B75109D7"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"602407E868224187"
+				"3657543ECEDCB85F"
+				"51472C34D057DEB9"
+			]
+			id: "0F0196BE5D7B731A"
+			tasks: [{
+				id: "29EC4E6DD12A4A39"
+				item: "gtceu:naquadah_alloy_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2595291E7F1986B9"]
+			description: ["Process Naquadah Ore in various ways to produce Naquadah Dust."]
+			id: "602407E868224187"
+			subtitle: "Ore material!"
+			tasks: [{
+				id: "0323E44D845A1C48"
+				item: "gtceu:naquadah_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["364EEFAC2608C6D2"]
+			id: "3657543ECEDCB85F"
+			tasks: [{
+				id: "5D8B35C4B909A7DC"
+				item: "gtceu:osmiridium_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1BE40B0F622D2750"]
+			id: "51472C34D057DEB9"
+			tasks: [{
+				id: "115F42573A7C9705"
+				item: "gtceu:trinium_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4B3DF802D007206C"
+				"364EEFAC2608C6D2"
+			]
+			description: ["The sixth tier of Coils."]
+			id: "0759334CF0F1E399"
+			subtitle: "LuV Assembler!"
+			tasks: [{
+				count: 16L
+				id: "3EDA966E71E6D21E"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			title: "Naquadah Coils"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["602407E868224187"]
+			description: ["Process Hot Naquadah Ingots in an MV Vacuum Freezer to produce Naquadah Ingots."]
+			id: "4B3DF802D007206C"
+			subtitle: "MV Vacuum Freezer!"
+			tasks: [{
+				id: "39E317B862F5DB78"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F2E5D68A5FC6349"]
+			id: "364EEFAC2608C6D2"
+			tasks: [{
+				id: "046DEE825BEF7578"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["528B384CCFD87033"]
+			id: "7F2E5D68A5FC6349"
+			tasks: [{
+				id: "1BC5204FAFFE29D2"
+				item: "gtceu:osmium_tetroxide_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2595291E7F1986B9"]
+			description: ["You should already have this as a byproduct from producing Iridium Metal Residue in the Large Chemical Reactor."]
+			id: "528B384CCFD87033"
+			tasks: [{
+				id: "017DC96CE1C4F744"
+				item: "gtceu:acidic_osmium_solution_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["55BA39D782793627"]
+			id: "70AE3F663B304914"
+			tasks: [{
+				id: "017166D06C66C71D"
+				item: "gtceu:trinium_sulfide_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["602407E868224187"]
+			description: ["You can figure this one out, it's not too bad."]
+			id: "55BA39D782793627"
+			tasks: [{
+				id: "6ED8F393D8E6F72E"
+				item: "gtceu:impure_enriched_naquadah_solution_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"70AE3F663B304914"
+				"0759334CF0F1E399"
+			]
+			id: "1BE40B0F622D2750"
+			tasks: [{
+				id: "6F379B5C2460502B"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["167CF3F40D5F9C2C"]
+			description: ["Has a loss of 0 EU per block."]
+			id: "63FB24F6E31F6CC8"
+			subtitle: "LuV superconductor!"
+			tasks: [{
+				id: "449DA9156F865C0A"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			id: "20AF391600105A52"
+			tasks: [{
+				id: "598B33B5CD03B4E4"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0759334CF0F1E399"
+				"20AF391600105A52"
+			]
+			id: "167CF3F40D5F9C2C"
+			tasks: [{
+				id: "1C2F52DE8DCC2BCC"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3657543ECEDCB85F"]
+			id: "62F9C2DFF439A618"
+			tasks: [{
+				id: "52979DC27E960718"
+				item: "gtceu:luv_voltage_coil"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63493A70229956F4"]
+			id: "148A489BF5C20745"
+			tasks: [{
+				id: "4AD4E0F1215F48B9"
+				item: "gtceu:luv_circuit_assembler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"63FB24F6E31F6CC8"
+				"3657543ECEDCB85F"
+				"1BE40B0F622D2750"
+			]
+			description: [
+				"Required for the Fusion Reactor multiblock."
+				""
+				"&6These are not normal multiblock Coils.&r"
+			]
+			id: "6A155BC6C97D8FEE"
+			subtitle: "Not your normal Coils!"
+			tasks: [{
+				id: "2A764DBF2489164A"
+				item: "gtceu:superconducting_coil"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6A155BC6C97D8FEE"
+				"63493A70229956F4"
+			]
+			description: [
+				"Combines fluids together using a mass amount of energy."
+				""
+				"Requires a significant amount of energy to start the process and more EU/t to keep the process going."
+				""
+				"You can substitute some of the Fusion Machine Casings for Fusion Glass, but not all of them."
+			]
+			id: "6002FB018BF5F5BC"
+			subtitle: "Combining fluids with mass energy!"
+			tasks: [{
+				id: "2B0C37ED9F01E7D5"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EF9C3B875214551"]
+			description: ["Process Liquid Europium in a ULV Fluid Solidifier to produce Europium Ingots."]
+			id: "4512C0753ABC12C8"
+			subtitle: "ULV Fluid Solidifier!"
+			tasks: [{
+				id: "57A43DEC69E2B572"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6002FB018BF5F5BC"
+				"1123402538658C35"
+			]
+			description: ["Process Liquid Neodymium and Hydrogen Gas in a LuV Fusion Reactor to produce Liquid Europium."]
+			id: "2EF9C3B875214551"
+			subtitle: "LuV Fusion Reactor!"
+			tasks: [{
+				id: "4B34DDF3FFBAE341"
+				item: "gtceu:europium_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			description: ["Process Neodymiun Ingots in an MV Extractor to produce Liquid Neodymium."]
+			id: "1123402538658C35"
+			subtitle: "MV Extractor!"
+			tasks: [{
+				id: "548C394328F10EF8"
+				item: "gtceu:neodymium_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EF9C3B875214551"]
+			id: "391208D25A462C2F"
+			tasks: [{
+				id: "379F373C2AFC474F"
+				item: "gtceu:raw_crystal_chip"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["391208D25A462C2F"]
+			id: "7CF37CB6BBBD57A4"
+			tasks: [{
+				id: "66F7DBFFA506A480"
+				item: "gtceu:engraved_crystal_chip"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7CF37CB6BBBD57A4"]
+			id: "17AACFB65354507C"
+			tasks: [{
+				id: "6FD8C4B2074E37E2"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"453F8437CD4582A6"
+				"17AACFB65354507C"
+				"148A489BF5C20745"
+			]
+			id: "40B170CB569C2449"
+			tasks: [{
+				id: "016BB91748F791C6"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["40B170CB569C2449"]
+			id: "5A6C252EC96A4E83"
+			tasks: [{
+				id: "701F8F5E0A774863"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["21CCDF4C08333BEC"]
+			id: "453F8437CD4582A6"
+			tasks: [{
+				id: "1779F668AF3DFCDE"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "21CCDF4C08333BEC"
+			tasks: [{
+				id: "52874DE638EA47F0"
+				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5A6C252EC96A4E83"]
+			id: "024CF19E028F72DE"
+			tasks: [{
+				id: "21D9407F57AD3105"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["364EEFAC2608C6D2"]
+			description: ["This multiblock is similar to the Electric Blast Furnace however it makes Molten alloys instead."]
+			id: "615EB73383B84894"
+			tasks: [{
+				id: "2C619BFC3337F60E"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+	]
+	subtitle: ["Rhodium Plated Palladium!"]
+	title: "LuV Age"
+}

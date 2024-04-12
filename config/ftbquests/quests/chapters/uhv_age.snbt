@@ -1,0 +1,54 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "uhv_age"
+	group: "226B543BC0A2CF0E"
+	icon: "gtceu:wetware_processor_mainframe"
+	id: "23ED118590307EC6"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["23E8354ADCDC88E7"]
+			id: "7AB9FBB9EDA9D6F0"
+			subtitle: "Neutronium!"
+			tasks: [{
+				id: "2EB083060FA3571C"
+				title: "UHV Age"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23E8354ADCDC88E7"]
+			description: ["That's about 2.5 million days, which is almost 7000 years."]
+			id: "7F52419274BB28BC"
+			size: 2.0d
+			subtitle: "\"Fill this to win Minecraft.\""
+			tasks: [{
+				id: "5762626B5E666512"
+				item: "gtceu:max_battery"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F52419274BB28BC"]
+			description: ["For now, make a stack of Dragon Eggs, I'll make a better \"you win\" item when I think of one."]
+			id: "2B2DD55810D08C62"
+			size: 2.0d
+			tasks: [{
+				id: "2936CC47F62A98FD"
+				item: "gtceu:end_game"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+	]
+	subtitle: ["Neutronium!"]
+	title: "UHV Age"
+}

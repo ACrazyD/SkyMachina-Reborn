@@ -1,0 +1,840 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "iv_age"
+	group: "226B543BC0A2CF0E"
+	icon: "gtceu:micro_processor_mainframe"
+	id: "682E94A0F6105382"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B365AEDBF3CEAC0"]
+			description: ["Requires an EV Cleanroom."]
+			id: "2595291E7F1986B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F61DFFFF19D9292"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			size: 2.0d
+			subtitle: "LuV Circuits!"
+			tasks: [{
+				id: "1E423B32DF4420AF"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B82C364DF03516F"]
+			description: ["Just as Tungstensteel was the main material for the IV age, Rhodium Plated Palladium is the main material for the LuV age."]
+			id: "5C6ECE7FACCCCCE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7ADB7788B70A0E5D"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			size: 1.5d
+			subtitle: "LuV material!"
+			tasks: [{
+				id: "1EEA7C7A7D3EF651"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16AD21DFC4EA8559"]
+			description: ["Process Rhodium Dust and Palladium Dust in an IV Mixer to produce Rhodium Plated Palladium Dust."]
+			id: "0B82C364DF03516F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A3623E7F8CC5330"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "IV Mixer!"
+			tasks: [{
+				id: "3C039C108692478C"
+				item: "gtceu:rhodium_plated_palladium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5EE6FAA52883DC15"]
+			description: ["Process Rhodium Sulfate in an MV Electrolyzer to produce Rhodium Dust."]
+			icon: "gtceu:rhodium_dust"
+			id: "16AD21DFC4EA8559"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37EC689BB1663C20"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "MV Electrolyzer!"
+			tasks: [{
+				id: "6AEE6906D3C79D34"
+				item: "gtceu:rhodium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: ["Process Inert Metal Mixture and Sulfuric Acid in an EV Chemical Reactor to produce Rhodium Sulfate."]
+			id: "5EE6FAA52883DC15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0970563A0F9C0234"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "Inert Metal Mixture + Sulfuric Acid!"
+			tasks: [{
+				id: "73CAD6E68787567D"
+				item: "gtceu:rhodium_sulfate_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["522C301AA75ECC25"]
+			description: ["Used to craft IV related energy items."]
+			id: "198C5DF65FE66893"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0478DC9AA72B9440"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "IV Assembler!"
+			tasks: [{
+				id: "054DD53A509F758C"
+				item: "gtceu:iv_voltage_coil"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6E615931A6EEFF53"]
+			id: "522C301AA75ECC25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15C1B368CEEA1B83"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3C408CF7363FA049"
+				item: "gtceu:iridium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2CEC1D55824976D6"]
+			id: "6E615931A6EEFF53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A3DB131F1B1F0CD"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "20658968932D37FD"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0FE4CF86B3B54DC3"]
+			id: "2CEC1D55824976D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D054833AAAFFE70"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "78713C4B2AA5FDA4"
+				item: "gtceu:iridium_chloride_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"129DD069D81D09F2"
+				"0F1DD7B29A63391D"
+			]
+			id: "0FE4CF86B3B54DC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F529316228204A0"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1D073047B11AD6D7"
+				item: "gtceu:iridium_metal_residue_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"198C5DF65FE66893"
+				"35FBFA583A6E3089"
+			]
+			description: ["You can upgrade your multiblock generators to produce more energy by switching out the Dynamo Hatch. This will triple the EU/t of the generator. You will need to provide Oxygen as well."]
+			id: "3507EA164E8604ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A203A85A53CA0E4"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "IV Assembler!"
+			tasks: [{
+				id: "1417480F479434AE"
+				item: "gtceu:iv_energy_output_hatch"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: [
+				"A multiblock version of the Chemical Reactor. While it can process anything that a normal Chemical Reactor can, it also has some special recipes that can only be processed in the Large Chemical Reactor, like Iridium Metal Residue."
+				""
+				"Some recipes with multiple Chemical Reactor steps can be condensed into 1 recipe in the Large Chemical Reactor to skip processing steps."
+				""
+				"You can lock the Output Hatch or Bus of a multiblock by inserting a Filter as a Cover on the Output Hatch or Bus."
+				""
+				"The items listed are the minimum requirements without Hatches or Busses."
+			]
+			icon: "gtceu:large_chemical_reactor"
+			id: "129DD069D81D09F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CDEBEEA2CDF64AD"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "Multiblock!"
+			tasks: [
+				{
+					id: "28AFA61BE8C2E7E2"
+					item: "gtceu:large_chemical_reactor"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "00DD8265CADB1256"
+					item: { Count: 10b, id: "gtceu:inert_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "5A7C619B9ED48572"
+					item: "gtceu:ptfe_pipe_casing"
+					type: "item"
+				}
+				{
+					id: "0CC6EDE6924CF1ED"
+					item: "gtceu:cupronickel_coil_block"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			description: ["Process Platinum Group Sludge and Aqua Regia in an HV Centrifuge to produce Rarest Metal Mixture."]
+			id: "0F1DD7B29A63391D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3760DEC17954E31A"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "Platinum Group Sludge + Aqua Regia!"
+			tasks: [{
+				id: "60B76230F7F7F9F6"
+				item: "gtceu:rarest_metal_mixture_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"436555F96AC3B50F"
+				"4A8B8466C8625E6A"
+			]
+			description: ["Process HPIC Wafers in an IV Cutter to produce HPIC Chips."]
+			id: "35FBFA583A6E3089"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13BBDB83A9604D1A"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "IV Cutter!"
+			tasks: [{
+				id: "2CED46CAA43D0535"
+				item: "gtceu:hpic_chip"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["49F46E40EF08A716"]
+			description: ["Process MPIC Wafers, Indium Gallium Phosphide Dust, and Liquid Vanadium Gallium in an IV Chemical Reactor in a Cleanroom to produce HPIC Wafers."]
+			id: "436555F96AC3B50F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73FC5E3F49AD95D2"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "MPIC Wafer + Indium Gallium Phosphide Dust + Liquid Vanadium Gallium!"
+			tasks: [{
+				id: "1ED2AF7F4E4868D7"
+				item: "gtceu:hpic_wafer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4D6338E26927AAB2"]
+			description: ["Process Aluminium Dust and Indium Concentrate in an EV Chemical Reactor to produce Indium Dust."]
+			id: "1CC3DEE69809E979"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61B4E157CF1FFE38"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "Aluminium Dust + Indium Concentrate!"
+			tasks: [{
+				id: "582EB1046D66D4F8"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04BE1F878C713A9E"]
+			description: ["Process Purified Sphalerite Ore, Purified Galena Ore, and Sulfuric Acid in an HV Mixer to produce Indium Concentrate."]
+			id: "4D6338E26927AAB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DB2820123B6ADC2"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "Purified Sphalerite Ore + Purified Galena Ore + Sulfuric Acid!"
+			tasks: [{
+				id: "2AE3060DF615C768"
+				item: "gtceu:indium_concentrate_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1CC3DEE69809E979"]
+			description: ["Process Indium Dust, Gallium Dust, and Phosphorus Dust in a ULV Mixer to produce Indium Gallium Phosphide Dust."]
+			id: "49F46E40EF08A716"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A5D22F36F6032A0"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "Indium Dust + Gallium Dust + Phosphorus Dust!"
+			tasks: [{
+				id: "759FFF183EE6FE80"
+				item: "gtceu:indium_gallium_phosphide_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6868229C5B95DE0C"]
+			description: ["Process Polyvinyl Butyral and Tempered Glass in an HV Forming Press to Produce Laminated Glass."]
+			id: "4A8B8466C8625E6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49DE857D48E73121"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "Polyvinyl Butyral Plate + Tempered Glass!"
+			tasks: [{
+				id: "19E0C2C47A53356A"
+				item: "gtceu:laminated_glass"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5BABFAA2EADDC60E"]
+			description: ["Process Liquid Polyvinyl Butyral in a ULV Fluid Solidifier to produce Polyvinyl Butyral Plates."]
+			id: "6868229C5B95DE0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "479055F103E64BF4"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "Polyvinyl Butyral Plate + Tempered Glass!"
+			tasks: [{
+				id: "7712422F9330C394"
+				item: "gtceu:polyvinyl_butyral_plate"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04BE1F878C713A9E"]
+			description: ["Process Polyvinyl Acetate and Butyraldehyde in an HV Chemical Reactor to produce Liquid Polyvinyl Butyral."]
+			id: "5BABFAA2EADDC60E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14487948B13AFA9B"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "Polyvinyl Acetate + Butyraldehyde!"
+			tasks: [{
+				id: "3925069DAE171CCA"
+				item: "gtceu:polyvinyl_butyral_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["198C5DF65FE66893"]
+			description: [
+				"You now have the ability to generate FE using Advanced Generators. You can convert it into EU as normal. You can place an Energy Converter directly touching the Flux Generator."
+				""
+				"Remember 4 FE = 1 EU."
+				""
+				"These generators can scale quite high, holding up to 50 Turbines per generator. The highest tier Turbines are not available until the LuV age."
+				""
+				"&aDefault generation rates for Turbines have been buffed. All fuel types from GregTech can be used in a Gas Turbine. GregTech Steam and Advanced Generators Steam are interchangable.&r"
+				""
+				"GregTech will always be a better energy solution in the long run but this is an option for now. The highest tier Turbine is gated behind Naquadah Alloy."
+			]
+			id: "213BCCE0D8844CE7"
+			shape: "gear"
+			subtitle: "Flexible multiblocks!"
+			tasks: [{
+				id: "242D713EBFE13E19"
+				title: "Advanced Generators"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"7772CAAB688611EC"
+				"2595291E7F1986B9"
+			]
+			description: [
+				"This is not a multiblock Assembler, however it is similar."
+				""
+				"The setup of this multiblock is similar to the setup of a Distillation Tower. You need to extend the multiblock for however many inputs the recipe has. If your recipe has 8 input materials, it will need 8 Input Busses."
+				""
+				"The items listed are the minimum requirements without Hatches or Busses."
+			]
+			icon: "gtceu:assembly_line"
+			id: "782DEDFB3C1ADFE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35131E1C1C9ADBE4"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "Not a multiblock Assembler!"
+			tasks: [
+				{
+					id: "2EDF780A9B626BFE"
+					item: "gtceu:assembly_line"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "073BDC007B86922C"
+					item: { Count: 5b, id: "gtceu:assembly_line_unit" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "270EEC7BEE3CB685"
+					item: { Count: 10b, id: "gtceu:laminated_glass" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "598DBF37BB421AEC"
+					item: { Count: 5b, id: "gtceu:assembly_line_casing" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "5C19B0A0BF443D75"
+					item: { Count: 9b, id: "gtceu:assembly_line_grating" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "2A3B27D8256AB032"
+					item: "gtceu:solid_machine_casing"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E615931A6EEFF53"]
+			id: "7772CAAB688611EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A6FFE7F8C243AFF"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "02DC384AD0ACE18A"
+				item: "gtceu:ruridit_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2595291E7F1986B9"
+				"522C301AA75ECC25"
+			]
+			description: [
+				"A central energy storage multiblock. The tier of the Substation Dynamo Hatch you use determines the energy output rate."
+				""
+				"Allows up to 18 layers of Capacitors, the Capacitors do not need the be the same tier."
+				""
+				"Loses energy equal to 1% of total capacity every 24 hours. Capped at 100k EU/t of loss."
+			]
+			id: "3D9046CBF3BDD5D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "312F1456C6E51D10"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "Expandable!"
+			tasks: [{
+				id: "2014CD33B53128AC"
+				item: "gtceu:power_substation"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["04BE1F878C713A9E"]
+			description: ["Process Tungstensteel Dust, Chromium Dust, Molybdenum Dust, and Vanadium Dust in an EV Mixer to produce HSS-G Dust."]
+			id: "621A56FFA97B24E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62EA7F02AC8E5533"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "Tungstensteel Dust + Chromium Dust + Molybdenum Dust + Vanadium Dust!"
+			tasks: [{
+				id: "4244292DF72EED3C"
+				item: "gtceu:hssg_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["621A56FFA97B24E0"]
+			description: ["Process Hot HSS-G Ingots in an MV Vacuum Freezer to produce HSS-G Ingots."]
+			id: "2E5A3DF3471C4D38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B8045B1051A1043"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "MV Vacuum Freezer!"
+			tasks: [{
+				id: "5EF538C925585727"
+				item: "gtceu:hssg_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2E5A3DF3471C4D38"]
+			description: ["The fifth tier of Coils."]
+			id: "54F38FAE58D2A135"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3107C7E37D25D4F5"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			subtitle: "IV Assembler!"
+			tasks: [{
+				count: 16L
+				id: "239EA3204147A201"
+				item: { Count: 16b, id: "gtceu:hssg_coil_block" }
+				type: "item"
+			}]
+			title: "HSS-G Coils"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"2595291E7F1986B9"
+				"522C301AA75ECC25"
+			]
+			id: "5CB28A105A9A9A78"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "471F1A70E737BC5B"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "701EE8A24836FD8F"
+				item: "gtceu:iv_circuit_assembler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04BE1F878C713A9E"]
+			id: "437343879ACD0FD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "312D5BF29159409F"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3F5FE9F4297F76AB"
+				item: "gtceu:reinforced_epoxy_resin_plate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["437343879ACD0FD2"]
+			id: "734DBE73ECD7142C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F9037BCD4853EB6"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7813D872856E8AA1"
+				item: "gtceu:fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04BE1F878C713A9E"]
+			id: "1F94E49D75F8EEAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "608177AAA954736E"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1A3F3534C596DD49"
+				item: "gtceu:qbit_cpu_wafer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["734DBE73ECD7142C"]
+			id: "0849059DA76CFDDF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77877996483C62FF"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "421469AD39D7B83A"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F94E49D75F8EEAA"]
+			id: "4FDEB95013FDD072"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48C79E3A161141FA"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "25AF95DE94429152"
+				item: "gtceu:qbit_cpu_chip"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0849059DA76CFDDF"
+				"4FDEB95013FDD072"
+				"5CB28A105A9A9A78"
+			]
+			id: "0C897DF7B9A567D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B872E98B23E7F6D"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5EBA6712CE3678E4"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C6F995594645120"]
+			id: "0A462BB5304E1E82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E7482DBBCCDEB7E"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3AFC248C31C2063A"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C897DF7B9A567D3"]
+			id: "4C6F995594645120"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7167F0948651E56A"
+				table_id: 6946283253569926045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "765436AFD6A29658"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["56054C837A572536"]
+			description: ["Has a loss of 0 EU per block."]
+			id: "19CE349609E8E732"
+			subtitle: "IV Superconductor!"
+			tasks: [{
+				id: "1EEF509F24EC91AB"
+				item: "gtceu:samarium_iron_arsenic_oxide_single_wire"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			description: ["Process Rare Earth in an LV Centrifuge to produce Small Piles of Samarium Dust."]
+			id: "4ADE797DFD9F0C9D"
+			tasks: [{
+				id: "183070DFE914C656"
+				item: "gtceu:small_samarium_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6467772F3E56D2F1"]
+			description: ["Process Samarium Dust, Iron Dust, Arsenic Dust, and Oxygen Gas in an IV Mixer to produce Samarium Iron Arsenic Oxide Dust."]
+			id: "56054C837A572536"
+			tasks: [{
+				id: "24E21F20318F7CE7"
+				item: "gtceu:samarium_iron_arsenic_oxide_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4ADE797DFD9F0C9D"]
+			description: ["Craft Small Piles of Samarium Dust in an Crafting Grid to produce Samarium Dust."]
+			id: "6467772F3E56D2F1"
+			tasks: [{
+				id: "30537628A000FE91"
+				item: "gtceu:samarium_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+	]
+	subtitle: ["Tungstensteel!"]
+	title: "IV Age"
+}

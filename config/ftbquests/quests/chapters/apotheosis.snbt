@@ -1,0 +1,322 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "apotheosis"
+	group: "3483E4EBAD9C4714"
+	icon: "apotheosis:mythic_material"
+	id: "40B0A2E0C2F9246E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				""
+				"Apotheosis usually requires a large amount of experience for things. You can use the Ender IO Experience Obelisk to store mass amounts of experience for later use. There is also an Enchanted Book called Knowledge of the Ages which converts enemy drops into experience. This scales with things like Looting and also Scavenger, which has a chance to roll a mobs drop table twice."
+			]
+			id: "0D642F46D5B2D49E"
+			shape: "gear"
+			subtitle: "\"All things that should have been.\""
+			tasks: [{
+				id: "042A8517F770E54E"
+				title: "Apotheosis"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Obtained by salvaging a Common affix item or Metal Mixture Dust."
+				""
+				"Used in a Reforging Table to reforge equipment."
+			]
+			id: "2A65525784753B5F"
+			subtitle: "Common!"
+			tasks: [{
+				id: "4DC4DF0F4650DAEB"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Obtained by salvaging an Uncommon affix item, or made in an MV Chemical Reactor."
+				""
+				"Used in a Reforging Table to reforge equipment."
+			]
+			id: "5FD2B6FB77DC7F0D"
+			subtitle: "Uncommon!"
+			tasks: [{
+				id: "61AFD1365CBAFAF6"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Obtained by salvaging a Rare affix item, or made in an HV Chemical Reactor."
+				""
+				"Used in a Reforging Table to reforge equipment."
+			]
+			id: "19547B9F9A33392D"
+			subtitle: "Rare!"
+			tasks: [{
+				id: "765579459AB5892E"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Obtained by salvaging an Epic affix item, or made in an EV Chemical Reactor."
+				""
+				"Used in a Reforging Table to reforge equipment."
+			]
+			id: "7AFDDBE73892AB06"
+			subtitle: "Epic!"
+			tasks: [{
+				id: "7F8C66FA91D7B36A"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Obtained by salvaging a Mythic affix item, or made in an IV Autoclave."
+				""
+				"Used in a Reforging Table to reforge equipment."
+			]
+			id: "5003A125D6DB8843"
+			subtitle: "Mythic!"
+			tasks: [{
+				id: "256CDF701D479D9B"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			description: ["There are 3 options for obtaining Gem Dust. You can use the normal way of dropping an Anvil on some Apotheosis Gems, once you have some you can craft a Salvaging Table which can also break down Gems into Gem Dust. You can also craft Gem Dust in an HV Mixer with some rather basic materials."]
+			id: "0E385363F618E41B"
+			subtitle: "Craftable!"
+			tasks: [{
+				id: "793DF2FBC7D5CB4D"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: [
+				"Use in a Smithing Table to unsocket Gems from an item."
+				""
+				"The Gems will be destroyed in the process."
+				""
+				"&6This lets you keep the item.&r"
+			]
+			id: "0E45B80780B172A7"
+			subtitle: "Keep the item!"
+			tasks: [{
+				id: "6E9809EE56090E0A"
+				item: "apotheosis:vial_of_expulsion"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: [
+				"Use in a Smithing Table to unsocket Gems from an item."
+				""
+				"The item will be destroyed in the process."
+				""
+				"&6This lets you keep the Gems.&r"
+			]
+			id: "49E0EFCC32F494FB"
+			subtitle: "Keep the Gems!"
+			tasks: [{
+				id: "633C33DED27B6561"
+				item: "apotheosis:vial_of_extraction"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			description: ["Use in a Smithing Table to remove the affix names from an item."]
+			id: "320538F6EC1EEB22"
+			subtitle: "Remove the names!"
+			tasks: [{
+				id: "3C1053D116653D57"
+				item: "apotheosis:vial_of_unnaming"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Apotheosis adds the ability to upgrade Spawners by using certain items on a Spawner. Most of the items required are GregTech related, see the uses for a Spawner in REI to see the modification items."
+				""
+				"Apotheosis also adds the ability to harvest Spawners using Silk Touch, however this does cause quite a bit of durability damage to the tool."
+				""
+				"Spawners are craftable and Spawn Eggs are purchasable from the Market block. You can use a Spawn Egg on a Spawner to set the Spawner to that mob type."
+			]
+			id: "5F4077525D8F3B9F"
+			shape: "gear"
+			subtitle: "Upgrade Spawners!"
+			tasks: [{
+				id: "5F5159841A179964"
+				title: "Spawners"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: ["Apootheosis greatly extends enchanting by increasing the maximum levels of enchantments. Enchanting Tables can now exceed level 30 enchantmnets by using certain Bookshelves from Apotheosis. You can see in the tooltip of an item which stats it will increase. If you max out Eterna you will be able to spent 100 levels on enchantments."]
+			id: "5E080B4A0D10557E"
+			shape: "gear"
+			subtitle: "Level 100 enchantments!"
+			tasks: [{
+				id: "3782FD2CF16360EE"
+				title: "Enchanting"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Apotheosis adds the ability to add/remove affixes to/from items."
+				""
+				"If you obtain an affix item, you can break it down into Rarity Materials. These Rarity Materials can be used to place affixes on your equipment."
+				""
+				"There are also Gems. Gems can be socketed into equipment if the equipment has an available socket space. This can be done in the Smithing Table."
+			]
+			id: "7508E162C0766C47"
+			shape: "gear"
+			subtitle: "Affixes!"
+			tasks: [{
+				id: "4DDC44E40121C48C"
+				title: "Equipment"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: [
+				"Allows you to either add affixes to equipment or reroll the affixes that is already on a piece of equipment using experience, Gem Dust and Rarity Materials."
+				""
+				"No choices will be shown until you place a Rarity Material as that will determine which rarity the affix will be."
+				""
+				"The Simple Reforging Table has a maximum rarity of Rare, if you want higher tier rarities you need the Reforging Table."
+			]
+			id: "6E7DE4C920AB864D"
+			subtitle: "A lot of experience!"
+			tasks: [{
+				id: "74AABE36336D96A2"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6E7DE4C920AB864D"
+				"7AFDDBE73892AB06"
+			]
+			description: ["Works the same as the Simple Reforging Table but allows up to Mythic rarity."]
+			id: "0582FFF89D2C47F8"
+			subtitle: "Even more experience!"
+			tasks: [{
+				id: "17A2B25D54F62E9B"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: [
+				"Insert unwanted affix items and you can break them down into Rarity Material of the same rarity."
+				""
+				"&6The item will be destroyed in the process.&r"
+				""
+				"Note you can also craft all of the Rarity Materials."
+			]
+			id: "3503EF6239B80645"
+			subtitle: "Unwanted affix items!"
+			tasks: [{
+				id: "799BB53A7000570D"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: [
+				"Uses Gem Dust and Rarity Materials to upgrade Gems. All gems have multiple tiers, ranging from Chipped to Perfect."
+				""
+				"You require 2 of the previous tier Gem to upgrade to the next tier Gem, as well as some Rarity Materials and Gem Dust."
+			]
+			id: "60E240057442D669"
+			subtitle: "Upgrade Gems!"
+			tasks: [{
+				id: "051C89FA61A0077F"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: [
+				"Can be used to add a Socket to an item in a Smithing Table."
+				""
+				"The standard Sigil of Socketing can add 1 Socket up to a maximum of 3."
+				""
+				"The upgraded Superior Sigil of Socketing can add 1 Socket up to a maximum of 4."
+			]
+			icon: "apotheosis:sigil_of_socketing"
+			id: "3979730388188E0C"
+			subtitle: "Add Sockets!"
+			tasks: [
+				{
+					id: "058B44924825DB6A"
+					item: "apotheosis:sigil_of_socketing"
+					type: "item"
+				}
+				{
+					id: "399D0C17CF0C9497"
+					item: "apotheosis:superior_sigil_of_socketing"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Everything is craftable!"]
+	title: "Apotheosis"
+}

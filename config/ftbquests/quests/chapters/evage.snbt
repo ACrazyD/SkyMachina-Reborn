@@ -1,0 +1,999 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "evage"
+	group: "226B543BC0A2CF0E"
+	icon: "gtceu:micro_processor_computer"
+	id: "5B195FC87B4D5FF3"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["While you can basically jump right into making new Circuits, this is where your automations will be tested. If you are not automating at least most of your Circuits by now, that should be a priority."]
+			id: "04BE1F878C713A9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18D7C5AE426EA0BD"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			size: 2.0d
+			subtitle: "IV Circuits!"
+			tasks: [{
+				id: "00BE8B4201B6538A"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5939E9725FB1D28D"]
+			description: ["Just as Titanium was the main material for the EV age, Tungstensteel is the main material for the IV age."]
+			id: "601570809627DA2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A62DED4965454E6"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			size: 1.5d
+			subtitle: "IV material!"
+			tasks: [{
+				id: "2181D41829A80FD5"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06B25AF165CADF77"]
+			description: ["Process in an EV EBF with Nichrome Coils to produce Hot Tungstensteel Ingtots."]
+			id: "5939E9725FB1D28D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43C151CE5B9E8D8F"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "EV EBF!"
+			tasks: [{
+				id: "0B8F9DB3398A8434"
+				item: "gtceu:tungsten_steel_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D82EBC15CA65CAF"]
+			description: ["Process Tungsten Dust and Steel Dust in an EV Mixer to produce Tungstensteel Dust."]
+			icon: "gtceu:tungsten_dust"
+			id: "06B25AF165CADF77"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B5ED948CE3F4648"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "EV Mixer!"
+			tasks: [
+				{
+					id: "4157B9FBE175463D"
+					item: "gtceu:tungsten_dust"
+					type: "item"
+				}
+				{
+					id: "598112DBDA6FBFCB"
+					item: "gtceu:steel_dust"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: [
+				"Process either Tungstate Dust or Scheelite Dust in an EV Chemical Bath with Hydrocloric Acid to produce Tungstic Acid Dust."
+				""
+				"Process in an EV Electrolyzer to produce Tungsten Dust."
+			]
+			id: "0D82EBC15CA65CAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C336DDE4F8CB17F"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "EV Electrolyzer!"
+			tasks: [{
+				id: "2792491E0265ABBA"
+				item: "gtceu:tungstic_acid_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"04BE1F878C713A9E"
+				"2D3AC686CE6911BB"
+				"7AD75FBC7F31057A"
+			]
+			description: ["Used in EV multiblock generators to generate EV energy."]
+			icon: "gtceu:ev_energy_output_hatch"
+			id: "74442DAB3A512999"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37646E3FC22A63A4"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Multiblock energy!"
+			tasks: [{
+				id: "4F77070CD3F7A993"
+				item: "gtceu:ev_energy_output_hatch"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["You are going to want at least a small stock of these as they take 10 minutes to cook in the EBF with an HV energy rating and Kanthal Coils."]
+			id: "4308EEC7497BAA63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B333ADF945113EB"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "10 minutes."
+			tasks: [{
+				id: "6CBA809992769790"
+				item: "gtceu:phosphorus_boule"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4308EEC7497BAA63"]
+			description: [
+				"Requires an HV Cutter in a Cleanroom."
+				""
+				"Provides 4 Wafers instead of 1 in the Laser Engraver."
+			]
+			id: "4F93404728CD5A69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27CE828753300FAD"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "HV Cleanroom!"
+			tasks: [{
+				id: "4D12B412F6E607B2"
+				item: "gtceu:phosphorus_wafer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4F93404728CD5A69"
+				"5D8EA9A0322BA708"
+			]
+			description: [
+				"Requires an HV Laser Engraver in a Cleanroom."
+				""
+				"Some of these will be required to upgrade into HPIC Wafers in the IV age."
+			]
+			id: "3F81A5891D96CA90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B62D0D30C1FE7BA"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "HV Cleanroom!"
+			tasks: [{
+				id: "411A6177F74BD269"
+				item: "gtceu:mpic_wafer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["You must know how these work by now."]
+			id: "5D8EA9A0322BA708"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CB5616F59386AEC"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Buy Cocoa Beans at the Market block!"
+			tasks: [{
+				id: "0CFF20C7CDF9848F"
+				item: "gtceu:brown_glass_lens"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F81A5891D96CA90"]
+			description: ["Requires an EV Cutter."]
+			id: "2D3AC686CE6911BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DEBE5075996FD6D"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "EV Cutter!"
+			tasks: [{
+				id: "387A3F794A365234"
+				item: "gtceu:mpic_chip"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Mix with Methane Gas in a Chemical Reactor to produce Chloroform."]
+			id: "777D90395A3A0130"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "571C529DF8519E43"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Chlorine + Methane!"
+			tasks: [{
+				id: "6123E673480827FD"
+				item: "gtceu:chlorine_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Mix with Chlorine Gas in a Chemical Reactor to produce Chloroform."]
+			id: "5F4A7804C9ECC7FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A35DCEE183BAD43"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Methane + Chlorine!"
+			tasks: [{
+				id: "20D869521DB09CD9"
+				item: "gtceu:methane_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Mix with Hydrogen Gas in a Chemical Reactor to produce Hydrofluoric Acid."]
+			id: "59F05A0D0AAED727"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "699B94898D90362E"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Fluorine + Hydrogen!"
+			tasks: [{
+				id: "6E851C04FB2248B3"
+				item: "gtceu:fluorine_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["59F05A0D0AAED727"]
+			description: ["Mix with Chloroform in a Chemical Reactor to produce Tetrafluoroethylene."]
+			id: "79F079ECF289E0AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2855F3C0773A81CD"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Hydrofluoric Acid + Chloroform!"
+			tasks: [{
+				id: "4A4DA8F975AD59EB"
+				item: "gtceu:hydrofluoric_acid_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5F4A7804C9ECC7FF"
+				"777D90395A3A0130"
+			]
+			description: ["Mix with Hydrofluoric Acid in a Chemical Reactor to produce Tetrafluoroethylene."]
+			id: "39EC4571DA82304B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A322F829E0CEB72"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Chloroform + Hydrofluoric Acid!"
+			tasks: [{
+				id: "0192DE2DC9C1FC20"
+				item: "gtceu:chloroform_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"39EC4571DA82304B"
+				"79F079ECF289E0AD"
+			]
+			description: ["Mix with either Oxygen Gas or Air in a Chemical Reactor to produce liquid Polytetrafluoroethylene."]
+			id: "53C8381DA10A2114"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B0876617AAB4BAE"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Just add the Poly!"
+			tasks: [{
+				id: "4DEA41607E1C59EC"
+				item: "gtceu:tetrafluoroethylene_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["53C8381DA10A2114"]
+			description: [
+				"This is basically your new Polyethylene, with that being said, you are going to want this entire process automated."
+				""
+				"Required for quite a few things moving forward, like IV Machine Hulls, EV Batteries, and much more."
+			]
+			id: "009C9B8976CC26CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36285653442A7ADE"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "\"Liquid Gotohell Bucket.\""
+			tasks: [{
+				id: "6FF3D89473BC28F2"
+				item: "gtceu:polytetrafluoroethylene_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["009C9B8976CC26CC"]
+			description: ["EV Batteries, which can store 4 minutes of EV energy each."]
+			id: "1B81786DD7750C6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3907BD2A0E848CBC"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "4 minutes!"
+			tasks: [{
+				id: "6895CAE810B47D16"
+				item: "gtceu:ev_vanadium_battery"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["601570809627DA2F"]
+			description: ["Used to craft EV related energy items."]
+			id: "7AD75FBC7F31057A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48FD95F3022441C7"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "EV Assembler!"
+			tasks: [{
+				id: "06EB6F95B4FC0621"
+				item: "gtceu:ev_voltage_coil"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Radon has 2 ways to obtain (for now), you can either go the Ender Air route in an IV Distillation Tower, or the Plutionium, Uranium, Air route in an HV Large Chemical Reactor. Look through REI and see what makes more sense to you."]
+			id: "563801BD3C0ED91B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21EFDBF34CBAA442"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Choices!"
+			tasks: [{
+				id: "3C64800677AF2690"
+				item: "gtceu:radon_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["563801BD3C0ED91B"]
+			description: ["Process Eyes of Ender and Radon Gas in an HV Chemical Bath to produce Quantum Eyes."]
+			id: "21D739D6153D4ACE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "278EF09B251687C0"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Ender Eye + Radon Gas!"
+			tasks: [{
+				id: "5608047B872AC100"
+				item: "gtceu:quantum_eye"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["21D739D6153D4ACE"]
+			description: ["Used to craft the EV Circuit Assembler and the EV Laser Engraver."]
+			id: "52B8AAE9920AA1E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27876B13FE395395"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "EV Circuit Assembler!"
+			tasks: [{
+				id: "2D21BC501E151C32"
+				item: "gtceu:ev_emitter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"69A31EB95C0628FE"
+				"72DF1D86A1D57C7A"
+				"0C84A87B76001394"
+			]
+			description: ["The whole Circuit line requires an EV Cleanroom."]
+			id: "4905BD233329A325"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75702866511527EB"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "This is the third HV Circuit!"
+			tasks: [{
+				id: "472CF7C6885AE797"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3ABF274134C11EF7"]
+			description: ["Process Nano CPU Wafers in an HV Cutter to produce Nano CPU Chips."]
+			id: "72DF1D86A1D57C7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C6F1FE38AEE95E2"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "HV Cutter!"
+			tasks: [{
+				id: "13330658BDECFF21"
+				item: "gtceu:nano_cpu_chip"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["61EFBBA3DD450167"]
+			description: ["Process Epoxy Circuit Boards, Electrum foil and either Sodium Persulfate or Iron Iii Chloride in an LV Chemical Reactor to produce Epoxy Printed Circuit Boards."]
+			id: "69A31EB95C0628FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54A6EA5826673401"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Epoxy Circuit Board + Electrum Foil + Sodium Persulfate/Iron Iii Chloride!"
+			tasks: [{
+				id: "30C3C67D13380A96"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EF4B7735358CC9B"]
+			description: ["Process Epoxy Sheets, Gold Foil, and Sulfuric Acid in an LV Chemical Reactor to produce Epoxy Circuit Boards."]
+			id: "61EFBBA3DD450167"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E89AF3F390C8279"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Epoxy Sheet + Gold Foil + Sulfuric Acid!"
+			tasks: [{
+				id: "23AD7979A398F35B"
+				item: "gtceu:epoxy_circuit_board"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["409480A145B21573"]
+			description: ["Process Liquid Epoxy in a ULV Fluid Solidifier to produce Epoxy Sheets."]
+			id: "6EF4B7735358CC9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6092F92F809468AE"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "ULV Fluid Solidifer!"
+			tasks: [{
+				id: "368667FD2A8272B8"
+				item: "gtceu:epoxy_plate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Process CPU Wafers, Raw Carbon Fibers, and Liquid Glowstone in an EV Chemical Reactor in a Cleanroom to produce Nano CPU Wafers."]
+			id: "3ABF274134C11EF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "669CBDDF2CBA6915"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "CPU Wafers + Raw Carbon Fibers + Liquid Glowstone!"
+			tasks: [{
+				id: "7F1676CBE3F21AFB"
+				item: "gtceu:nano_cpu_wafer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Process Salt Water in an LV Electrolyzer to produce Sodium Hydroxide Dust."]
+			id: "1FAF3B79551AB1EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A2E059518F62B30"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "LV Electrolyzer!"
+			tasks: [{
+				id: "6D77ED446CCADC28"
+				item: "gtceu:sodium_hydroxide_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1FAF3B79551AB1EC"
+				"17B7A7581CA89E16"
+				"5AD67AFCCE52D5CD"
+			]
+			id: "409480A145B21573"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "176A19B01C2741C1"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7EC1F5AE2B8690E9"
+				item: "gtceu:epoxy_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["There are a few option to produce Epichlorohydrin. Look through REI to see what suits you best."]
+			id: "17B7A7581CA89E16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A26D0942F2FAC42"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Choices!"
+			tasks: [{
+				id: "13EA56963448E069"
+				item: "gtceu:epichlorohydrin_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"15C44E3815DCD6EA"
+				"06D9FABBF39651D0"
+				"1CED8B2C8CF31D6F"
+			]
+			id: "5AD67AFCCE52D5CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CF2F879BAB3E04F"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "16131FD8D65640E2"
+				item: "gtceu:bisphenol_a_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			id: "06D9FABBF39651D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C770E0B89873459"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "505F445C88088465"
+				item: "gtceu:phenol_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: [
+				"There are a few option to produce Hydrochloric Acid. Look through REI to see what suits you best."
+				""
+				"Hydrochloric Acid is used a lot in many different chemical mixtures."
+			]
+			id: "15C44E3815DCD6EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7655138695947403"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Choices!"
+			tasks: [{
+				id: "4033495FBA1CA420"
+				item: "gtceu:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			id: "1CED8B2C8CF31D6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41FED64A0E3BF073"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "754D18E057CA62BF"
+				item: "gtceu:acetone_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4905BD233329A325"]
+			description: ["Requires an EV Cleanroom."]
+			id: "42A72E604FC572F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5706759B954DC2CA"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "This is the second EV Circuit!"
+			tasks: [{
+				id: "6A54C72B6A25FAD4"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"04BE1F878C713A9E"
+				"52B8AAE9920AA1E7"
+			]
+			id: "0C84A87B76001394"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68CB201F4DB3748D"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "31FBE1558D094BE1"
+				item: "gtceu:ev_circuit_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42A72E604FC572F6"]
+			description: ["Requires an EV Cleanroom."]
+			id: "5B365AEDBF3CEAC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A6FA40ABDAF61AF"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "This is the second IV Circuit!"
+			tasks: [{
+				id: "0E065968A73FFC58"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04BE1F878C713A9E"]
+			description: ["Works the same as the basic single block ore generators, but generates a stack at a time."]
+			id: "49A3DEAF3B564ADF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58D9A96D4E7CE92C"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Upgrading your ore generation!"
+			tasks: [{
+				id: "200FCA88FDF8D0AB"
+				item: "gtceu:large_resource_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A420543054362B5"]
+			description: ["Has a loss of 0 EU per block."]
+			id: "6A0C37CCF3E57623"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02CF5338F8AE78EC"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "EV superconductor!"
+			tasks: [{
+				id: "130295AA4967A664"
+				item: "gtceu:uranium_triplatinum_single_wire"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["78652EEA6FF2DA08"]
+			description: ["Process Nitric Acid and Hydrochloric Acid in an LV Mixer to produce Aqua Regia."]
+			id: "664FE261DB04E43C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "444EAB5F72FBDD2C"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Nitric Acid + Hydrochloric Acid!"
+			tasks: [{
+				id: "50C840443CA5B7B9"
+				item: "gtceu:aqua_regia_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"72046EB2A4005928"
+				"664FE261DB04E43C"
+			]
+			description: ["Process Platinum Group Sludge and Aqua Regia in an HV Centrifuge to produce Inert Metal Mixture."]
+			id: "23AC2BBFD07F1695"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A5857CF1E3427DB"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Platinum Group Sludge + Aqua Regia!"
+			tasks: [{
+				id: "34ADD2491F2EB78E"
+				item: "gtceu:inert_metal_mixture_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["There are a few option to produce Nitric Acid. Look through EMI to see what suits you best."]
+			id: "78652EEA6FF2DA08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42C971737531AC87"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Choices!"
+			tasks: [{
+				id: "601DE1136A30A221"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["78652EEA6FF2DA08"]
+			description: ["Process \"Platinum Group\" Purified Ores and Nitric Acid in an LV Chemical Reactor to produce Platinum Group Sludge."]
+			id: "72046EB2A4005928"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "247B39668FFA772C"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "\"Platinum Group\" Purified Ores + Nitric Acid!"
+			tasks: [{
+				id: "01A8F0930CC900BB"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23AC2BBFD07F1695"]
+			id: "72E5B8E77137A7E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11B3CB4358804DA5"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7A2A25A1C87E8A00"
+				item: "gtceu:ruthenium_tetroxide_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["72E5B8E77137A7E3"]
+			id: "45DAF3851B974F11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6243F3D73BAEBD70"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0B75BDBA132F6348"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"35BFB8ED93BDC8A8"
+				"45DAF3851B974F11"
+			]
+			description: ["The fourth tier of Coils."]
+			id: "1A420543054362B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "772B5E096AFB0587"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "EV Assembler!"
+			tasks: [{
+				count: 16L
+				id: "00A355F39FFCB543"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			title: "RTM Alloy Coils"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Process Vanadium dust, Steel Dust, and Chormium Dust in an MV Mixer to Produce Vanadium Steel Dust."]
+			id: "35BFB8ED93BDC8A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C988E5668524BCA"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "Vanadium Dust + Steel Dust + Chromium Dust!"
+			tasks: [{
+				id: "1D65BD52CA9CB69C"
+				item: "gtceu:vanadium_steel_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Titanium!"]
+	title: "EV Age"
+}
