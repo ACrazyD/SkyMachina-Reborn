@@ -6,7 +6,7 @@
 	group: "3483E4EBAD9C4714"
 	icon: "mob_grinding_utils:saw"
 	id: "7350253C37F2057C"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -211,7 +211,7 @@
 		}
 		{
 			description: [
-				"Monster Spawners are craftable and Spawn Eggs can be purchased from the Market block. You can use a Spawn Egg on a Monster Spawner to change the Monster Spawner to that mob type."
+				"Monster Spawners are craftable and Spawn Eggs can be purchased from the Market. You can use a Spawn Egg on a Monster Spawner to change the Monster Spawner to that mob type."
 				""
 				"You can further upgrade a Monster Spawner using certain items, this can be seen be checking the uses for the Monster Spawner in EMI."
 			]

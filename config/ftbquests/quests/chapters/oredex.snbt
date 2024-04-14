@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oredex"
+	group: "3483E4EBAD9C4714"
+	icon: "minecraft:coal_ore"
+	id: "11F4C8976C1E590F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "16749E6F9E7F9AAE"
+		tasks: [{
+			id: "7AF8F6F036159AA3"
+			item: "gtceu:raw_coal"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "OreDex"
+}

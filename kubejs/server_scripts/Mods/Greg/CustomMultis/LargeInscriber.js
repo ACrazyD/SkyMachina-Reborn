@@ -60,24 +60,4 @@ ServerEvents.recipes(event => {
         .duration(8)
         .EUt(60)
 
-    event.recipes.gtceu.large_inscriber('kubejs:large_inscriber/accumulation_processor')
-        .notConsumable('ae2:silicon_press')
-        .notConsumable('megacells:accumulation_processor_press')
-        .itemInputs('#forge:silicon')
-        .itemInputs('#forge:ingots/sky_steel')
-        .inputFluids(Fluid.of('gtceu:titanium', 144))
-        .itemOutputs('megacells:accumulation_processor')
-        .duration(8)
-        .EUt(60)
-
-    event.recipes.gtceu.large_inscriber('kubejs:large_inscriber/accumulation_processor_2')
-        .notConsumable('ae2:silicon_press')
-        .notConsumable('megacells:accumulation_processor_press')
-        .itemInputs('#forge:dusts/silicon')
-        .itemInputs('#forge:ingots/sky_steel')
-        .inputFluids(Fluid.of('gtceu:titanium', 144))
-        .itemOutputs('megacells:accumulation_processor')
-        .duration(8)
-        .EUt(60)
-
 })//End Of File

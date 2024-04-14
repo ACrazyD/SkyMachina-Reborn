@@ -6,51 +6,9 @@
 	group: "3483E4EBAD9C4714"
 	icon: "ae2:creative_energy_cell"
 	id: "033E8D21A95583DB"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
-		{
-			description: [
-				"You have an ME Crafting Terminal ready to use."
-				""
-				"You're welcome."
-			]
-			id: "23FD1322DFB4CA86"
-			subtitle: "You don't need to pick it up!"
-			tasks: [{
-				icon: "ae2:crafting_terminal"
-				id: "6657FEDFA5FAADD0"
-				observe_type: 0
-				timer: 0L
-				title: "ME Crafting Terminal"
-				to_observe: "ae2:cable_bus"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			description: [
-				"You have a fully loaded ME Drive with 8 64k ME Item Storage Cells and 2 64k ME Fluid Storage Cells."
-				""
-				"Under the ME Drive is a Creative Energy Cell."
-				""
-				"You're welcome."
-			]
-			id: "2B816005CA6F01E2"
-			subtitle: "You don't need to pick it up!"
-			tasks: [{
-				icon: "ae2:drive"
-				id: "1ABC14B21D30EF8E"
-				observe_type: 0
-				timer: 0L
-				title: "ME Drive"
-				to_observe: "ae2:drive"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: 1.0d
-		}
 		{
 			dependencies: [
 				"5E10F448F38B7DE3"
@@ -268,12 +226,6 @@
 		}
 		{
 			description: [
-				"As you can see you have a functioning AE2 ststem with storage. There is a Creative Energy Cell under it all powering it. Your entire AE2 system will be free to use."
-				""
-				"&nChannels are infinite.&r You are not limited by channels due to the mass amount of machines to deal with in GregTech."
-				""
-				"No recipes have been changed for AE2 allowing a very easy start into the modpack. There has only been helper recipes added to help automate things."
-				""
 				"Not even close to everything will be included in this chapter, just the basics for getting a starter autocrafting setup."
 				""
 				"&6With almost every item from AE2 you can hover your mouse over it and hold [G] to open an in game guide.&r"

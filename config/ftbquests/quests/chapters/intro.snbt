@@ -3,10 +3,10 @@
 	default_min_width: 300
 	default_quest_shape: "hexagon"
 	filename: "intro"
-	group: "3483E4EBAD9C4714"
+	group: ""
 	icon: "gtceu:rubber_log"
 	id: "5FA6F711B0CF7446"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -15,7 +15,7 @@
 				""
 				"Your starter island and inventory has everything you need to jump right into everything."
 				""
-				"Grab your Netherite Hammer and get to work! You even have an ME Crafting Terminal with a full ME Drive and a Creative Energy Cell!"
+				"Grab your Netherite Hammer and get to work!"
 				""
 				"Almost all \"hard mode\" recipes have been enabled in the config file, but other than that no GregTech recipes have been altered. Some other mods have been changed slightly to fit more GregTech recipe styles and fit the modpack better."
 				""
@@ -229,8 +229,6 @@
 				"Passive mobs can spawn on Grass Blocks with enough light while you are far enough away."
 				""
 				"You may also craft a Golden Egg which can be used to create Delightful Dirt, which spawns passive mobs frequently as long as the biome allows it."
-				""
-				"The Market block also sells (almost) every Spawn Egg, and Spawners are craftable. You can use a Spawn Egg to set a Spawner to that mob type."
 			]
 			icon: "mob_grinding_utils:golden_egg"
 			id: "39A9C44A376EE7DE"
@@ -301,23 +299,13 @@
 			description: [
 				"Home Command - Type /sethome to set a home. Type /home to teleport to that home."
 				""
-				"Twerking - Mash sneak to twerk and speed up plant/sapling growth."
-				""
 				"FTB Ultimine - Hold the grave key [`] and harvest blocks to harvest up to 64 of that same block as long as they are connected. Just dont mine up your entire base!"
-				""
-				"Void Garbage - There are actually 2 types of trash cans in your inventory, press [T] to enable a Trash Slot at the bottom of your inventory, or look in the top left of your screen to find the Trash Can, or just take advantage of the ability to hold the throw button [Q] to toss things as far as you can into the void. All options have their own benefits. There is also an Item Trash Can block you can place in the world to pipe items into."
 				""
 				"Chunk Claiming - In the top left of your screen when you open your inventory there is a small button that looks like a grid map. This is FTB Chunks, left click a tile to \"Claim\" the chunk, preventing explosion damage (and more). Shift click a tile to \"Force Load\" the chunk, meaning it will stay loaded and operating when you are not nearby."
 				""
 				"Quest Rewards - Quests will sometimes offer very useful things for the stage you are at but don't always expect rewards. Quests are mostly to show progression."
 				""
 				"Phantoms - Phantoms exist, either build a roof or a Bed."
-				""
-				"Extreme Sound Muffler - There are a lot of sounds in GregTech, especially in the steam age, you can mute any sound you wish by clicking on the volume icon in your inventory to the right of your player model. Note you can also just smack the machine with a Hammer if you want to only mute a single machine."
-				""
-				"Peaceful Mode - It's a valid option, you may be thinking you need a bunch of Ender Pearls, Ender Pearl Dust is craftable in the LV age using ore material. &nEnder Pearl Dust can be converted into Ender Pearls in an Autoclave with Water&r. While Peaceful Mode may take some extra work, it is an option."
-				""
-				"AE2 - Applied Energistics 2 is meant to be as accessible as possible with basically no changed recipes and access in the LV age. Recipes have only been added to fit a skyblock modpack and &nchannels have been disabled&r to allow easier automation for the mass amount of machines you will have."
 			]
 			icon: "minecraft:writable_book"
 			id: "40436BC7CC08D144"
@@ -406,7 +394,7 @@
 		}
 		{
 			description: [
-				"GregTech Item Pipes and Fluid Pipes can be buggy, due to this Modular Routers, LaserIO and Conduits from EnderIO have been added for more transfer options."
+				"GregTech Item Pipes and Fluid Pipes can be buggy, and Conduits from EnderIO have been added for more transfer options."
 				""
 				"In some situations they seem to work fine but in others they stop working and let's just say I'm tired of machines exploding."
 			]
@@ -449,8 +437,6 @@
 				"Harvest Cobblestone with a Crushing Hammer."
 				""
 				"Harvest again to create Sand."
-				""
-				"You already have an active Cobble Gen on your platform if you haven't found it yet."
 			]
 			id: "3EA129DF35925916"
 			subtitle: "Cobblestone -> Gravel!"
@@ -530,8 +516,6 @@
 				"Harvest Dirt with a Crushing Hammer."
 				""
 				"You have a chance to get a random sapling or Plant Fibers, which can be used as and also turned into String."
-				""
-				"You already have an active Dirt Gen on your platform if you haven't found it yet."
 			]
 			id: "1FA571770C50B683"
 			subtitle: "Dirt -> Plant Fiber!"
@@ -545,11 +529,7 @@
 		}
 		{
 			dependencies: ["4462E9F7062D4E87"]
-			description: [
-				"Phantoms are annoying, sleep to keep them away for a few more days. You can also just build a roof and they won't bother you. They will only spawn if your head can see the sky."
-				""
-				"While a normal Bed requires Wool, if you get Leather instead you can craft a Furniture Station and make a Bed from Fantasy's Furniture using a Clay Ball, Planks, and Cobblestone."
-			]
+			description: ["Phantoms are annoying, sleep to keep them away for a few more days. You can also just build a roof and they won't bother you. They will only spawn if your head can see the sky."]
 			hide_dependency_lines: true
 			id: "29961CF6E960A4AB"
 			subtitle: "Stay away Phantoms!"
@@ -614,26 +594,6 @@
 			title: "More Random Generators"
 			x: 1.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["4E97250754AE3B2B"]
-			description: [
-				"Well it's day 641 and I finally killed that damned Ender Dragon, I made a sword for the first time just to kill that thing."
-				""
-				"Ender Air is now mine."
-			]
-			hide: true
-			hide_details_until_startable: true
-			id: "4ADEC0C6E2B60151"
-			shape: "gear"
-			subtitle: "Day 641..."
-			tasks: [{
-				id: "336F22CF8058A162"
-				title: "Captain's Log"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: 8.0d
 		}
 	]
 	subtitle: ["A different start!"]

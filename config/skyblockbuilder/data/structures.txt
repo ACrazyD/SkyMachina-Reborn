@@ -1,6 +1,7 @@
 minecraft:ancient_city
 minecraft:bastion_remnant
 minecraft:buried_treasure
+berries_and_cherries:cherry_tree_structure
 minecraft:desert_pyramid
 minecraft:end_city
 minecraft:fortress
@@ -16,6 +17,7 @@ minecraft:ocean_ruin_cold
 minecraft:ocean_ruin_warm
 gcyr:photoshoot
 minecraft:pillager_outpost
+berries_and_cherries:raspberry_bush_structure
 minecraft:ruined_portal
 minecraft:ruined_portal_desert
 minecraft:ruined_portal_jungle

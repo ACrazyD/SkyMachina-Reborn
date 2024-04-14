@@ -1,6 +1,6 @@
 {
   // Should players be able to create their own team? [default: false]
-  "createOwnTeam": true,
+  "createOwnTeam": false,
   
   // Force the check if the world is skyblock
   // This enables the commands in worlds without any skyblock dimension
@@ -31,13 +31,19 @@
     "home": true,
     
     // Cooldown in ticks for teleporting back home. [default: 3600 = 3min]
-    "homeCooldown": 0,
+    "homeCooldown": 3600,
+    
+    // Should fall damage be removed when teleporting? [default: false]
+    "noFallDamage": false,
+    
+    // Should teleporting be prevented while falling? [default: false]
+    "preventWhileFalling": false,
     
     // Should players be able to teleport to spawn? [default: true]
     "spawn": true,
     
     // Cooldown in ticks for teleporting to spawn. [default: 3600 = 3min]
-    "spawnCooldown": 0,
+    "spawnCooldown": 3600,
     
     // Dimensions in this list are not allowed for executing teleportation commands. Inverted behaviour if you set "allow_list" to true.
     // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
@@ -47,6 +53,6 @@
     },
     
     // Cooldown in ticks for visiting other islands. [default: 3600 = 3min]
-    "visitCooldown": 0
+    "visitCooldown": 3600
   }
 }

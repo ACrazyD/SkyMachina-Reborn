@@ -44,12 +44,4 @@ ServerEvents.recipes(e => {
         ]
     )
 
-    // cardboard
-    e.remove({ output: 'dustrial_decor:cardboard' })
-    e.shapeless('dustrial_decor:cardboard',
-        [
-            '2x minecraft:paper'
-        ]
-    )
-
 })//End Of File

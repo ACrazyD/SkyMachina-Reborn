@@ -1,0 +1,59 @@
+#Enable custom panorama.
+customPanorama = false
+
+#Graphics
+[graphics]
+	#Enable better particle/effect layering.
+	#Fixes particles and effects rendering behind clouds and weather.
+	#NOTE: Does NOT work with fabulous graphics mode.
+	betterLayering = true
+
+	#Animations
+	[graphics.animations]
+		#Enable large item models.
+		largeItemModel = true
+		#Enable spells animations player.
+		spellsAnimation = true
+		#Enable spells item animations.
+		spellsItemAnimation = true
+		#Enable spells first person item animations.
+		spellsFirstPersonItemAnimation = true
+
+	#Particles
+	[graphics.particles]
+		#Limit wissen rays per tick.
+		#Range: 0 ~ 1000
+		wissenRaysLimit = 200
+
+#Arcanemicon
+[arcanemicon]
+	#Enable old type of monogram outline in research.
+	oldResearchMonogramOutline = false
+	#Enable connects with monogram in research.
+	brightResearchMonogramOutline = true
+	#Enable monogram glow.
+	monogramGlow = true
+	#Enable monogram glow color.
+	monogramGlowColor = true
+	#Enable monogram color.
+	monogramColor = false
+	#Enable monogram glow rays.
+	monogramRays = true
+
+#Numerical
+[numerical]
+	#Enable numerical wissen.
+	numericalWissen = false
+	#Enable numerical cooldown.
+	numericalCooldown = false
+	#Enable show light name.
+	showLightName = false
+	#Enable numerical experience.
+	numericalExperience = false
+	#Enable numerical heat.
+	numericalHeat = false
+	#Enable numerical fluid.
+	numericalFluid = true
+	#Enable numerical steam.
+	numericalSteam = false
+

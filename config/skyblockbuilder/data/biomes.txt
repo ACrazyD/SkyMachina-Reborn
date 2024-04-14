@@ -35,6 +35,7 @@ gcyr:martian_canyon_creek
 gcyr:martian_polar_caps
 gcyr:martian_wastelands
 minecraft:meadow
+integrateddynamics:meneglin
 gcyr:mercury_deltas
 gcyr:moon
 minecraft:mushroom_fields

@@ -11,7 +11,7 @@
 		"hiddenFavorites": [],
 		"displayHistory": [],
 		// Declares whether cheating mode is on.
-		"cheating": false,
+		"cheating": true,
 		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {

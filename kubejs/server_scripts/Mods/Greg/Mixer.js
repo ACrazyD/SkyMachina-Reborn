@@ -225,17 +225,6 @@ event.recipes.gtceu.mixer('kubejs:mixer/black_concrete')
 .duration(20)
 .EUt(ULV)
 
-// warp_dust
-
-event.remove ({ id: 'waystones:warp_dust'})
-event.recipes.gtceu.mixer('kubejs:mixer/warp_dust')
-.itemInputs('1x #forge:dusts/ender_pearl')
-.itemInputs('3x #forge:dusts/amethyst')
-.itemOutputs('4x waystones:warp_dust')
-.duration(100)
-.EUt(MV)
-.circuit(1)
-
 // gem_dust
 
 event.recipes.gtceu.mixer('kubejs:mixer/gem_dust')

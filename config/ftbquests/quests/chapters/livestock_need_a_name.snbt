@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "livestock_need_a_name"
+	group: "5E738E71E2CD498F"
+	icon: "minecraft:pig_spawn_egg"
+	id: "1A9D9CA64F553F8F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Livestock (Need A Name)"
+}

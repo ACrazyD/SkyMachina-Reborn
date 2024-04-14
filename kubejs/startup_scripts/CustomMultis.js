@@ -1,8 +1,8 @@
 console.info('Multiblocks Gettin Formed...')
 
-// glass_box
+//GlassForge
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    event.create('glass_box')
+    event.create('glass_forge')
         .setEUIO('in')
         .setMaxIOSize(6, 1, 1, 1)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
@@ -10,9 +10,9 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 })
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('glass_box', 'multiblock')
+    event.create('glass_forge', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
-        .recipeType('glass_box')
+        .recipeType('glass_forge')
         .recipeModifier(GTRecipeModifiers.PARALLEL_HATCH.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK, GTRecipeModifiers.ELECTRIC_OVERCLOCK))
         .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
         .pattern(definition => FactoryBlockPattern.start()

@@ -209,7 +209,7 @@ ServerEvents.recipes(event => {
     )
 
     // glass_box
-    event.shaped('gtceu:glass_box', [
+    event.shaped('gtceu:glass_forge', [
         'AEA',
         'CDC',
         'AEA',

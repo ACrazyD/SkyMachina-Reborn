@@ -6,7 +6,7 @@
 	group: "3483E4EBAD9C4714"
 	icon: "rainshield:rain_shield"
 	id: "36A472AEE9CCE50B"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -257,7 +257,7 @@
 				item: "rainshield:rain_shield"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 1.5d
 		}
 		{
@@ -273,24 +273,6 @@
 			title: "Useful Items \\& Blocks"
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			description: [
-				"Right click on block while holding an item with durability to make the item Unbreakable."
-				""
-				"&4BLOCK WILL BE CONSUMED.&r"
-				""
-				"Netherite Scraps can be crafted in the LV age, but if you are lucky enough Ancient Debris can also be obtained from the Random Ore Generator (Placement)."
-			]
-			id: "52E0DAFED5BDF489"
-			subtitle: "Make things Unbreakable!"
-			tasks: [{
-				id: "011EE9C74F79E97F"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 1.5d
 		}
 		{
 			description: [
@@ -349,7 +331,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -371,7 +353,7 @@
 				item: "hyperbox:hyperbox"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
@@ -430,7 +412,7 @@
 				item: "enderio:enchanter"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 7.5d
 		}
 		{
@@ -443,8 +425,8 @@
 				item: "enderio:xp_obelisk"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.5d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
 			description: ["Pulls items in the world into itself and stores them in its inventory."]
@@ -455,7 +437,7 @@
 				item: "enderio:vacuum_chest"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 7.5d
 		}
 		{
@@ -467,7 +449,7 @@
 				item: "enderio:xp_vacuum"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 7.5d
 		}
 		{

@@ -1,13 +1,13 @@
 minecraft:overworld
+minecraft:the_nether
+gcyr:venus
 gcyr:mercury
 gcyr:luna
 gcyr:overworld_orbit
 gcyr:mercury_orbit
-gcyr:venus
-minecraft:the_end
-minecraft:the_nether
 gcyr:venus_orbit
-gcyr:mars_orbit
 gcyr:luna_orbit
 gcyr:mars
+gcyr:mars_orbit
+minecraft:the_end
 ae2:spatial_storage

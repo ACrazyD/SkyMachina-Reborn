@@ -113,17 +113,4 @@ ServerEvents.recipes(e => {
     }
     )
 
-    // trident
-    e.shaped('minecraft:trident', [
-        ' BB',
-        'CAB',
-        'AD ',
-    ], {
-        A: 'gtceu:invar_long_rod',
-        B: 'gtceu:steel_rod',
-        C: '#forge:tools/files',
-        D: '#forge:tools/hammers',
-    }
-    )
-
 })//End Of File

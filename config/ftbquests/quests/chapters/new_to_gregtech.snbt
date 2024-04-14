@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: "hexagon"
 	filename: "new_to_gregtech"
-	group: "226B543BC0A2CF0E"
+	group: ""
 	icon: "ftbquests:book"
 	id: "70355DCEE3BEBB7E"
 	order_index: 0
@@ -197,11 +197,11 @@
 		}
 		{
 			description: [
-				"GregTech and Applied Energistics 2 play very well together. While you start with a basic AE2 setup, the rest of the mod basically opens up in the LV age, so as soon as you start generating EU you will be able to dive right into the rest of AE2."
+				"GregTech and Applied Energistics 2 play very well together."
 				""
 				"AE2 handles items and fluids quite well in a variety of ways, it is highly advised to use AE2 for as much of your logistical needs as well as storage. While using other logistical methods like Pipes or Conduits are nice in certain situations, the bulk of your transfering could be done by AE2."
 				""
-				"Channels have been set to infinite, meaning there is no channel limit for AE2 Cables."
+				"Channels have been set to Double, meaning there is higher limit for AE2 Cables. (16 Channels For Smart - 64 Dense Cables)"
 				""
 				"There is a quest chapter containing a basic autocrafting setup but if you require more information on the mod you can see an in game guide on certain items by hovering over it with your mouse and holding [G]. There is also a quite detailed guide on AE2 in the modpack's discord."
 			]

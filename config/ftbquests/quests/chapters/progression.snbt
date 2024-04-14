@@ -7,7 +7,7 @@
 	group: "226B543BC0A2CF0E"
 	icon: "gtceu:wetware_printed_circuit_board"
 	id: "02865F9ABD466F27"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -831,5 +831,5 @@
 		}
 	]
 	subtitle: ["What next?"]
-	title: "Progression"
+	title: "Greg Progression"
 }

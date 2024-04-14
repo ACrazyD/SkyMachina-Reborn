@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kenitic_age"
+	group: "226B543BC0A2CF0E"
+	icon: "create:cogwheel"
+	id: "54DA88D041F325EA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "3E29139FFBCCBB5C"
+		tasks: [{
+			id: "3B941A43C10FAA5E"
+			item: "create:andesite_alloy"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Kenitic Age"
+}

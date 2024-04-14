@@ -1,6 +1,7 @@
 {
 	chapter_groups: [
-		{ id: "3483E4EBAD9C4714", title: "General" }
-		{ id: "226B543BC0A2CF0E", title: "GregTech" }
+		{ id: "226B543BC0A2CF0E", title: "The Ages" }
+		{ id: "3483E4EBAD9C4714", title: "Out Of Ages" }
+		{ id: "5E738E71E2CD498F", title: "Zee Market" }
 	]
 }
