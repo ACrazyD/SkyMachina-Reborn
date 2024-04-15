@@ -1,12 +1,12 @@
 ServerEvents.recipes(e => {
 
-    //brassRefactor
+    //BronzeRefactor
     e.recipes.createMixing(
-            '2x create:brass_ingot',[
+            '2x gtceu:bronze_ingot',[
             'minecraft:copper_ingot',
-            'create:zinc_ingot',
-            'create:zinc_ingot',
-            '#forge:dusts/lead'
+            'minecraft:copper_ingot',
+            'gtceu:tin_ingot',
+            'create:zinc_nugget'
         ]).superheated()
 
 })//End Of File

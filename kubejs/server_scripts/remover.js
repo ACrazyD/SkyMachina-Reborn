@@ -9,9 +9,17 @@ ServerEvents.recipes(e => {
 
 
 
-    //ReBrassing
-    e.remove({ id: 'gtceu:shapeless/dust_brass' })
-    e.remove({ id: 'create:mixing/brass_ingot' })
+    //ReBronzing
+    e.remove({ id: 'gtceu:shapeless/dust_bronze' })
+    e.remove({ id: 'gtceu:alloy_smelter/annealed_copper_dust_and_tin_ingot_into_bronze' })
+    e.remove({ id: 'gtceu:alloy_smelter/annealed_copper_ingot_and_tin_ingot_into_bronze' })
+    e.remove({ id: 'gtceu:alloy_smelter/annealed_copper_ingot_and_tin_dust_into_bronze' })
+    e.remove({ id: 'gtceu:alloy_smelter/annealed_copper_dust_and_tin_dust_into_bronze' })
+    e.remove({ id: 'gtceu:alloy_smelter/copper_dust_and_tin_ingot_into_bronze'})
+    e.remove({ id: 'gtceu:alloy_smelter/copper_ingot_and_tin_ingot_into_bronze'})
+    e.remove({ id: 'gtceu:alloy_smelter/copper_ingot_and_tin_dust_into_bronze' })
+    e.remove({ id: 'gtceu:alloy_smelter/copper_dust_and_tin_dust_into_bronze' })
+    e.remove({ id: 'gtceu:smelting/dust_bronze__demagnetize_from_dust'})
 
     //RFD Stuffs
     e.remove({ output: 'rfd:clay_gen_tier_1' })
