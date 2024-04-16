@@ -28,6 +28,20 @@ ServerEvents.recipes(e => {
         })
     });
 
+    //Jukebox Crafting
+    e.shaped('minecraft:jukebox', [
+        'lbl',
+        'nrn',
+        'lgl'
+    ], {
+        l: '#minecraft:logs',
+        b: 'gtceu:iron_bolt',
+        n: 'minecraft:note_block',
+        r: 'gtceu:iron_ring',
+        g: '#forge:gears/iron'
+
+    })
+
     //Dyes
     e.shaped('minecraft:red_dye', [
         'A  ',

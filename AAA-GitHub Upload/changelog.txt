@@ -2,15 +2,21 @@
 **This does not detail anything from any updates prior to this file.
 ***Only reason this file wasnt made sooner is because im lazu...
 
+## [V1.0.4]
+### Added
+### Changed
+- JukeBox Recipe Tweaked
+### Removed
+
 ## [V1.0.3] - 2024-04-16
-###Added
+### Added
 - Some Create Addons
 - Builders Wands
 - Some missing KubeJS Compacts
 - A CC Addon that allows it to act a bit more like OpenComputers
 - Custom KubeJS Items Starting to be added
 - Kelp to BioMarket
-###Changed
+### Changed
 - Some Mod updates
 - Fixed a typo with Bronze and Brass in recipes
 - Updating client quests to match server
@@ -18,11 +24,11 @@
 - Disabled IntegratedDynamics Sqeezers (No Way To Override the recipes)
 - Fixed Stray Glass issue
 - Removed Hyperbox Recipe Pending Rebuild
-###Removed
+### Removed
 - EnderIO Chassies pending Rebuild
 
 ## [V1.0.2b] - 2024-04-14
-###Added
-###Changed
-###Fixed
+### Added
+### Changed
+### Fixed
 - An issue with player hunger/health (Users will need to die...)
