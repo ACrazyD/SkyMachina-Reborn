@@ -17,7 +17,6 @@
 - Disabled IntegratedDynamics Sqeezers (No Way To Override the recipes)
 - Fixed Stray Glass issue
 - Removed Hyperbox Recipe Pending Rebuild
-
 ###Removed
 
 ## [V1.0.2b] - 2024-04-14
