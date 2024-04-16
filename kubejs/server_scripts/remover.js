@@ -1,5 +1,9 @@
 ServerEvents.recipes(e => {
 
+    //EnderIO
+    e.remove({ output: 'enderio:void_chassis'})
+    e.remove({ output: 'ensouled_chassis'})
+
     //HyperBox
     e.remove({ output: 'hyperbox:hyperbox'})
 

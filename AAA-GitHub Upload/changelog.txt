@@ -18,6 +18,7 @@
 - Fixed Stray Glass issue
 - Removed Hyperbox Recipe Pending Rebuild
 ###Removed
+- EnderIO Chassies pending Rebuild
 
 ## [V1.0.2b] - 2024-04-14
 ###Added

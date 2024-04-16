@@ -27,6 +27,7 @@
 				item: "numismatics:cog"
 				type: "item"
 			}]
+			title: "Single Coal for 16C"
 			x: 0.0d
 			y: 2.0d
 		}
