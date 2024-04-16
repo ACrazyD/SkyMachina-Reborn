@@ -28,6 +28,18 @@ ServerEvents.recipes(e => {
         })
     });
 
+    //Noteblock Crafting
+    e.shaped('minecraft:note_block', [
+        'ppp',
+        'igi',
+        'prp'
+    ],{
+        p: 'gtceu:wood_plate',
+        i: 'minecraft:iron_bars',
+        g: '#forge:gears/wood',
+        r: 'gtceu:long_iron_rod'
+    })
+
     //Jukebox Crafting
     e.shaped('minecraft:jukebox', [
         'lbl',

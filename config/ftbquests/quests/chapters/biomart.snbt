@@ -7,26 +7,49 @@
 	id: "0E4B3CEE9E67411D"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		description: ["A decent lake is good for fixing up some foods or treasures!"]
-		id: "3822A1BAF7699E00"
-		optional: true
-		rewards: [{
-			id: "2FBD616E1D58B0A3"
-			item: "minecraft:kelp"
-			type: "item"
-		}]
-		subtitle: "Maybe Make A Farm?"
-		tasks: [{
-			consume_items: true
-			count: 50L
-			id: "2EDCE2DF9FBBB3B0"
-			item: { Count: 50b, id: "numismatics:cog" }
-			type: "item"
-		}]
-		title: "Single Kelp for 50C"
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			can_repeat: true
+			description: ["A decent lake is good for fixing up some foods or treasures!"]
+			id: "3822A1BAF7699E00"
+			optional: true
+			rewards: [{
+				id: "2FBD616E1D58B0A3"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			subtitle: "Maybe Make A Farm?"
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "2EDCE2DF9FBBB3B0"
+				item: { Count: 50b, id: "numismatics:cog" }
+				type: "item"
+			}]
+			title: "Single Kelp for 50C"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "2BB6932F4A43AA3A"
+			optional: true
+			rewards: [{
+				id: "7572C15061DF5C92"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "4332125BBEB43AF9"
+				item: { Count: 50b, id: "numismatics:cog" }
+				type: "item"
+			}]
+			title: "1 SugarCane for 50C"
+			x: 1.0d
+			y: 0.0d
+		}
+	]
 	title: "BioMart"
 }

@@ -1,6 +1,11 @@
 {
 	"basics": {
-		"favorites": [],
+		"favorites": [
+			"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}",
+			"{data:{Count:1b,id:\"gtceu:iron_saw\",tag:{DisallowContainerItem:0b,GT.Behaviours:{HarvestIce:1b},GT.Tool:{Damage:0,MaxDamage:255},HideFlags:2},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"gtceu:iron_wire_cutter\",tag:{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{Damage:0,HarvestLevel:2,MaxDamage:255,ToolSpeed:6.0f},HideFlags:2},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"gtceu:lv_kinetic_mixer\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+		],
 		"hiddenFavorites": [
 			"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}",
 			"{id:\"ftbessentials:trash_can\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/bin\",\"x\":150,\"click\":\"command:/trashcan\",\"required_server_mods\":[\"ftbessentials\"]}',type:\"ftblibrary:sidebar_button\"}",

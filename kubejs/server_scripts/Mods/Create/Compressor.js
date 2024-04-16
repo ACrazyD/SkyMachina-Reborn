@@ -47,4 +47,23 @@ ServerEvents.recipes(e => {
         "processingTime": 300
     })
 
+    e.custom({
+        "type":"vintageimprovements:pressurizing",
+        "secondaryFluidResults": 0,
+        "heatRequirement": "heated",
+        "ingredients": [ 
+            {
+                "tag": "minecraft:planks",
+                "count": 1
+            }
+        ],
+        "results": [
+            {
+                "item": "gtceu:wood_plate",
+                "count": 1
+            }
+        ],
+        "processingTime": 30
+    })
+
 })//End Of File

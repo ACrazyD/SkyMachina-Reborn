@@ -2,6 +2,9 @@ ServerEvents.recipes(e => {
 
     //Jukebox
     e.remove({ id: 'gtceu:shaped/jukebox'})
+    e.remove({ id: 'gtceu:shaped/note_block'})
+    e.remove({ id: 'gtceu:assembler/note_block'})
+
 
     //EnderIO
     e.remove({ output: 'enderio:void_chassis'})
