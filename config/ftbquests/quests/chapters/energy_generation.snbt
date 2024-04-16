@@ -847,7 +847,7 @@
 				""
 				"See the tooltips of the different controllers to see what blocks can be installed in the multiblock and how many of each block."
 				""
-				"See the uses for the Controller blocks in EMI to see their fuels and energy generation rates."
+				"See the uses for the Controller blocks in REI to see their fuels and energy generation rates."
 			]
 			id: "1894FB51BAF307CA"
 			subtitle: "Generate FE!"

@@ -14,6 +14,12 @@
 			dependencies: ["51BD52B13957E29B"]
 			id: "465D5CB64AFA988D"
 			optional: true
+			rewards: [{
+				count: 5
+				id: "2E2CDB8198FD6516"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "229B2B38449F9471"
 				item: "gtceu:ulv_machine_hull"
@@ -25,6 +31,12 @@
 		{
 			dependencies: ["51BD52B13957E29B"]
 			id: "38935183BE5A12D4"
+			rewards: [{
+				count: 5
+				id: "5D255C3736BE3663"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "256C42B91E747EED"
 				item: "gtceu:lv_machine_hull"
@@ -36,6 +48,12 @@
 		{
 			dependencies: ["38935183BE5A12D4"]
 			id: "3BE12FED085FFF2B"
+			rewards: [{
+				count: 5
+				id: "31C80BBA41CEF5FB"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "21D814A393C8C126"
 				item: "gtceu:mv_machine_hull"
@@ -47,6 +65,12 @@
 		{
 			dependencies: ["24CCB20291AB6ECF"]
 			id: "267CA02806083DB7"
+			rewards: [{
+				count: 5
+				id: "0337147145C196D9"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56F1BAB383EF4644"
 				item: "gtceu:ev_machine_hull"
@@ -58,6 +82,12 @@
 		{
 			dependencies: ["267CA02806083DB7"]
 			id: "2ADE6ECA2DA871F4"
+			rewards: [{
+				count: 5
+				id: "059F6C404B967BDD"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0937FBA97301747E"
 				item: "gtceu:iv_machine_hull"
@@ -69,6 +99,12 @@
 		{
 			dependencies: ["2ADE6ECA2DA871F4"]
 			id: "331848B0676FDAC7"
+			rewards: [{
+				count: 5
+				id: "4018155FDF747F91"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "722F20FD6333756E"
 				item: "gtceu:luv_machine_hull"
@@ -80,6 +116,12 @@
 		{
 			dependencies: ["331848B0676FDAC7"]
 			id: "096FD1224E8417D3"
+			rewards: [{
+				count: 5
+				id: "1CD0B1ABC40DDC60"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "53AAA4589BEAD95D"
 				item: "gtceu:zpm_machine_hull"
@@ -91,6 +133,12 @@
 		{
 			dependencies: ["096FD1224E8417D3"]
 			id: "221276342794700B"
+			rewards: [{
+				count: 5
+				id: "6D7B5E9F5765547E"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "65F637A82B928172"
 				item: "gtceu:uv_machine_hull"
@@ -102,6 +150,12 @@
 		{
 			dependencies: ["221276342794700B"]
 			id: "46F858912ABD9279"
+			rewards: [{
+				count: 5
+				id: "14B45F0DA8DD16F5"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "037C29F3B7A56964"
 				item: "gtceu:uhv_machine_hull"
@@ -112,6 +166,12 @@
 		}
 		{
 			id: "51BD52B13957E29B"
+			rewards: [{
+				count: 5
+				id: "674F1E883CF5F5A8"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "65FF885D8A8819F9"
 				item: "gtceu:bronze_brick_casing"
@@ -123,6 +183,12 @@
 		{
 			dependencies: ["38935183BE5A12D4"]
 			id: "3B1B34AF1F5053DA"
+			rewards: [{
+				count: 5
+				id: "281DFCC2A57EA33D"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5ED6FFDD482AD987"
 				item: "gtceu:cupronickel_coil_block"
@@ -137,6 +203,12 @@
 				"3B1B34AF1F5053DA"
 			]
 			id: "63EB8079BFC83AD9"
+			rewards: [{
+				count: 5
+				id: "7CAACF6AC49391C4"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48C110BFCAF44E4B"
 				item: "gtceu:kanthal_coil_block"
@@ -151,6 +223,12 @@
 				"63EB8079BFC83AD9"
 			]
 			id: "2CFADFF84F37806B"
+			rewards: [{
+				count: 5
+				id: "31506F4A87BA90AF"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "31F2ED2B0C113060"
 				item: "gtceu:nichrome_coil_block"
@@ -165,6 +243,12 @@
 				"2CFADFF84F37806B"
 			]
 			id: "6A871DF756F5F66E"
+			rewards: [{
+				count: 5
+				id: "35F4C9F7F5BE99A9"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "383BAFB0CF06092D"
 				item: "gtceu:rtm_alloy_coil_block"
@@ -179,6 +263,12 @@
 				"6A871DF756F5F66E"
 			]
 			id: "1C485D03D741F2F0"
+			rewards: [{
+				count: 5
+				id: "3A856504B7F9F5B0"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F1075E66E79CB26"
 				item: "gtceu:hssg_coil_block"
@@ -193,6 +283,12 @@
 				"1C485D03D741F2F0"
 			]
 			id: "78CA67ADCE468FC8"
+			rewards: [{
+				count: 5
+				id: "3F0D65E6E02F0BCA"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B909C656E3506FF"
 				item: "gtceu:naquadah_coil_block"
@@ -207,6 +303,12 @@
 				"78CA67ADCE468FC8"
 			]
 			id: "1E300C35820449A8"
+			rewards: [{
+				count: 5
+				id: "739F7D6B4F8858FE"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "788047F02CF7F962"
 				item: "gtceu:trinium_coil_block"
@@ -221,6 +323,12 @@
 				"1E300C35820449A8"
 			]
 			id: "4936D733C0DD239D"
+			rewards: [{
+				count: 5
+				id: "57ABB90F5AB9C38B"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "58DF9395CBFC7553"
 				item: "gtceu:tritanium_coil_block"
@@ -233,6 +341,12 @@
 			dependencies: ["38935183BE5A12D4"]
 			id: "5B71E07BEB734BEC"
 			optional: true
+			rewards: [{
+				count: 5
+				id: "4F49358833D7ECBC"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "121883FFA41C6570"
 				item: "gtceu:ulv_voltage_coil"
@@ -244,6 +358,12 @@
 		{
 			dependencies: ["38935183BE5A12D4"]
 			id: "0D89C9D9244EEA90"
+			rewards: [{
+				count: 5
+				id: "6C15680FCD046319"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "613B7DFE3F1F4294"
 				item: "gtceu:lv_voltage_coil"
@@ -255,6 +375,12 @@
 		{
 			dependencies: ["3BE12FED085FFF2B"]
 			id: "3399C6A74F5D773B"
+			rewards: [{
+				count: 5
+				id: "579D7C0D008425A9"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B59B51C2E58F130"
 				item: "gtceu:mv_voltage_coil"
@@ -266,6 +392,12 @@
 		{
 			dependencies: ["24CCB20291AB6ECF"]
 			id: "310747F6561D4D5E"
+			rewards: [{
+				count: 5
+				id: "2422AF0066565F86"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A58FC5F6FDAD1F5"
 				item: "gtceu:hv_voltage_coil"
@@ -277,6 +409,12 @@
 		{
 			dependencies: ["3BE12FED085FFF2B"]
 			id: "24CCB20291AB6ECF"
+			rewards: [{
+				count: 5
+				id: "6ABEC6DD6B25266F"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "17FB7F76EF7C1E5E"
 				item: "gtceu:hv_machine_hull"
@@ -288,6 +426,12 @@
 		{
 			dependencies: ["267CA02806083DB7"]
 			id: "3EE50EEE2F9531A8"
+			rewards: [{
+				count: 5
+				id: "37625D135C848FD0"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3198FA8B5E72281F"
 				item: "gtceu:ev_voltage_coil"
@@ -299,6 +443,12 @@
 		{
 			dependencies: ["2ADE6ECA2DA871F4"]
 			id: "3E386269517BDA3D"
+			rewards: [{
+				count: 5
+				id: "7B7CE346839CFFAD"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "579254B584526948"
 				item: "gtceu:iv_voltage_coil"
@@ -310,6 +460,12 @@
 		{
 			dependencies: ["331848B0676FDAC7"]
 			id: "743B1650F2BABC9C"
+			rewards: [{
+				count: 5
+				id: "0DFA9DC3CD99638E"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B19B5FD6B6D0694"
 				item: "gtceu:luv_voltage_coil"
@@ -321,6 +477,12 @@
 		{
 			dependencies: ["096FD1224E8417D3"]
 			id: "7152CA9410C836EE"
+			rewards: [{
+				count: 5
+				id: "1AECA0F3D34184E7"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "33CB84C5BD290126"
 				item: "gtceu:zpm_voltage_coil"
@@ -332,6 +494,12 @@
 		{
 			dependencies: ["221276342794700B"]
 			id: "44C99BBDB58E81B3"
+			rewards: [{
+				count: 5
+				id: "0A81FBF66C1B6DD8"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0933C574BA72994B"
 				item: "gtceu:uv_voltage_coil"
@@ -423,6 +591,12 @@
 			dependencies: ["3DBEE547D261C385"]
 			dependency_requirement: "one_completed"
 			id: "1832CACE0C1711A2"
+			rewards: [{
+				count: 5
+				id: "31A4CD79CCBAF73A"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "LV!"
 			tasks: [{
 				id: "5F994CECA4D73CF5"
@@ -435,6 +609,12 @@
 		{
 			dependencies: ["796FEA798DC0D7BE"]
 			id: "2CAB9D5F4E25C0FD"
+			rewards: [{
+				count: 5
+				id: "19206AB98F6A1BEF"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "LV!"
 			tasks: [{
 				id: "77B55AD57477EAA2"
@@ -448,6 +628,12 @@
 			dependencies: ["1832CACE0C1711A2"]
 			dependency_requirement: "one_completed"
 			id: "796FEA798DC0D7BE"
+			rewards: [{
+				count: 5
+				id: "03785C2FE07050ED"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "MV!"
 			tasks: [{
 				id: "1DE0ACAC8E3CCE15"
@@ -460,6 +646,12 @@
 		{
 			dependencies: ["2CAB9D5F4E25C0FD"]
 			id: "370FF74143AA5FE5"
+			rewards: [{
+				count: 5
+				id: "3E6FAB417DB185D6"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "MV!"
 			tasks: [{
 				id: "3123743D2D9525E0"
@@ -472,6 +664,12 @@
 		{
 			dependencies: ["6E28194D798B7271"]
 			id: "436403EF66524A2E"
+			rewards: [{
+				count: 5
+				id: "0BE58EAE6A8FF18E"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "LV!"
 			tasks: [{
 				id: "717EBE427D850030"
@@ -484,6 +682,12 @@
 		{
 			dependencies: ["6E28194D798B7271"]
 			id: "42B701743C3113FA"
+			rewards: [{
+				count: 5
+				id: "21234B576BC33E43"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "MV!"
 			tasks: [{
 				id: "48295B1355A00626"
@@ -496,6 +700,12 @@
 		{
 			dependencies: ["370FF74143AA5FE5"]
 			id: "6E28194D798B7271"
+			rewards: [{
+				count: 5
+				id: "06DF156D64D852A8"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "HV!"
 			tasks: [{
 				id: "23D5BC0E0FF25A3C"
@@ -508,6 +718,12 @@
 		{
 			dependencies: ["42B701743C3113FA"]
 			id: "29E0D3CBACEBC421"
+			rewards: [{
+				count: 5
+				id: "4DB3E0913E772FAD"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "HV!"
 			tasks: [{
 				id: "51A4FC0B9BE7046D"
@@ -520,6 +736,12 @@
 		{
 			dependencies: ["74498151D70237CE"]
 			id: "65BBD215A0592820"
+			rewards: [{
+				count: 5
+				id: "668EA8188C262061"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "HV!"
 			tasks: [{
 				id: "396D60884D6CF948"
@@ -532,6 +754,12 @@
 		{
 			dependencies: ["29E0D3CBACEBC421"]
 			id: "797DE824B8D2B3B8"
+			rewards: [{
+				count: 5
+				id: "6DE2A8CE943D696D"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "EV!"
 			tasks: [{
 				id: "3C7DC67E1B97B9FA"
@@ -544,6 +772,12 @@
 		{
 			dependencies: ["65BBD215A0592820"]
 			id: "1FBDB429931CF69A"
+			rewards: [{
+				count: 5
+				id: "6C64068B5E36E5ED"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "EV!"
 			tasks: [{
 				id: "41C0A45A15FE9622"
@@ -556,6 +790,12 @@
 		{
 			dependencies: ["05CC093AE3708040"]
 			id: "5C79FB932C896D15"
+			rewards: [{
+				count: 5
+				id: "0DEF746EC4E32BE4"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "EV!"
 			tasks: [{
 				id: "18CF98ADBB807098"
@@ -568,6 +808,12 @@
 		{
 			dependencies: ["797DE824B8D2B3B8"]
 			id: "74498151D70237CE"
+			rewards: [{
+				count: 5
+				id: "70BAE311043D00F1"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "IV!"
 			tasks: [{
 				id: "61C825FD10D95DA0"
@@ -580,6 +826,12 @@
 		{
 			dependencies: ["1FBDB429931CF69A"]
 			id: "6B04490B2A00CE91"
+			rewards: [{
+				count: 5
+				id: "476C3CDD515A83AA"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "IV!"
 			tasks: [{
 				id: "5026C1A99352DCDC"
@@ -592,6 +844,12 @@
 		{
 			dependencies: ["5C79FB932C896D15"]
 			id: "29755DD5D896C021"
+			rewards: [{
+				count: 5
+				id: "4862E1D66A6E5C83"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "IV!"
 			tasks: [{
 				id: "1EA2F55E7869E980"
@@ -604,6 +862,12 @@
 		{
 			dependencies: ["35D94861C1C17780"]
 			id: "626847809A73A0E3"
+			rewards: [{
+				count: 5
+				id: "144005F722DAB95C"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "IV!"
 			tasks: [{
 				id: "40A7B5169A410CC6"
@@ -616,6 +880,12 @@
 		{
 			dependencies: ["6B04490B2A00CE91"]
 			id: "05CC093AE3708040"
+			rewards: [{
+				count: 5
+				id: "75180E00F1F6B6A2"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "LuV!"
 			tasks: [{
 				id: "457F22FBEE8783C5"
@@ -628,6 +898,12 @@
 		{
 			dependencies: ["29755DD5D896C021"]
 			id: "437B3D58F129A2DB"
+			rewards: [{
+				count: 5
+				id: "600A812B09E6268D"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "LuV!"
 			tasks: [{
 				id: "6AF29EB5137CE70E"
@@ -640,6 +916,12 @@
 		{
 			dependencies: ["626847809A73A0E3"]
 			id: "244858F51270FAED"
+			rewards: [{
+				count: 5
+				id: "7A00686619FE1EB1"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "LuV!"
 			tasks: [{
 				id: "5781E67C85E6C1C1"
@@ -652,6 +934,12 @@
 		{
 			dependencies: ["5AC9C25BA677D3D5"]
 			id: "11E791F2547C39A4"
+			rewards: [{
+				count: 5
+				id: "3004BD7CD7998756"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "LuV!"
 			tasks: [{
 				id: "650E299DC0E9C8F9"
@@ -664,6 +952,12 @@
 		{
 			dependencies: ["437B3D58F129A2DB"]
 			id: "35D94861C1C17780"
+			rewards: [{
+				count: 5
+				id: "3194ACA5DB679556"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "ZPM!"
 			tasks: [{
 				id: "7B6DB4D8634D8AE2"
@@ -676,6 +970,12 @@
 		{
 			dependencies: ["244858F51270FAED"]
 			id: "06D382C758D01F6F"
+			rewards: [{
+				count: 5
+				id: "4A66B14B13DB9499"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "ZPM!"
 			tasks: [{
 				id: "4844CF6CF94EC5B5"
@@ -688,6 +988,12 @@
 		{
 			dependencies: ["11E791F2547C39A4"]
 			id: "62826B0A76A9BF37"
+			rewards: [{
+				count: 5
+				id: "1D68078AB208542B"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "ZPM!"
 			tasks: [{
 				id: "6C5E770D58E0CF79"
@@ -700,6 +1006,12 @@
 		{
 			dependencies: ["06D382C758D01F6F"]
 			id: "5AC9C25BA677D3D5"
+			rewards: [{
+				count: 5
+				id: "1670E110908396F8"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "UV!"
 			tasks: [{
 				id: "17418CC6D060DCEF"
@@ -712,6 +1024,12 @@
 		{
 			dependencies: ["62826B0A76A9BF37"]
 			id: "0A0C1DC7A5D954C3"
+			rewards: [{
+				count: 5
+				id: "2001B7A9FB8A3572"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "UV!"
 			tasks: [{
 				id: "5231F61F9A273C84"
@@ -726,8 +1044,9 @@
 			description: ["Now automate the entire process."]
 			id: "19C0AE458EF1D078"
 			rewards: [{
-				id: "6F8130EEE3A517F5"
-				item: "minecraft:cake"
+				count: 5
+				id: "52DE98FCDCF8E6BB"
+				item: "numismatics:sprocket"
 				type: "item"
 			}]
 			subtitle: "UHV!"
@@ -742,6 +1061,12 @@
 		{
 			dependencies: ["6E28194D798B7271"]
 			id: "46F7AED3047577B7"
+			rewards: [{
+				count: 5
+				id: "15A566CCB8335F19"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "ULV!"
 			tasks: [{
 				id: "5720ED473827EF7C"
@@ -754,6 +1079,12 @@
 		{
 			dependencies: ["42B0FC6BA95B3092"]
 			id: "3DBEE547D261C385"
+			rewards: [{
+				count: 5
+				id: "12AF4F674A3B698E"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			subtitle: "ULV!"
 			tasks: [{
 				id: "1F27A1665DE6478C"

@@ -5,7 +5,7 @@
 	group: "5E738E71E2CD498F"
 	icon: "minecraft:oak_sapling"
 	id: "0E4B3CEE9E67411D"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [ ]
 	title: "BioMart"

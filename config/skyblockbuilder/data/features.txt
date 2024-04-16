@@ -36,6 +36,7 @@ minecraft:crimson_forest_vegetation_bonemeal
 minecraft:crimson_fungus
 minecraft:crimson_fungus_planted
 dawnoftimebuilder:cypress
+create_dd:dark
 minecraft:dark_forest_vegetation
 berries_and_cherries:dark_grapes_spawn
 minecraft:dark_oak
@@ -73,6 +74,7 @@ minecraft:fossil_coal
 minecraft:fossil_diamonds
 minecraft:freeze_top_layer
 immersive_weathering:frost_patch
+create_dd:gabbro_blob
 dawnoftimebuilder:geranium_pink
 minecraft:glow_lichen
 minecraft:glowstone_extra
@@ -99,6 +101,7 @@ minecraft:lake_lava
 minecraft:large_basalt_columns
 minecraft:large_dripstone
 fruitsdelight:lemon_tree
+create_dd:light
 immersive_weathering:loam
 minecraft:lush_caves_clay
 create_new_age:magnetite
@@ -204,6 +207,7 @@ dawnoftimebuilder:red_maple
 dawnoftimebuilder:rice
 apotheosis:rogue_spawner
 minecraft:rooted_azalea_tree
+create_dd:rubber
 gtceu:rubber_tree
 immersive_weathering:sandy_dirt
 minecraft:sculk_patch_ancient_city
@@ -228,16 +232,22 @@ minecraft:spring_nether_open
 minecraft:spring_water
 minecraft:spruce
 berries_and_cherries:strawberry_bush_spawn
+create_dd:striated_ores_badlands
 create:striated_ores_nether
 tfmg:striated_ores_nether
+create_dd:striated_ores_ocean
 create:striated_ores_overworld
+create_dd:striated_ores_overworld
 tfmg:striated_ores_overworld
+create_dd:striated_ores_savanna
+create_dd:striated_raw_ores_overworld
 minecraft:super_birch_bees
 minecraft:super_birch_bees_0002
 minecraft:swamp_oak
 wizards_reborn:tall_elder_mor
 minecraft:tall_mangrove
 wizards_reborn:tall_mor
+create_dd:tin_ore
 fruitsdelight:tree/apple_tree
 fruitsdelight:tree/apple_tree_wild
 fruitsdelight:tree/bayberry_tree

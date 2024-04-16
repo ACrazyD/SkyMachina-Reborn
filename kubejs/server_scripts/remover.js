@@ -1,13 +1,35 @@
 ServerEvents.recipes(e => {
 
+    //HyperBox
+    e.remove({ output: 'hyperbox:hyperbox'})
+
+    //Bad, No Glass!
+    e.remove({ id: 'immersive_weathering:glass_from_vitrified_sand_smelting'})
+
+    //IntegratedDynamics Stuffs
+    e.remove({ output: 'intergrateddynamics:mechanical_squeezer'})
+    e.remove({ output: 'intergrateddynamics:squeezer'})
+    e.remove({ output: 'intergrateddynamics:mechanical_drying_basin'})
+
+    //ReWooding The BadWoods
+    e.remove({ id: 'wizards_reborn:shapeless/arcane_wood_planks'})
+    e.remove({ id: 'wizards_reborn:shapeless/innocent_wood_planks'})
+    e.remove({ id: 'create_dd:crafting/rose_planks'})
+    e.remove({ id: 'create_dd:crafting/smoked_planks'})
+    e.remove({ id: 'create_dd:crafting/spirit_planks'})
+    e.remove({ id: 'create_dd:crafting/rubber_planks'})
+    e.remove({ id: 'integrateddynamics:crafting/menril_planks'})
+
+    //Create Stuffs
+    e.remove({ id: 'createaddition:mechanical_crafting/electric_motor'})
+    e.remove({ id: 'createaddition:mechanical_crafting/alternator'})
+
     //CB Stuffs
     e.remove({ id: 'chiselandbits:chisel_stone'})
     e.remove({ id: 'chiselandbits:chisel_iron'})
     e.remove({ id: 'chiselandbits:chisel_gold'})
     e.remove({ id: 'chiselandbits:chisel_diamond'})
     e.remove({ id: 'chiselandbits:chisel_netherite'})
-
-
 
     //ReBronzing
     e.remove({ id: 'gtceu:shapeless/dust_bronze' })

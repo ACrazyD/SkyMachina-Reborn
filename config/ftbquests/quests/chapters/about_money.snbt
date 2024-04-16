@@ -1,0 +1,69 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "about_money"
+	group: "5E738E71E2CD498F"
+	icon: "numismatics:sun"
+	id: "0E7B5A71AB0EBA40"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Congrats! "
+				""
+				"You have managed to get some very basic money - this money can be used though your play through to trade with other users, or buy things from the market or both!"
+				""
+				"there are some banking related items for users in team, or who wanna sell on servers that allow it."
+			]
+			id: "4E694C4C1C88A084"
+			rewards: [{
+				id: "1C8B51C3027AE6AF"
+				item: "numismatics:bank_terminal"
+				type: "item"
+			}]
+			subtitle: "You Got A Job!"
+			tasks: [
+				{
+					consume_items: true
+					id: "6717226A79C86CF4"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "47857822C46C2CD2"
+					title: "I Understand"
+					type: "checkmark"
+				}
+			]
+			title: "MONEY!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E694C4C1C88A084"]
+			description: [
+				"This is so that users can be added to your account. you can either choose to take the reward or a bit extra coin. this is a one time choice so be mindful!"
+				""
+				"If you dont want a card, there is a cog for a refund!"
+			]
+			id: "52BF3DCA6F4E5CC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "141CA6F724D6EBA9"
+				table_id: 1359171797132476255L
+				type: "choice"
+			}]
+			subtitle: "Only needed if your on a team"
+			tasks: [{
+				consume_items: true
+				id: "7349EFE20486902E"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "About Money"
+}

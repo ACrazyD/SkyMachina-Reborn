@@ -5,17 +5,23 @@
 	group: "5E738E71E2CD498F"
 	icon: "gtceu:raw_coal"
 	id: "62B8512097C49002"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: true
+			dependencies: ["16749E6F9E7F9AAE"]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
 			id: "0BAACBD96531BBFF"
+			optional: true
 			rewards: [{
 				id: "4C3186F827EB97A9"
 				item: "gtceu:raw_coal"
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 16L
 				id: "11BDC0F82A7CDEC3"
 				item: "numismatics:cog"
@@ -31,6 +37,12 @@
 				"Due to Intergalitic laws however im not able to sell things you have never seen before. Not a worry tho, as you progress you will unlock things to buy from me so dont be afraid to check back!"
 			]
 			id: "6386DE032D130653"
+			rewards: [{
+				count: 5
+				id: "078E2155C11C6B4B"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			subtitle: "Market Info"
 			tasks: [{
 				id: "557E96D98B3BA9C9"

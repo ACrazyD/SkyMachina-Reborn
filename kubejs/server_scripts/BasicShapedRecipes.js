@@ -1,6 +1,85 @@
 ServerEvents.recipes(e => {
 
-    // red_dye
+    //ReGregging Da Woods
+    const gwood_mapping = {
+        '4x wizards_reborn:arcane_wood_planks': '#wizards_reborn:arcane_wood_logs',
+        '4x wizards_reborn:innocent_wood_planks': '#wizards_reborn:innocent_wood_logs',
+        '4x create_dd:rose_planks': '#create_dd:rose_logs',
+        '4x create_dd:smoked_planks': '#create_dd:smoked_logs',
+        '4x create_dd:spirit_planks': '#create_dd:spirit_logs',
+        '4x create_dd:rubber_planks': '#create_dd:rubber_log',
+        '4x integrateddynamics:menril_planks': '#integrateddynamics:menril_logs'
+    }
+    Object.entries(gwood_mapping).forEach(([planks, logs]) => {
+        e.shaped(planks, [
+            's',
+            'p'
+        ], {
+            s: '#forge:tools/saws',
+            p: logs
+        })
+    });
+
+
+    /* e.shaped('4x wizards_reborn:arcane_wood_planks', [
+        's',
+        'p'
+    ], {
+        s: '#forge:tools/saws',
+        p: '#wizards_reborn:arcane_wood_logs'
+    })
+
+    e.shaped('4x wizards_reborn:innocent_wood_planks', [
+        's',
+        'p'
+    ], {
+        s: '#forge:tools/saws',
+        p: '#wizards_reborn:innocent_wood_logs'
+    })
+
+    e.shaped('4x create_dd:arcane_wood_planks', [
+        's',
+        'p'
+    ], {
+        s: '#forge:tools/saws',
+        p: '#wizards_reborn:arcane_wood_logs'
+    })
+
+    e.shaped('4x wizards_reborn:arcane_wood_planks', [
+        's',
+        'p'
+    ], {
+        s: '#forge:tools/saws',
+        p: '#wizards_reborn:arcane_wood_logs'
+    })
+
+    e.shaped('4x wizards_reborn:arcane_wood_planks', [
+        's',
+        'p'
+    ], {
+        s: '#forge:tools/saws',
+        p: '#wizards_reborn:arcane_wood_logs'
+    })
+
+    e.shaped('4x wizards_reborn:arcane_wood_planks', [
+        's',
+        'p'
+    ], {
+        s: '#forge:tools/saws',
+        p: '#wizards_reborn:arcane_wood_logs'
+    })
+
+    e.shaped('4x wizards_reborn:arcane_wood_planks', [
+        's',
+        'p'
+    ], {
+        s: '#forge:tools/saws',
+        p: '#wizards_reborn:arcane_wood_logs'
+    })
+ */
+
+
+    //Dyes
     e.shaped('minecraft:red_dye', [
         'A  ',
         'B  ',
@@ -8,10 +87,8 @@ ServerEvents.recipes(e => {
     ], {
         A: '#forge:dusts/redstone',
         B: '#forge:tools/mortars',
-    }
-    )
+    })
 
-    // black_dye
     e.shaped('minecraft:black_dye', [
         'A  ',
         'B  ',
@@ -19,10 +96,8 @@ ServerEvents.recipes(e => {
     ], {
         A: '#forge:dusts/coal',
         B: '#forge:tools/mortars',
-    }
-    )
+    })
 
-    // black_dye
     e.shaped('minecraft:black_dye', [
         'A  ',
         'B  ',
@@ -30,10 +105,8 @@ ServerEvents.recipes(e => {
     ], {
         A: '#forge:dusts/charcoal',
         B: '#forge:tools/mortars',
-    }
-    )
+    })
 
-    // black_dye
     e.shaped('minecraft:black_dye', [
         'A  ',
         'B  ',
@@ -41,8 +114,7 @@ ServerEvents.recipes(e => {
     ], {
         A: '#forge:dusts/carbon',
         B: '#forge:tools/mortars',
-    }
-    )
+    })
 
     // lime_wool
     e.shaped('minecraft:lime_wool', [
@@ -50,8 +122,7 @@ ServerEvents.recipes(e => {
         'AA',
     ], {
         A: 'ex_hammers:plant_fiber',
-    }
-    )
+    })
 
     // string
     e.shaped('2x minecraft:string', [
@@ -60,8 +131,7 @@ ServerEvents.recipes(e => {
     ], {
         A: 'ex_hammers:plant_fiber',
         B: '#forge:tools/knives',
-    }
-    )
+    })
 
     // grass_seed
     e.shaped('ex_hammers:grass_seed', [
@@ -70,8 +140,7 @@ ServerEvents.recipes(e => {
     ], {
         A: 'minecraft:wheat_seeds',
         B: '#forge:tools/knives',
-    }
-    )
+    })
 
     // clay_ball
     e.shaped('3x minecraft:clay_ball', [
@@ -80,8 +149,7 @@ ServerEvents.recipes(e => {
     ], {
         A: '#forge:tools/hammers',
         B: 'minecraft:clay',
-    }
-    )
+    })
 
     // staff_of_travelling
     e.remove({ output: 'travelanchors:travel_staff' })
@@ -96,8 +164,7 @@ ServerEvents.recipes(e => {
         D: '#forge:tools/screwdrivers',
         E: '#forge:screws/steel',
         F: '#forge:rods/long/steel',
-    }
-    )
+    })
 
     // travel_anchor
     e.remove({ output: 'travelanchors:travel_anchor' })
@@ -110,7 +177,6 @@ ServerEvents.recipes(e => {
         B: '#forge:plates/rubber',
         C: '#forge:ender_pearls',
         D: 'gtceu:lv_machine_hull',
-    }
-    )
+    })
 
 })//End Of File

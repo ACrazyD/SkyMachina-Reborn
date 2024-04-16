@@ -7,15 +7,95 @@
 	id: "54DA88D041F325EA"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "3E29139FFBCCBB5C"
-		tasks: [{
-			id: "3B941A43C10FAA5E"
-			item: "create:andesite_alloy"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "3E29139FFBCCBB5C"
+			tasks: [{
+				id: "3B941A43C10FAA5E"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "17F7E8E764E63B91"
+			subtitle: "Gate Item"
+			tasks: [{
+				id: "49A5A6669DD6AEE7"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			id: "0AE3F8ECDFAC0D80"
+			tasks: [{
+				id: "3E82593EC8DB622C"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "07F5A7BE89343731"
+			tasks: [{
+				id: "049A18326F7293E9"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "32E80A839572E03A"
+			tasks: [{
+				id: "7F8B8E51AC6135D8"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "13259258C56368C1"
+			tasks: [{
+				id: "0F6947CD0CA00A76"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "707E681C55D2778C"
+			tasks: [{
+				id: "5D75E1D54F17C470"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "0CB40DB85CAD1564"
+			tasks: [
+				{
+					id: "2526F0ABAAA78C3A"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "180EF3E556A4847B"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
 	title: "Kenitic Age"
 }

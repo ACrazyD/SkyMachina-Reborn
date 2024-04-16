@@ -24,11 +24,19 @@
 				"Note that The Nether and The End dimensions are also void worlds but do still spawn structures and the Ender Dragon, although you may never find a need to go to either dimension."
 			]
 			id: "4462E9F7062D4E87"
-			rewards: [{
-				id: "0FC8D8804E5C003E"
-				item: "minecraft:oak_sapling"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0FC8D8804E5C003E"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7FF0D44C5A90A9FD"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Go go GregTech!"
@@ -53,6 +61,12 @@
 				"You already have one of these on your platform. You need to pick it up and place it down to reset it for it to start working."
 			]
 			id: "0DBCE651A4F464F7"
+			rewards: [{
+				count: 5
+				id: "0089D9F3BA0A5D50"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Unlimited random raw ores!"
 			tasks: [{
@@ -74,11 +88,19 @@
 				"Try to remember to always keep at least 1 raw ore stored away."
 			]
 			id: "482C15EC43DAAFBA"
-			rewards: [{
-				id: "4426D0E703D0C53C"
-				item: "itemcollectors:advanced_collector"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4426D0E703D0C53C"
+					item: "itemcollectors:advanced_collector"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "68B9EB066F7687E4"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "Raw ore not consumed!"
 			tasks: [{
@@ -127,6 +149,12 @@
 			]
 			description: ["Instead of placing an ore block in the world, this block will generate an ore in its 1 slot of inventory. You will need a way to extract the items, like a Hopper or Item Pipes."]
 			id: "492FE38D3B2C2F20"
+			rewards: [{
+				count: 5
+				id: "0119547B31353F08"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Automated!"
 			tasks: [{
@@ -150,6 +178,12 @@
 				"You should really be getting in the habbit of having 1 of these feeding into a factory line for complete automation."
 			]
 			id: "761E0D41EA3A4564"
+			rewards: [{
+				count: 5
+				id: "40A2C66B0DA04BA5"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Automated!"
 			tasks: [{
@@ -173,17 +207,25 @@
 				"GregTech Hammers also process blocks they harvest in the world as they would be in a Forge Hammer, allowing them to obtain Gravel, Sand, and Dust as well."
 			]
 			id: "7F5745C91297CB3B"
-			rewards: [{
-				id: "2937F9159ADCE670"
-				item: {
-					Count: 1b
-					id: "enderchests:ender_pouch"
-					tag: {
-						open: 0b
+			rewards: [
+				{
+					id: "2937F9159ADCE670"
+					item: {
+						Count: 1b
+						id: "enderchests:ender_pouch"
+						tag: {
+							open: 0b
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 5
+					id: "6E7132691C19D7BE"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "Crushes, mines, digs, and chops!"
 			tasks: [{
@@ -210,6 +252,12 @@
 				"There are other blocks to help with Lava generation later on."
 			]
 			id: "39D99BD0ACC2EEC1"
+			rewards: [{
+				count: 5
+				id: "6F4358DDAEADF040"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Lava Buckets!"
 			tasks: [{
@@ -232,6 +280,12 @@
 			]
 			icon: "mob_grinding_utils:golden_egg"
 			id: "39A9C44A376EE7DE"
+			rewards: [{
+				count: 5
+				id: "046EA365DC6D18C1"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Where are all my Chickens?"
 			tasks: [{
@@ -262,6 +316,12 @@
 			]
 			icon: "gtceu:endstone_diamond_ore"
 			id: "14A6545CEE50C10F"
+			rewards: [{
+				count: 5
+				id: "4286C8BD25858918"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "It's kind of like sieving..."
 			tasks: [{
@@ -285,6 +345,12 @@
 			]
 			hide_dependency_lines: true
 			id: "54585C31FF2226A2"
+			rewards: [{
+				count: 5
+				id: "14D4F7A47AF6A58F"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Looking for Bone Meal?"
 			tasks: [{
@@ -309,6 +375,12 @@
 			]
 			icon: "minecraft:writable_book"
 			id: "40436BC7CC08D144"
+			rewards: [{
+				count: 5
+				id: "4EB5C3783AF6EEDD"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Read me!"
 			tasks: [{
@@ -333,11 +405,19 @@
 			hide_dependency_lines: true
 			icon: "dimpaintings:nether_painting"
 			id: "3DD7D6329124737E"
-			rewards: [{
-				id: "72F98A8495E4BD35"
-				item: "dimpaintings:overworld_painting"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "72F98A8495E4BD35"
+					item: "dimpaintings:overworld_painting"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "51500CD45B60E538"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "Void with structures!"
 			tasks: [
@@ -369,11 +449,19 @@
 			]
 			icon: "dimpaintings:end_painting"
 			id: "4E97250754AE3B2B"
-			rewards: [{
-				id: "7509C01FD7531A98"
-				item: "dimpaintings:overworld_painting"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7509C01FD7531A98"
+					item: "dimpaintings:overworld_painting"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "244BC677ADF8C3AB"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "Void with an Ender Dragon!"
 			tasks: [
@@ -400,6 +488,12 @@
 			]
 			icon: "enderio:ender_fluid_conduit"
 			id: "36140838F3343E92"
+			rewards: [{
+				count: 5
+				id: "3D4735CA5CBB810B"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "IO!"
 			tasks: [{
@@ -421,6 +515,12 @@
 			]
 			icon: "ftbquests:book"
 			id: "1B5738B5D13B5A64"
+			rewards: [{
+				count: 5
+				id: "6FCDEF8185989B0A"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "WIP!"
 			tasks: [{
@@ -439,6 +539,12 @@
 				"Harvest again to create Sand."
 			]
 			id: "3EA129DF35925916"
+			rewards: [{
+				count: 5
+				id: "6CFA0DA595492399"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			subtitle: "Cobblestone -> Gravel!"
 			tasks: [{
 				id: "061BD8FFC13F0A08"
@@ -456,6 +562,12 @@
 				"Harvest again to create Dust."
 			]
 			id: "24E853EAA8010B8F"
+			rewards: [{
+				count: 5
+				id: "512BB0DE9FFD2FA2"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			subtitle: "Gravel -> Sand!"
 			tasks: [{
 				id: "41D9DBB8FA804633"
@@ -477,6 +589,12 @@
 			]
 			icon: "minecraft:clay"
 			id: "1BC846356EB47249"
+			rewards: [{
+				count: 5
+				id: "164F881A9D73281E"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			subtitle: "Dust -> Clay!"
 			tasks: [
 				{
@@ -501,6 +619,12 @@
 				"Use on the Primitive Water Condenser to create Clay."
 			]
 			id: "5A979C11538C1E29"
+			rewards: [{
+				count: 5
+				id: "3B80EE14DA669298"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			subtitle: "Sand -> Dust!"
 			tasks: [{
 				id: "10BD2411EF227AD0"
@@ -518,6 +642,12 @@
 				"You have a chance to get a random sapling or Plant Fibers, which can be used as and also turned into String."
 			]
 			id: "1FA571770C50B683"
+			rewards: [{
+				count: 5
+				id: "6D3BCE01D91E286A"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			subtitle: "Dirt -> Plant Fiber!"
 			tasks: [{
 				id: "417E7C485D572F33"
@@ -532,6 +662,12 @@
 			description: ["Phantoms are annoying, sleep to keep them away for a few more days. You can also just build a roof and they won't bother you. They will only spawn if your head can see the sky."]
 			hide_dependency_lines: true
 			id: "29961CF6E960A4AB"
+			rewards: [{
+				count: 5
+				id: "6071BC1C93F75BC1"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			subtitle: "Stay away Phantoms!"
 			tasks: [{
 				icon: "minecraft:white_bed"
@@ -559,6 +695,12 @@
 				"Once you can make Stone in a Furnace you can craft a Mortar to obtain Flint much easier."
 			]
 			id: "053BC0E8213BE28A"
+			rewards: [{
+				count: 5
+				id: "1E71D6D2EAAEF56F"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			subtitle: "Vanilla mechanics!"
 			tasks: [{
 				id: "2D46DD4D0A96211F"
@@ -578,6 +720,12 @@
 			hide_dependency_lines: true
 			icon: "simple_resource_generators:random_sapling_generator"
 			id: "4FBBE2E8A65A1AA9"
+			rewards: [{
+				count: 5
+				id: "2CD3A5412B20C577"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			subtitle: "Saplings \\& seeds!"
 			tasks: [
 				{

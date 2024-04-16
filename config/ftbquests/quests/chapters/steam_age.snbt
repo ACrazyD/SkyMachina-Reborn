@@ -277,6 +277,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["17F7E8E764E63B91"]
 			description: [
 				"If somehow you need more, random saplings and Plant Fiber are obtained by harvesting Dirt with a Crushing Hammer."
 				""

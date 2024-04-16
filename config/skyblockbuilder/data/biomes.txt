@@ -6,6 +6,7 @@ minecraft:birch_forest
 minecraft:cherry_grove
 minecraft:cold_ocean
 minecraft:crimson_forest
+create_dd:dark
 minecraft:dark_forest
 minecraft:deep_cold_ocean
 minecraft:deep_dark
@@ -28,6 +29,7 @@ hyperbox:hyperbox
 minecraft:ice_spikes
 minecraft:jagged_peaks
 minecraft:jungle
+create_dd:light
 minecraft:lukewarm_ocean
 minecraft:lush_caves
 minecraft:mangrove_swamp
