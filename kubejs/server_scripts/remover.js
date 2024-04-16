@@ -7,9 +7,15 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'immersive_weathering:glass_from_vitrified_sand_smelting'})
 
     //IntegratedDynamics Stuffs
-    e.remove({ output: 'intergrateddynamics:mechanical_squeezer'})
-    e.remove({ output: 'intergrateddynamics:squeezer'})
-    e.remove({ output: 'intergrateddynamics:mechanical_drying_basin'})
+    e.remove({ output: 'integrateddynamics:mechanical_squeezer'})
+    e.remove({ output: 'integrateddynamics:squeezer'})
+    e.remove({ output: 'integrateddynamics:mechanical_drying_basin'})
+                                //Shh Im Not Ment to be here
+    e.replaceInput(
+        { input: 'integrateddynamics:crystalized_menril_chunk'},
+        'integrateddynamics:crystalized_menril_chunk',
+        'kubejs:menril_diode'
+    )
 
     //ReWooding The BadWoods
     e.remove({ id: 'wizards_reborn:shapeless/arcane_wood_planks'})

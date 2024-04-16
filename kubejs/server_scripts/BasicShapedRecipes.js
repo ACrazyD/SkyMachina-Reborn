@@ -1,5 +1,13 @@
 ServerEvents.recipes(e => {
 
+    //Diode Fucking Wanker
+    e.shaped('kubejs:menril_diode', [
+        'kd'
+    ],{
+        k: 'integrateddynamics:crystalized_menril_chunk',
+        d: 'gtceu:diode'
+    })
+
     //ReGregging Da Woods
     const gwood_mapping = {
         '4x wizards_reborn:arcane_wood_planks': '#wizards_reborn:arcane_wood_logs',
@@ -19,65 +27,6 @@ ServerEvents.recipes(e => {
             p: logs
         })
     });
-
-
-    /* e.shaped('4x wizards_reborn:arcane_wood_planks', [
-        's',
-        'p'
-    ], {
-        s: '#forge:tools/saws',
-        p: '#wizards_reborn:arcane_wood_logs'
-    })
-
-    e.shaped('4x wizards_reborn:innocent_wood_planks', [
-        's',
-        'p'
-    ], {
-        s: '#forge:tools/saws',
-        p: '#wizards_reborn:innocent_wood_logs'
-    })
-
-    e.shaped('4x create_dd:arcane_wood_planks', [
-        's',
-        'p'
-    ], {
-        s: '#forge:tools/saws',
-        p: '#wizards_reborn:arcane_wood_logs'
-    })
-
-    e.shaped('4x wizards_reborn:arcane_wood_planks', [
-        's',
-        'p'
-    ], {
-        s: '#forge:tools/saws',
-        p: '#wizards_reborn:arcane_wood_logs'
-    })
-
-    e.shaped('4x wizards_reborn:arcane_wood_planks', [
-        's',
-        'p'
-    ], {
-        s: '#forge:tools/saws',
-        p: '#wizards_reborn:arcane_wood_logs'
-    })
-
-    e.shaped('4x wizards_reborn:arcane_wood_planks', [
-        's',
-        'p'
-    ], {
-        s: '#forge:tools/saws',
-        p: '#wizards_reborn:arcane_wood_logs'
-    })
-
-    e.shaped('4x wizards_reborn:arcane_wood_planks', [
-        's',
-        'p'
-    ], {
-        s: '#forge:tools/saws',
-        p: '#wizards_reborn:arcane_wood_logs'
-    })
- */
-
 
     //Dyes
     e.shaped('minecraft:red_dye', [
