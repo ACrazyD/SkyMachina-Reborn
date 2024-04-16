@@ -9,6 +9,7 @@
 - Some missing KubeJS Compacts
 - A CC Addon that allows it to act a bit more like OpenComputers
 - Custom KubeJS Items Starting to be added
+- Kelp to BioMarket
 ###Changed
 - Some Mod updates
 - Fixed a typo with Bronze and Brass in recipes
