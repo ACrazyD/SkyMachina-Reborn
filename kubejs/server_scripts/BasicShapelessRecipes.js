@@ -1,8 +1,5 @@
 ServerEvents.recipes(e => {
 
-    //Diode this wanker
-    e.shapeless('kubejs:menril_diode', 'gtceu:diode', 'integrateddynamics:crystalized_menril_chunk')
-
     //Rewooding the BadWoods
     e.shapeless('2x wizards_reborn:arcane_wood_planks','#wizards_reborn:arcane_wood_logs')
     e.shapeless('2x wizards_reborn:innocent_wood_planks','#wizards_reborn:innocent_wood_logs')
