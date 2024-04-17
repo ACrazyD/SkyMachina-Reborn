@@ -5,7 +5,7 @@ ServerEvents.recipes(e => {
         'kd'
     ],{
         k: 'integrateddynamics:crystalized_menril_chunk',
-        d: 'gtceu:diode'
+        d: 'createadditions:capacitor'
     })
 
     //ReGregging Da Woods

@@ -6,6 +6,8 @@
 ### Added
 ### Changed
 - JukeBox Recipe Tweaked
+- Fixes an issue with compressors
+- Updates GTCEU Textures
 ### Removed
 
 ## [V1.0.3] - 2024-04-16
