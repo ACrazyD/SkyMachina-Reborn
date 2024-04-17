@@ -49,7 +49,6 @@ ServerEvents.recipes(e => {
 
     e.custom({
         "type":"vintageimprovements:pressurizing",
-        "secondaryFluidResults": 0,
         "heatRequirement": "heated",
         "ingredients": [ 
             {
