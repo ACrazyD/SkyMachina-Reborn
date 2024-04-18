@@ -5,7 +5,6 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'gtceu:shaped/note_block'})
     e.remove({ id: 'gtceu:assembler/note_block'})
 
-
     //EnderIO
     e.remove({ output: 'enderio:void_chassis'})
     e.remove({ output: 'ensouled_chassis'})
@@ -155,5 +154,17 @@ ServerEvents.recipes(e => {
     e.remove({ output: 'rfd:ore_gen_tier_3' })
     e.remove({ output: 'rfd:ore_gen_tier_4' })
     e.remove({ output: 'rfd:ore_gen_tier_5' })
+
+    // -= Whole Mods =-
+    //Create
+    e.remove({ mod: 'create_new_age'})
+    e.remove({ mod: 'design_decor'})
+    e.remove({ mod: 'vintageinprovements'})
+    e.remove({ mod: 'railways'})
+    e.remove({ mod: 'create'})
+    e.remove({ mod: 'balancedflight'})
+    e.remove({ mod: 'tfmg'})
+    e.remove({ mod: 'create_dd'})
+    e.remove({ mod: 'createaddition'})
 
 })//End Of File
