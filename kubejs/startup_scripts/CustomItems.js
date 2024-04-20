@@ -14,5 +14,5 @@ GTCEuStartupEvents.registry('gtceu:material', e => {
         .color(0x747878).iconSet(GTMaterialIconSet.DULL)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_DENSE)
 
-})//End Of File
+})//End Of File Test
 
