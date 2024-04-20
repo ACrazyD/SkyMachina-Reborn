@@ -1,18 +1,16 @@
 StartupEvents.registry('item', e => {
 
-    //Create Gregging Required Parts
-    e.create('andesite_rod')
-    e.create('double_andesite_plate')
-    e.create('andesite_frame')
-    e.create('andesite_plate')
-    e.create('zinc_rotor')
-    
     e.create('menril_diode')
-    e.create('menril_wire')
-    e.create('menril_circuit')
+    
+})
 
+GTCEuStartupEvents.registry('gtceu:material', e => {
 
-
-
+    e.create('andesite_alloy')
+        .ingot()
+        .components('2x andesite', '2x iron')
+        .color(0x747878).iconSet(GTMaterialIconSet.DULL)
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_DENSE)
 
 })//End Of File
+

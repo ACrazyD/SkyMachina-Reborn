@@ -11,6 +11,7 @@
 - minor recipe tweaks
 - custom items preping for the gregging
 ### Removed
+- Removed Create_DD due to lack of active support.
 
 ## [V1.0.3] - 2024-04-16
 ### Added
