@@ -7,7 +7,7 @@ ServerEvents.recipes((e) => {
 		'ingredients': [
 			{
 				'item': 'integrateddynamics:menril_planks',
-		    	'count': 1,
+				'count': 1,
 			},
 		],
 		'results': [
