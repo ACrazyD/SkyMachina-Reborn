@@ -19,4 +19,17 @@ GTCEuStartupEvents.registry('gtceu:material', (e) => {
 			GTMaterialFlags.GENERATE_LONG_ROD,
 			GTMaterialFlags.GENERATE_DENSE
 		)
+
+	/* e.create('plastic')
+		.ingot()
+		.color(0xe8e8e8)
+		.iconSet(GTMaterialIconSet.DULL)
+		.flags(
+			GTMaterialFlags.GENERATE_PLATE,
+			GTMaterialFlags.GENERATE_GEAR,
+			GTMaterialFlags.GENERATE_SMALL_GEAR,
+			GTMaterialFlags.GENERATE_FRAME,
+			GTMaterialFlags.GENERATE_ROD,
+			GTMaterialFlags.GENERATE_LONG_ROD
+		) */
 }) //End Of File Test

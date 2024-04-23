@@ -175,5 +175,5 @@
 		#If the info book should automatically obtained when the player first spawns.
 		obtainOnSpawn = true
 		#If the info book can give item rewards for tutorial completion.
-		bookRewards = true
+		bookRewards = false
 

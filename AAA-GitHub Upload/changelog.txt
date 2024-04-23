@@ -2,6 +2,13 @@
 **This does not detail anything from any updates prior to this file.
 ***Only reason this file wasnt made sooner is because im lazu...
 
+## [V1.0.5]
+### Added
+### Changed
+- Updated IntegratedDynamics Config to disable Rewards
+- added rubber trees to the BotanyPots
+### Removed
+
 ## [V1.0.4]
 ### Added
 ### Changed

@@ -47,18 +47,10 @@ ServerEvents.recipes((e) => {
 
 	//ReBronzing
 	e.remove({ id: 'gtceu:shapeless/dust_bronze' })
-	e.remove({
-		id: 'gtceu:alloy_smelter/annealed_copper_dust_and_tin_ingot_into_bronze',
-	})
-	e.remove({
-		id: 'gtceu:alloy_smelter/annealed_copper_ingot_and_tin_ingot_into_bronze',
-	})
-	e.remove({
-		id: 'gtceu:alloy_smelter/annealed_copper_ingot_and_tin_dust_into_bronze',
-	})
-	e.remove({
-		id: 'gtceu:alloy_smelter/annealed_copper_dust_and_tin_dust_into_bronze',
-	})
+	e.remove({ id: 'gtceu:alloy_smelter/annealed_copper_dust_and_tin_ingot_into_bronze' })
+	e.remove({ id: 'gtceu:alloy_smelter/annealed_copper_ingot_and_tin_ingot_into_bronze' })
+	e.remove({ id: 'gtceu:alloy_smelter/annealed_copper_ingot_and_tin_dust_into_bronze' })
+	e.remove({ id: 'gtceu:alloy_smelter/annealed_copper_dust_and_tin_dust_into_bronze' })
 	e.remove({ id: 'gtceu:alloy_smelter/copper_dust_and_tin_ingot_into_bronze' })
 	e.remove({ id: 'gtceu:alloy_smelter/copper_ingot_and_tin_ingot_into_bronze' })
 	e.remove({ id: 'gtceu:alloy_smelter/copper_ingot_and_tin_dust_into_bronze' })
