@@ -4,10 +4,16 @@
 
 ## [V1.0.5]
 ### Added
+- TreeBarks
+- BiomeBeans (For Biome Modification)
+- (On Trial) BOP - for builders mostly
 ### Changed
 - Updated IntegratedDynamics Config to disable Rewards
 - added rubber trees to the BotanyPots
+- Finally Fixed Freaking Singleplayer Default World Type! (Stupid Forge)!!
 ### Removed
+- Forced GTCEU Texture Pack - will just be included with other options
+
 
 ## [V1.0.4]
 ### Added
