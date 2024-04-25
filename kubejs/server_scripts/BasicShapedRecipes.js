@@ -1,4 +1,11 @@
 ServerEvents.recipes((e) => {
+
+	//Iron BLock
+	e.shaped('minecraft:iron_block', ['AAA', 'AhA', 'AAA'], {
+		A: 'gtceu:double_iron_plate',
+		h: '#forge:tools/hammers',
+	})
+
 	//Diode Fucking Wanker
 	e.shaped('kubejs:menril_diode', ['kd'], {
 		k: 'integrateddynamics:crystalized_menril_chunk',

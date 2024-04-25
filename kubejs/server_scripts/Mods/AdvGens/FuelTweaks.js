@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
 		event.custom({
 			'type': 'advgenerators:liquid_fuel',
 			'fuel': {
-				'fluid': input,S
+				'fluid': input,
 			},
 			'fePerMb': energy,
 		})
