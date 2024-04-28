@@ -325,5 +325,4 @@ ServerEvents.recipes(e => {
         a: 'gtceu:andesite_alloy_frame'
     })
 
-
 }) //End Of File
