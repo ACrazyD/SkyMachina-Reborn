@@ -1,4 +1,12 @@
 ServerEvents.recipes((e) => {
+
+	//BadCokeNoCocaine
+	e.remove({ output: 'gtceu:coke_oven'})
+	e.remove({ output: 'gtceu:coke_oven_hatch'})
+	e.remove({ output: 'gtceu:coke_oven_bricks'})
+	e.remove({ output: 'gtceu:compressed_coke_clay'})
+	e.remove({ output: 'gtceu:coke_oven_brick'})
+
 	//Jukebox
 	e.remove({ id: 'gtceu:shaped/jukebox' })
 	e.remove({ id: 'gtceu:shaped/note_block' })
@@ -160,15 +168,16 @@ ServerEvents.recipes((e) => {
 	e.remove({ output: 'wirelesschargers:basic_wireless_player_charger' })
 	e.remove({ output: 'wirelesschargers:advanced_wireless_player_charger' })
 
-	// -= Whole Mods =-
-	//Create
-	//e.remove({ mod: 'create_new_age'})
-	//e.remove({ mod: 'design_decor'})
-	//e.remove({ mod: 'vintageinprovements'})
-	//e.remove({ mod: 'railways'})
-	//e.remove({ mod: 'create'})
-	//e.remove({ mod: 'balancedflight'})
-	//e.remove({ mod: 'tfmg'})
-	//e.remove({ mod: 'create_dd'})
-	//e.remove({ mod: 'createaddition'})
+	/*  -= Whole Mods =-
+	Create
+	e.remove({ mod: 'create_new_age'})
+	e.remove({ mod: 'design_decor'})
+	e.remove({ mod: 'vintageinprovements'})
+	e.remove({ mod: 'railways'})
+	e.remove({ mod: 'create'})
+	e.remove({ mod: 'balancedflight'})
+	e.remove({ mod: 'tfmg'})
+	e.remove({ mod: 'create_dd'})
+	e.remove({ mod: 'createaddition'}) */
+
 }) //End Of File

@@ -1,10 +1,10 @@
 ServerEvents.recipes(e => {
 
     //Functions and Constants
-    let idremover = (output) =>
+    let idRemover = (output) =>
 		e.remove({ id: output})
 
-    let outremover = (outputs) =>
+    let outRemover = (outputs) =>
 		e.remove({ output: outputs})
 
     var hammer = '#forge:tools/hammers'
@@ -14,35 +14,71 @@ ServerEvents.recipes(e => {
     var file = '#forge:tools/files'
     var wirecutter = '#forge:tools/wirecutters'
 
-    //Removing ReMade Items
-    outremover('create:crushing_wheel')
-    outremover('create:shaft')
-    outremover('create:cogwheel')
-    outremover('create:large_cogwheel')
-    outremover('create:vertical_gearbox')
-    outremover('create:gearbox')
-    outremover('create:encased_chain_drive')
-    outremover('create:clutch')
-    outremover('create:gearshift')
-    outremover('create:adjestable_chain_drive')
-    outremover('create:belt_connector')
-    outremover('create:water_wheel')
-    outremover('create:large_water_wheel')
-    outremover('create:turntable')
-    outremover('create:nozzle')
-    outremover('create:encased_fan')
-    outremover('create:hand_crank')
-    outremover('create:millstone')
-    outremover('create:mechanical_press')
-    outremover('create:mechanical_mixer')
-    outremover('create:basin')
-    outremover('create:weighted_ejector')
-    outremover('create:empty_blaze_burner')
-    outremover('create:chute')
-    outremover('create:smart_chute')
-    outremover('create:depot')
-    idremover('create:crafting/kenetics/depot')
+    //Removing Create Casings and Machinisems
+    /* idRemover('create:item_application/andesite_casing_from_wood')
+    idRemover('create:item_application/andesite_casing_from_log')
+    idRemover('create:item_application/brass_casing_from_log')
+    idRemover('create:item_application/brass_casing_from_wood')
+    idRemover('create:item_application/copper_casing_from_log')
+    idRemover('create:item_application/copper_casing_from_wood')
+    idRemover('create:item_application/railway_casing')
+    idRemover('tfmg:item_application/steel_casing')
+    idRemover('tfmg:item_application/heavy_macinery_casing')
+    idRemover('create_dd:item_application/mithril_casing')
+    idRemover('create_dd:bronze_casing_from_wood')
+    idRemover('create_dd:bronze_casing_from_log')
+    idRemover('create_dd:tin_casing_from_wood')
+    idRemover('create_dd:tin_casing_from_log')
+    idRemover('create_dd:item_application/netherite_casing')
+    idRemover('create_dd:brick_casing_from_wood')
+    idRemover('create_dd:brick_casing_from_log')
+    idRemover('create_dd:item_application/nether_brick_casing')
+    idRemover('create_dd:crafting/moddy_andesite_casing')
+    idRemover('create_dd:item_application/hydraulic_casing')
+    idRemover('create_dd:item_application/idustrial_casing')
+    idRemover('create_dd:item_application/overburden_casing')
+    idRemover('create_dd:item_application/refined_radiance_casing')
+    idRemover('create_dd:acompat/create/createaddition/item_application/overcharged_casing')
+    idRemover('create_dd:item_application/blaze_gold_casing')
+    idRemover('create_dd:item_application/stargaze_singularity_casing') */
 
+    //Removing ReMade Items
+    outRemover('create:crushing_wheel')
+    outRemover('create:shaft')
+    outRemover('create:cogwheel')
+    outRemover('create:large_cogwheel')
+    outRemover('create:vertical_gearbox')
+    outRemover('create:gearbox')
+    outRemover('create:encased_chain_drive')
+    outRemover('create:clutch')
+    outRemover('create:gearshift')
+    outRemover('create:adjestable_chain_drive')
+    outRemover('create:belt_connector')
+    outRemover('create:water_wheel')
+    outRemover('create:large_water_wheel')
+    outRemover('create:turntable')
+    outRemover('create:nozzle')
+    outRemover('create:encased_fan')
+    outRemover('create:hand_crank')
+    outRemover('create:millstone')
+    outRemover('create:mechanical_press')
+    outRemover('create:mechanical_mixer')
+    outRemover('create:basin')
+    outRemover('create:weighted_ejector')
+    outRemover('create:empty_blaze_burner')
+    outRemover('create:chute')
+    outRemover('create:smart_chute')
+    outRemover('create:depot')
+    idRemover('create:crafting/kenetics/depot')
+    outRemover('create:fluid_pipe')
+    outRemover('create:mechanical_pump')
+    outRemover('create:smart_fluid_pipe')
+    outRemover('create:fluid_tank')
+    outRemover('create:copper_valve_handle')
+    outRemover('create:fluid_valve')
+    outRemover('create:hose_pulley')
+    outRemover('create:item_drain')
+    outRemover('create:spout')
 
     e.remove({ output: 'hyperbox:hyperbox' })
 
@@ -324,5 +360,104 @@ ServerEvents.recipes(e => {
         p: 'gtceu:andesite_alloy_plate',
         a: 'gtceu:andesite_alloy_frame'
     })
+
+    e.shaped('create:fluid_pipe',[
+        'p p',
+        'pHp',
+        'p p'
+    ],{
+        p: 'create:copper_sheet',
+        H: hammer
+    })
+
+    e.shaped('create:mechanical_pump',[
+        ' D ',
+        'cpc',
+        ' W '
+    ],{
+        D: screwdriver,
+        c: 'create:cogwheel',
+        p: 'create:fluid_pipe',
+        W: wrench
+    })
+
+    e.shaped('create:smart_fluid_pipe',[
+        ' b ',
+        'DcW',
+        ' t '
+    ],{
+        b: 'create:brass_sheet',
+        D: screwdriver,
+        c: 'create:fluid_pipe',
+        W: wrench,
+        t: 'create:electron_tube'
+    })
+
+    e.shaped('create:fluid_tank',[
+        ' cW',
+        'cac',
+        'Hc '
+    ],{
+        c: 'create:copper_sheet',
+        W: wrench,
+        a: 'gtceu:andesite_alloy_frame',
+        H: hammer
+    })
+
+    e.shaped('create:copper_valve_handle',[
+        ' c ',
+        'chc',
+        ' c '
+    ],{
+        c: 'create:copper_sheet',
+        h: 'create:hand_crank'
+    })
+
+    e.shaped('create:fluid_valve',[
+        'Hc ',
+        'cpc',
+        ' cD'
+    ],{
+        c: 'create:copper_sheet',
+        H: hammer,
+        p: 'create:fluid_pipe',
+        D: screwdriver
+    })
+
+    e.shaped('create:hose_pulley',[
+        'WcD',
+        ' r ',
+        ' r '
+    ],{
+        W: wrench,
+        c: 'create:encased_chain_drive',
+        D: screwdriver,
+        r: 'create_dd:rubber'
+    })
+
+    e.shaped('create:item_drain',[
+        'HgD',
+        'cac'
+    ],{
+        H: hammer,
+        g: 'design_decor:ornate_grate',
+        D: screwdriver,
+        c: 'create:copper_sheet',
+        a: 'gtceu:copper_frame'
+    })
+
+    e.shaped('create:spout',[
+        'HtF',
+        'WcD'
+    ],{
+        H: hammer,
+        t: 'create:fluid_tank',
+        F: file,
+        W: wrench,
+        c: 'create:fluid_pipe',
+        D: screwdriver
+    })
+
+
 
 }) //End Of File
