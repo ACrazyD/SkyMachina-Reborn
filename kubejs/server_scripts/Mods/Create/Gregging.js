@@ -16,7 +16,7 @@ ServerEvents.recipes(e => {
     var wirecutter = '#forge:tools/wirecutters'
 
     //Removing Create Casings and Machinisems
-    /* idRemover('create:item_application/andesite_casing_from_wood')
+    idRemover('create:item_application/andesite_casing_from_wood')
     idRemover('create:item_application/andesite_casing_from_log')
     idRemover('create:item_application/brass_casing_from_log')
     idRemover('create:item_application/brass_casing_from_wood')
@@ -41,7 +41,11 @@ ServerEvents.recipes(e => {
     idRemover('create_dd:item_application/refined_radiance_casing')
     idRemover('create_dd:acompat/create/createaddition/item_application/overcharged_casing')
     idRemover('create_dd:item_application/blaze_gold_casing')
-    idRemover('create_dd:item_application/stargaze_singularity_casing') */
+    idRemover('create_dd:item_application/stargaze_singularity_casing')
+    idRemover('create_dd:item_application/bronze_casing_from_wood')
+    idRemover('create_dd:item_application/bronze_casing_from_log')
+
+
 
     //Removing ReMade Items
     outRemover('create:crushing_wheel')
@@ -101,7 +105,12 @@ ServerEvents.recipes(e => {
 
     casing('gtceu:wood_plate', 'kubejs:andesite_alloy_frame', 'create:andesite_casing')
     casing('gtceu:treated_wood_plate', 'gtceu:brass_frame', 'create:brass_casing')
-
+    casing('gtceu:treated_wood_plate', 'gtceu:copper_frame', 'create:copper_casing')
+    casing('gtceu:treated_wood_plate', 'gtceu:bronze_frame', 'create_dd:bronze_casing')
+    casing('create_dd:mithril_sheet', 'gtceu:steel_frame', 'create_dd:mithril_casing')
+    casing('tfmg:hardened_planks', 'gtceu:steel_frame', 'tfmg:steel_casing')
+    casing('gtceu:double_steel_plate', 'gtceu:steel_frame', 'tfmg:heavy_machinery_casing')
+    casing('create:sturdy_sheet', 'gtceu:brass_frame', 'create:railway_casing')
 
 
     e.shaped('create:shaft',[
