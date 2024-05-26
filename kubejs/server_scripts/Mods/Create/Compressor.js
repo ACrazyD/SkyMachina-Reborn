@@ -1,3 +1,4 @@
+console.info('Create Compressor: Registering recipes...')
 ServerEvents.recipes((e) => {
 	//IntegratedDynamics Sqeezer Crap
 	e.custom({
@@ -46,7 +47,7 @@ ServerEvents.recipes((e) => {
 		'processingTime': 300,
 	})
 
-	e.custom({
+	/* e.custom({
 		'type': 'vintageimprovements:pressurizing',
 		'heatRequirement': 'heated',
 		'ingredients': [
@@ -62,5 +63,42 @@ ServerEvents.recipes((e) => {
 			},
 		],
 		'processingTime': 30,
+	}) */
+
+	e.custom({
+		"type":"vintageimprovements:vacuumizing",
+		"ingredients": [ 
+			{
+				"item": "gtceu:wood_dust",
+				"count": 4
+			},
+			
+		],
+		"results": [
+			{
+				"item": "gtceu:wood_plate",
+				"count": 1
+			}
+		],
+		"processingTime": 900
 	})
+
+	e.custom({
+		"type":"vintageimprovements:vacuumizing",
+		"ingredients": [ 
+			{
+				"item": "gtceu:treated_wood_dust",
+				"count": 4
+			},
+			
+		],
+		"results": [
+			{
+				"item": "gtceu:treated_wood_plate",
+				"count": 1
+			}
+		],
+		"processingTime": 900
+	})
+
 }) //End Of File

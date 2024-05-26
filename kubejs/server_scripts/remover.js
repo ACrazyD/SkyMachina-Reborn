@@ -1,4 +1,8 @@
+console.info('Remover: Registering Removed Items...')
 ServerEvents.recipes((e) => {
+
+	//Whyyy do i need this???
+	e.remove({ id: 'vintageimprovements/kjs/b2pweegni7ej'})
 
 	//BadCokeNoCocaine
 	e.remove({ output: 'gtceu:coke_oven'})
@@ -168,9 +172,9 @@ ServerEvents.recipes((e) => {
 	e.remove({ output: 'wirelesschargers:basic_wireless_player_charger' })
 	e.remove({ output: 'wirelesschargers:advanced_wireless_player_charger' })
 
-	/*  -= Whole Mods =-
-	Create
-	e.remove({ mod: 'create_new_age'})
+	//-= Whole Mods =-
+	//Create
+	/* e.remove({ mod: 'create_new_age'})
 	e.remove({ mod: 'design_decor'})
 	e.remove({ mod: 'vintageinprovements'})
 	e.remove({ mod: 'railways'})

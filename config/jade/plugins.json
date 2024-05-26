@@ -1,6 +1,12 @@
 {
+  "framedblocks": {
+    "framed_item_frame": true
+  },
   "enderchests": {
     "hud": true
+  },
+  "mm": {
+    "controller_progress": true
   },
   "wizards_reborn": {
     "numerical": true,
@@ -68,6 +74,12 @@
     "hud.status": true,
     "hud.contents": true
   },
+  "exdeorum": {
+    "infested_leaves": true,
+    "barrel": true,
+    "crucible": true,
+    "sieve": true
+  },
   "gtceu": {
     "recipe_logic_provider": true,
     "workable_provider": true,
@@ -91,6 +103,9 @@
     "ench": true,
     "spawner": true
   },
+  "melter": {
+    "melter_data": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -102,6 +117,21 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "extendedcrafting": {
+    "elite_auto_table": true,
+    "ender_crafter": true,
+    "basic_auto_table": true,
+    "flux_crafter": true,
+    "advanced_table": true,
+    "auto_ender_crafter": true,
+    "ultimate_table": true,
+    "ultimate_auto_table": true,
+    "elite_table": true,
+    "basic_table": true,
+    "crafting_core": true,
+    "advanced_auto_table": true,
+    "compressor": true
   },
   "jadeaddons": {
     "equipment_requirement": ""

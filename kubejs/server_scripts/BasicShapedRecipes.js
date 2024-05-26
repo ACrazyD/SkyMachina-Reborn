@@ -1,3 +1,4 @@
+console.info('Shaped Recipes: Registering recipes...')
 ServerEvents.recipes((e) => {
 
 	//Iron BLock

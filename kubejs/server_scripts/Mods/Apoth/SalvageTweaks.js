@@ -1,3 +1,4 @@
+console.info('Apoth Salvage: Registering recipes...')
 ServerEvents.recipes((event) => {
 	event.custom({
 		'type': 'apotheosis:salvaging',

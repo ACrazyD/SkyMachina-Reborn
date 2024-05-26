@@ -1,3 +1,4 @@
+console.info('Tags: Registering Tags...')
 ServerEvents.tags('block', (event) => {
 	event.add('forge:ores/sphalerite', 'create:zinc_ore')
 	event.add('srg:conversion_ores', 'create:zinc_ore')

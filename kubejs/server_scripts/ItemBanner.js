@@ -1,3 +1,4 @@
+console.info('Item Banner: Registering Banned Items...')
 let bannedItems = ['minecraft:bedrock']
 bannedItems.forEach((item) => {
 	PlayerEvents.inventoryChanged(item, (event) => {

@@ -15,8 +15,8 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 15.5d
+			y: 4.0d
 		}
 		{
 			id: "17F7E8E764E63B91"
@@ -26,38 +26,8 @@
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.5d
-		}
-		{
-			id: "0AE3F8ECDFAC0D80"
-			tasks: [{
-				id: "3E82593EC8DB622C"
-				item: "minecraft:quartz"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -3.0d
-		}
-		{
-			id: "07F5A7BE89343731"
-			tasks: [{
-				id: "049A18326F7293E9"
-				item: "minecraft:diorite"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -2.0d
-		}
-		{
-			id: "32E80A839572E03A"
-			tasks: [{
-				id: "7F8B8E51AC6135D8"
-				item: "minecraft:andesite"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -1.0d
+			x: 26.0d
+			y: -5.5d
 		}
 		{
 			id: "13259258C56368C1"
@@ -66,8 +36,8 @@
 				item: "minecraft:iron_nugget"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: 15.0d
+			y: 3.0d
 		}
 		{
 			id: "707E681C55D2778C"
@@ -76,8 +46,8 @@
 				item: "create:shaft"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: 15.5d
+			y: 5.0d
 		}
 		{
 			id: "0CB40DB85CAD1564"
@@ -93,8 +63,164 @@
 					type: "item"
 				}
 			]
+			x: 15.5d
+			y: 6.0d
+		}
+		{
+			id: "3A1E711A058EC846"
+			tasks: [{
+				id: "03B61A5E5E85DF9C"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
 			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "05FB3C48D15B6CE0"
+			tasks: [{
+				id: "0FE2D0952C7F3CD5"
+				item: {
+					Count: 1b
+					id: "ex_hammers:stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			id: "52F2D621098CC36E"
+			tasks: [{
+				id: "681DA84025DBE5D5"
+				item: {
+					Count: 1b
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "3B8BB346262DC3E5"
+			tasks: [{
+				id: "6F764E308E609879"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "01CB7103681A1E9F"
+			tasks: [{
+				id: "6CA8168B802D5C71"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "5A6745819D1CA518"
+			tasks: [{
+				id: "7FA45F83CA0FAA4C"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "6F36C45038D17441"
+			tasks: [{
+				id: "5E59789609D507E5"
+				item: "ex_hammers:dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "1DC4213F6895764A"
+			tasks: [{
+				id: "71E639458D840E82"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 1.0d
 			y: 2.0d
+		}
+		{
+			id: "45EB6773EECB3CB1"
+			tasks: [{
+				id: "6E517E217314EB47"
+				item: "ex_hammers:plant_fiber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "6E4FC9E463AC9ACB"
+			tasks: [{
+				id: "06A7E31B1678BD4D"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "0B8E344553758470"
+			tasks: [{
+				id: "0037AD227D171A80"
+				item: {
+					Count: 1b
+					id: "createsifter:string_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "1C2D5F40B3ADEDDC"
+			tasks: [{
+				id: "6B6E9089D4F5B7C3"
+				item: {
+					Count: 1b
+					id: "createsifter:andesite_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "0C3AF6564E4C3EBF"
+			tasks: [{
+				id: "3AE694D0655ADE1D"
+				item: {
+					Count: 1b
+					id: "ex_hammers:stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
 		}
 	]
 	title: "Kenitic Age"

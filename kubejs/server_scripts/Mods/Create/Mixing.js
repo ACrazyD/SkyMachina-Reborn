@@ -1,3 +1,4 @@
+console.info('Create Mixing: Registering recipes...')
 ServerEvents.recipes((e) => {
 	//BronzeRefactor
 	e.recipes

@@ -1,3 +1,4 @@
+console.info('Mob Grinding Utils: Registering recipes...')
 ServerEvents.recipes((e) => {
 	// golden_egg
 	e.shaped('mob_grinding_utils:golden_egg', [' A ', 'ABA', ' A '], {

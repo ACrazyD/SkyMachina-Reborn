@@ -1,3 +1,4 @@
+console.info('Create MCrafter: Registering recipes...')
 ServerEvents.recipes(e => {
 
     e.recipes.create.mechanical_crafting('create:crushing_wheel', [

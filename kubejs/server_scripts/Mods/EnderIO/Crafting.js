@@ -1,3 +1,4 @@
+console.info('EnderIO: Registering recipes...')
 ServerEvents.recipes((e) => {
 	// yeta_wrench
 	e.shaped('enderio:yeta_wrench', [' A ', 'CBA', 'AD '], {

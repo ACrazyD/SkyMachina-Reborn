@@ -1,3 +1,4 @@
+console.info('Greg Crafting: Registering recipes...')
 ServerEvents.recipes((event) => {
 	// hp_steam_solid_boiler
 	event.shaped('gtceu:hp_steam_solid_boiler', ['AAA', 'ABA', 'CDC'], {
@@ -94,60 +95,4 @@ ServerEvents.recipes((event) => {
 		F: 'gtceu:platinum_single_cable',
 	})
 
-	// certus_quartz_charger
-	event.shaped('gtceu:certus_quartz_charger', ['ABA', 'CDC', 'AEA'], {
-		A: 'gtceu:mv_electric_motor',
-		B: 'ae2:energy_level_emitter',
-		C: '#gtceu:circuits/mv',
-		D: 'gtceu:mv_machine_hull',
-		E: 'gtceu:mv_emitter',
-	})
-
-	// large_inscriber
-	event.shaped('gtceu:large_inscriber', ['ACA', 'CDC', 'AEA'], {
-		A: 'gtceu:mv_electric_piston',
-		C: '#gtceu:circuits/mv',
-		D: 'gtceu:mv_machine_hull',
-		E: 'gtceu:mv_robot_arm',
-	})
-
-	// large_resource_generator
-	event.shaped('gtceu:large_resource_generator', ['ACA', 'CDC', 'AEA'], {
-		A: 'gtceu:ev_electric_motor',
-		C: '#gtceu:circuits/iv',
-		D: 'gtceu:ev_machine_hull',
-		E: 'gtceu:ev_electric_piston',
-	})
-
-	// natural_fluid_generator
-	event.shaped('gtceu:natural_fluid_generator', ['ACA', 'CDC', 'AEA'], {
-		E: 'gtceu:mv_electric_motor',
-		C: '#gtceu:circuits/mv',
-		D: 'gtceu:mv_machine_hull',
-		A: 'gtceu:mv_electric_pump',
-	})
-
-	// desulfurizer
-	event.shaped('gtceu:desulfurizer', ['AEA', 'CDC', 'AEA'], {
-		E: 'gtceu:ev_electric_motor',
-		C: '#gtceu:circuits/ev',
-		D: 'gtceu:ev_machine_hull',
-		A: 'gtceu:ev_electric_pump',
-	})
-
-	// glass_box
-	event.shaped('gtceu:glass_forge', ['AEA', 'CDC', 'AEA'], {
-		E: 'gtceu:laminated_glass',
-		C: '#gtceu:circuits/hv',
-		D: 'gtceu:hv_machine_hull',
-		A: 'gtceu:hv_electric_motor',
-	})
-
-	// large_gas_collector
-	event.shaped('gtceu:large_gas_collector', ['AEA', 'CDC', 'ACA'], {
-		A: 'gtceu:iv_electric_pump',
-		C: '#gtceu:circuits/iv',
-		D: 'gtceu:iv_gas_collector',
-		E: 'gtceu:iv_electric_motor',
-	})
 }) //End Of File

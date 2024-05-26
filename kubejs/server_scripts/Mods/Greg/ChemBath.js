@@ -1,3 +1,4 @@
+console.info('Greg Chemical Bath: Registering recipes...')
 ServerEvents.recipes((event) => {
 	let ULV = 8
 	let LV = 30

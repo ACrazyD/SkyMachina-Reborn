@@ -1,3 +1,4 @@
+console.info('ApothSpawners: Registering Spawner Overhaul...')
 ServerEvents.recipes((event) => {
 	event.remove({ id: 'apotheosis:spawner/ignore_light' })
 	event.remove({ id: 'apotheosis:spawner/ignore_light_inverted' })

@@ -35,19 +35,6 @@
 			x: 0.0d
 			y: 3.5d
 		}
-		{
-			dependencies: ["7F52419274BB28BC"]
-			description: ["For now, make a stack of Dragon Eggs, I'll make a better \"you win\" item when I think of one."]
-			id: "2B2DD55810D08C62"
-			size: 2.0d
-			tasks: [{
-				id: "2936CC47F62A98FD"
-				item: "gtceu:end_game"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.5d
-		}
 	]
 	subtitle: ["Neutronium!"]
 	title: "UHV Age"

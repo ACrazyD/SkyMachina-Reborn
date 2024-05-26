@@ -257,57 +257,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["06209FAA096BADA7"]
-			description: [
-				"Can produce 4 Charged Certus Quartz Crystals at a time very quickly."
-				""
-				"The base time is 1 second but this can be cut in half by providing Nitrogen Gas."
-				""
-				"Accepts both AE2 and GregTech Certus Quartz."
-				""
-				"The items listed are the minimum requirements without Hatches or Busses."
-			]
-			icon: "gtceu:certus_quartz_charger"
-			id: "6A5CE0941A5B2C26"
-			subtitle: "Multiblock Charger!"
-			tasks: [
-				{
-					id: "6FF9B20E7A5B14E9"
-					item: "gtceu:certus_quartz_charger"
-					type: "item"
-				}
-				{
-					id: "78DD28FD3DAC4D90"
-					item: "ae2:charger"
-					type: "item"
-				}
-				{
-					id: "29662C6F0BDAD661"
-					item: "ae2:quartz_vibrant_glass"
-					type: "item"
-				}
-				{
-					count: 18L
-					id: "494A5A0374A5DA26"
-					item: { Count: 18b, id: "gtceu:solid_machine_casing" }
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5E10F448F38B7DE3"]
-			id: "24774662E4449286"
-			tasks: [{
-				id: "4B12CCD73327C852"
-				item: "gtceu:large_inscriber"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 2.0d
-		}
-		{
 			description: [
 				"Cable Facades can be placed on AE2 Cables to hide the cable and make it look like another block."
 				""

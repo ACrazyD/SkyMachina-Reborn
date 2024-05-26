@@ -214,6 +214,7 @@ biomesoplenty:mangrove_twiglet_tree
 minecraft:mangrove_vegetation
 biomesoplenty:maple_tree
 biomesoplenty:maple_twiglet_tree
+gtceu:marble_blob
 minecraft:meadow_trees
 biomesoplenty:medium_glowshroom_cave
 minecraft:mega_jungle_tree
@@ -329,7 +330,6 @@ biomesoplenty:patch_waterlily_flower
 farmersdelight:patch_wild_beetroots
 farmersdelight:patch_wild_cabbages
 farmersdelight:patch_wild_carrots
-corn_delight:patch_wild_corn
 farmersdelight:patch_wild_onions
 farmersdelight:patch_wild_potatoes
 farmersdelight:patch_wild_rice
@@ -349,6 +349,8 @@ biomesoplenty:pus_bubbles
 biomesoplenty:rainbow_birch_tree
 biomesoplenty:rainforest_cliffs_vines
 berries_and_cherries:raspberry_bush_patch
+gtceu:raw_oil_sprout
+gtceu:red_granite_blob
 dawnoftimebuilder:red_maple
 biomesoplenty:redwood_tree
 biomesoplenty:redwood_tree_large

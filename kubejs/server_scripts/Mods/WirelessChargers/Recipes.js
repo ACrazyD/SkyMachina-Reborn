@@ -1,3 +1,4 @@
+console.info('Wireless Chargers: Registering recipes...')
 ServerEvents.recipes((e) => {
 	// basic_wireless_block_charger
 	e.remove({ output: 'wirelesschargers:basic_wireless_block_charger' })

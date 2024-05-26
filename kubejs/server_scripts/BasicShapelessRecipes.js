@@ -1,3 +1,4 @@
+console.info('Shapeless Recipes: Registering recipes...')
 ServerEvents.recipes((e) => {
 	//Rewooding the BadWoods
 	e.shapeless(

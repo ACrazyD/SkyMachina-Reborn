@@ -1,3 +1,4 @@
+console.info('Ender Stuff: Registering recipes...')
 ServerEvents.recipes((e) => {
 	// ender_tank
 	e.remove({ output: 'endertanks:ender_tank' })

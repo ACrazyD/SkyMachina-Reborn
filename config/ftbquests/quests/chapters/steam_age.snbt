@@ -906,32 +906,7 @@
 		}
 		{
 			description: [
-				"Use your AE2 system for more than just storage and autocrafting. You have more than enough space to be able to use your system as a piping method as well."
-				""
-				"Your AE2 system can store Steam as a fluid, use Import/Export Busses to move Steam around your base efficiently."
-				""
-				"This goes for all fluids, GregTech is very heavy on the use of different fluids and they can be tricky to handle sometimes."
-				""
-				"{image:kubejs:block/ae_fluids width:150 height:100 align:1}"
-				""
-				"See the AE2 quest chapter for some information on basic autocrafting."
-				""
-				"Hold [G] while hovering over an item to pull up an in game guide."
-			]
-			id: "162E684115B1D2B0"
-			shape: "gear"
-			subtitle: "Can be used as piping!"
-			tasks: [{
-				id: "0092F1440CE43D41"
-				title: "AE2"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
-			description: [
-				"GregTech pipes can be quite good in certain situations, in other situations you may want to go for AE2, Modular Routers, EnderIO, or LaserIO, or even Ender Tanks/Chests or Dimensional Tanks/Chests."
+				"GregTech pipes can be quite good in certain situations, in other situations you may want to go for other mods"
 				""
 				"The Covers can make GregTech Pipes quite powerful but the pipes in general are known to be a bit buggy from time to time."
 				""
@@ -1015,10 +990,6 @@
 		{
 			description: [
 				"Most multiblocks can share the walls, floors, and ceiling."
-				""
-				"{image:kubejs:block/share_walls_1 width:150 height:100 align:1}"
-				""
-				"In this picture all 4 Coke Ovens are sharing blocks with each other. The ceiling of the bottom level is the floor of the top level and the middle walls are all shared. The center block in this picture is actually being shared by all 4 multiblocks."
 				""
 				"Hatches and busses can often be shared as well, allowing for much more compact designs and automation."
 			]

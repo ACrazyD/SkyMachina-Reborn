@@ -671,24 +671,6 @@
 		{
 			dependencies: ["24077F274DED7F5B"]
 			description: [
-				"You may be used to inserting an Programmed Circuit with a certain number into a machine for recipes, this system now uses a Ghost Circuit. Since the machines are all crafted with Circuits, why insert another?"
-				""
-				"On the left side of a machines GUI there is a Circuit Settings tab where you can select the Circuit number you wish without actually inserting a Programmed Circuit. "
-			]
-			id: "5AA84AD6921CCB8D"
-			shape: "gear"
-			subtitle: "No more Programmed Circuits!"
-			tasks: [{
-				id: "4F9A6706EE0ECEF5"
-				title: "Ghost Circuits"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["24077F274DED7F5B"]
-			description: [
 				"&n&l&6DON'T EVER BUILD A MULTIBLOCK ACROSS CHUNK BORDERS! PRESS F3+G TO SEE CHUNK BORDERS!&r&r&r"
 				""
 				"Multiblocks all share a common pattern, the main block, structural blocks, Input/Output Busses, Input/Output Hatches, Energy Hatches, Muffler Hatches, and Maintenance Hatches. Some may have other unique blocks. Some require certain tiers of Hatches and Busses, some do not matter what tiers you use."
@@ -846,44 +828,6 @@
 			}]
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["24077F274DED7F5B"]
-			description: [
-				"If you are new to GregTech there are some things you should know about the mod in general. There is more information in the \"New To GregTech\" quest chapter but here is a semi quick breakdown. For more information see the \"New to GregTech\" quest chapter."
-				""
-				"{@pagebreak}"
-				""
-				"Take your time - With an exception for the Steam age, don't rush through progression. If you do you are going to suffer from lack of infrastructure and automation. Once you can age you should start looking into automating as much as you can with AE2. Being able to request Circuits from your Terminal is going to be a game changer. As you progress into higher ages you should be looking to replace your autocrafting machines with higher tier machines to double the speed."
-				""
-				"{@pagebreak}"
-				""
-				"Amps - How many channels of energy a Wire or Cable can carry. A single block machine will either generate or use 1 amp of energy. The easiest way around this is the use a Battery Buffer. The 4x means to Battery Buffer can hold 4 Batteries. A Battery Buffer will send out the same amount of amps as the amount of filled Batteries it contains, meaning a filled 4x Battery Buffer will send out 4 amps, even if you only have 2 generators. You will need Cables to match the amperage or else the Cables will burn up."
-				""
-				"{@pagebreak}"
-				""
-				"Energy tiers - GregTech is devided into energy tiers. You start in the Steam age with no energy, however Steam will still be how you produce energy for now. As you progress through tiers something important to note is that you will start going through fuels 4 times faster as you are generating 4 times the energy. Machines will operate 2 times faster. Steam will hold up to the LV and MV age quite well but every couple tiers you increase you will want to look for a better fuel option. For instance when I reached the HV age the Steam consumption rate was just too much so I looked into Oil processing for Diesel to use in Combustion Generators."
-				""
-				"{@pagebreak}"
-				""
-				"1 generator per machine - This is not overkill, especially with unlimited resources, even more so if a recipe requires almost all of the EU/t that the generator makes. A lot of recipes will take 30 EU/t where an LV Steam Turbine only produces 32 EU/t. Just give the 1 machine a dedicated generator to make sure it will always run, especially for certain autocrafting setups that cannot afford to stop. Now obviously if you have 4 machines that all need 4EU/t then a Cable setup is ideal."
-				""
-				"{@pagebreak}"
-				""
-				"Energy loss per block - Wires and Cables have an energy loss per block. This is mostly an issue in the earlier ages as losing 1 eu per block is quite damaging with not much eu to spare. In later ages you will be able to span greater distances with Cables because the EU/t being generated is usually much more than the EU/t required by machines. There are also \"Superconductor Cables\", 1 for each energy tier, which do not lose any energy per block. They are quite expensive but very worth it in certain situations. You should always be trying to craft the Cables for you energy tier with the lowest loss per block that you can afford."
-				""
-				"Mobs - You don't need any mobs but some may help. GregTech pretty much ignores all mob drops in the first place, and Netherite for that matter. There are still ways to make crazy mob farms with Apotheosis and Mob Grinding Utilities, but you can play the pack on Peaceful Mode if you wanted. I even trivialized food too so there isn't much difference. With the only real mob drop being used being Ender Pearls, Ender Pearl Dust is craftable from ore resources."
-			]
-			id: "1A4D202C51A1BAC7"
-			shape: "gear"
-			subtitle: "A \"quick\" read..."
-			tasks: [{
-				id: "006FD7A09D7F16A8"
-				title: "New to GregTech?"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -3.0d
 		}
 		{
 			dependencies: [

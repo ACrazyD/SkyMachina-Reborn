@@ -1,3 +1,4 @@
+console.info('BPots: Registering Growables...')
 ServerEvents.recipes((event) => {
 
     //Rubber Stuff

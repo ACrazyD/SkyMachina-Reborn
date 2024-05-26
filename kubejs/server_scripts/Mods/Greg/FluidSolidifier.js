@@ -1,3 +1,4 @@
+console.info('Greg Fluid Solidifier: Registering recipes...')
 ServerEvents.recipes((event) => {
 	let ULV = 8
 	let LV = 30

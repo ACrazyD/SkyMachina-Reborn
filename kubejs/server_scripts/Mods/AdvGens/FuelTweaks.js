@@ -1,3 +1,4 @@
+console.info('AdvGens: Registering Fluids...')
 ServerEvents.recipes((event) => {
 	let fuelMachine = (input, energy) =>
 		event.custom({

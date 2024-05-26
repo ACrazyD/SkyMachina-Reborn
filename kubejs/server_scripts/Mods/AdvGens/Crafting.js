@@ -1,3 +1,4 @@
+console.info('AdvGens: Registering recipes...')
 ServerEvents.recipes((e) => {
 	// upgrade_kit
 	e.remove({ output: 'advgenerators:upgrade_kit' })

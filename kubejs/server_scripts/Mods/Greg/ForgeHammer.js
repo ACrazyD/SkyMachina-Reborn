@@ -1,3 +1,4 @@
+console.info('Greg Forge Hammer: Registering recipes...')
 ServerEvents.recipes((event) => {
 	let ULV = 8
 	let LV = 30

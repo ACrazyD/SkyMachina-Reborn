@@ -1,3 +1,4 @@
+console.info('Create Crafting: Registering recipes...')
 ServerEvents.recipes(e => {
 
     //Functions and Constants
@@ -15,7 +16,7 @@ ServerEvents.recipes(e => {
     var wirecutter = '#forge:tools/wirecutters'
 
     //Removing Create Casings and Machinisems
-    /* idRemover('create:item_application/andesite_casing_from_wood')
+    idRemover('create:item_application/andesite_casing_from_wood')
     idRemover('create:item_application/andesite_casing_from_log')
     idRemover('create:item_application/brass_casing_from_log')
     idRemover('create:item_application/brass_casing_from_wood')
@@ -40,7 +41,7 @@ ServerEvents.recipes(e => {
     idRemover('create_dd:item_application/refined_radiance_casing')
     idRemover('create_dd:acompat/create/createaddition/item_application/overcharged_casing')
     idRemover('create_dd:item_application/blaze_gold_casing')
-    idRemover('create_dd:item_application/stargaze_singularity_casing') */
+    idRemover('create_dd:item_application/stargaze_singularity_casing')
 
     //Removing ReMade Items
     outRemover('create:crushing_wheel')
@@ -82,10 +83,31 @@ ServerEvents.recipes(e => {
 
     e.remove({ output: 'hyperbox:hyperbox' })
 
+    //Casings
+    function casing(plate, frame, output){
+        e.shaped(output,[
+            'HpF',
+            'pap',
+            'WpD'
+        ],{
+            H: hammer,
+            p: plate,
+            F: file,
+            a: frame,
+            W: wrench,
+            D: screwdriver
+        })
+    }
+
+    casing('gtceu:wood_plate', 'kubejs:andesite_alloy_frame', 'create:andesite_casing')
+    casing('gtceu:treated_wood_plate', 'gtceu:brass_frame', 'create:brass_casing')
+
+
+
     e.shaped('create:shaft',[
         'sHs'
     ],{
-        s: 'gtceu:long_andesite_alloy_rod',
+        s: 'gtceu:andesite_alloy_long_rod',
         H: hammer
     })
 
@@ -115,7 +137,7 @@ ServerEvents.recipes(e => {
         s: 'create:shaft',
         H: hammer,
         c: 'create:cogwheel',
-        a: 'gtceu:andesite_alloy_frame',
+        a: 'kubejs:andesite_alloy_frame',
         D: screwdriver
     })
 
@@ -127,7 +149,7 @@ ServerEvents.recipes(e => {
         s: 'create:shaft',
         H: hammer,
         c: 'create:cogwheel',
-        a: 'gtceu:andesite_alloy_frame',
+        a: 'kubejs:andesite_alloy_frame',
         D: screwdriver
     })
 
@@ -138,7 +160,7 @@ ServerEvents.recipes(e => {
     ],{
         s: 'create:shaft',
         c: 'minecraft:chain',
-        a: 'gtceu:andesite_alloy_frame'
+        a: 'kubejs:andesite_alloy_frame'
     })
 
     e.shaped('create:clutch',[
@@ -148,7 +170,7 @@ ServerEvents.recipes(e => {
     ],{
         s: 'create:shaft',
         l: 'minecraft:lever',
-        a: 'gtceu:andesite_alloy_frame',
+        a: 'kubejs:andesite_alloy_frame',
         r: 'vintageimprovements:redstone_module',
         H: hammer,
         D: screwdriver
@@ -161,7 +183,7 @@ ServerEvents.recipes(e => {
     ],{
         s: 'create:shaft',
         c: 'create:cogwheel',
-        a: 'gtceu:andesite_alloy_frame',
+        a: 'kubejs:andesite_alloy_frame',
         r: 'vintageimprovements:redstone_module',
         y: 'minecraft:redstone_repeater',
         H: hammer,
@@ -186,7 +208,7 @@ ServerEvents.recipes(e => {
         'sWs',
         'rrr'
     ],{
-        s: 'gtceu:andesite_alloy_rod',
+        s: 'kubejs:andesite_alloy_rod',
         r: 'create_dd:rubber',
         W: wrench
     })
@@ -199,7 +221,7 @@ ServerEvents.recipes(e => {
         p: 'gtceu:wood_plate',
         l: 'create:large_cogwheel',
         D: screwdriver,
-        a: 'gtceu:andesite_alloy_frame',
+        a: 'kubejs:andesite_alloy_frame',
         H: hammer
     })
 
@@ -221,7 +243,7 @@ ServerEvents.recipes(e => {
         ' c '
     ],{
         p: 'gtceu:wood_plate',
-        a: 'gtceu:andesite_alloy_frame',
+        a: 'kubejs:andesite_alloy_frame',
         c: 'create:cogwheel'
     })
 
@@ -240,7 +262,7 @@ ServerEvents.recipes(e => {
     ],{
         c: 'create:cogwheel',
         D: screwdriver,
-        a: 'gtceu:andesite_alloy_frame',
+        a: 'kubejs:andesite_alloy_frame',
         p: 'gtceu:iron_rotor',
         H: hammer
     })
@@ -264,7 +286,7 @@ ServerEvents.recipes(e => {
     ],{
         h: 'minecraft:stonecutter',
         s: '#forge:stone',
-        a: 'gtceu:andesite_alloy_frame',
+        a: 'kubejs:andesite_alloy_frame',
         c: 'create:cogwheel',
         l: 'create:large_cogwheel',
         W: wrench,
@@ -290,7 +312,7 @@ ServerEvents.recipes(e => {
     ],{
         s: 'create:shaft',
         c: 'create:cogwheel',
-        a: 'gtceu:andesite_alloy_frame',
+        a: 'kubejs:andesite_alloy_frame',
         W: wrench,
         w: 'create:whisk',
         H: hammer
@@ -314,7 +336,7 @@ ServerEvents.recipes(e => {
         s: 'create:shaft',
         W: wrench,
         c: 'create:cogwheel',
-        a: 'gtceu:andesite_alloy_frame',
+        a: 'kubejs:andesite_alloy_frame',
         i: 'minecraft:piston',
         w: 'gtceu:iron_spring'
     })
@@ -334,7 +356,7 @@ ServerEvents.recipes(e => {
         'dHd',
         'p p'
     ],{
-        p: 'gtceu:andesite_alloy_plate',
+        p: 'kubejs:andesite_alloy_plate',
         d: 'gtceu:iron_plate',
         H: hammer
     })
@@ -357,8 +379,8 @@ ServerEvents.recipes(e => {
         'pap'
     ],{
         H: hammer,
-        p: 'gtceu:andesite_alloy_plate',
-        a: 'gtceu:andesite_alloy_frame'
+        p: 'kubejs:andesite_alloy_plate',
+        a: 'kubejs:andesite_alloy_frame'
     })
 
     e.shaped('create:fluid_pipe',[
@@ -400,7 +422,7 @@ ServerEvents.recipes(e => {
     ],{
         c: 'create:copper_sheet',
         W: wrench,
-        a: 'gtceu:andesite_alloy_frame',
+        a: 'kubejs:andesite_alloy_frame',
         H: hammer
     })
 
