@@ -16,7 +16,7 @@ ServerEvents.recipes(e => {
     var wirecutter = '#forge:tools/wirecutters'
 
     //Removing Create Casings and Machinisems
-    idRemover('create:item_application/andesite_casing_from_wood')
+    /* idRemover('create:item_application/andesite_casing_from_wood')
     idRemover('create:item_application/andesite_casing_from_log')
     idRemover('create:item_application/brass_casing_from_log')
     idRemover('create:item_application/brass_casing_from_wood')
@@ -41,7 +41,7 @@ ServerEvents.recipes(e => {
     idRemover('create_dd:item_application/refined_radiance_casing')
     idRemover('create_dd:acompat/create/createaddition/item_application/overcharged_casing')
     idRemover('create_dd:item_application/blaze_gold_casing')
-    idRemover('create_dd:item_application/stargaze_singularity_casing')
+    idRemover('create_dd:item_application/stargaze_singularity_casing') */
 
     //Removing ReMade Items
     outRemover('create:crushing_wheel')

@@ -1,7 +1,7 @@
 console.info('Remover: Registering Removed Items...')
 ServerEvents.recipes((e) => {
 
-	//Whyyy do i need this???
+	//Whyyy do i need this??? - IT DOESNT EVEN WORK!
 	e.remove({ id: 'vintageimprovements/kjs/b2pweegni7ej'})
 
 	//BadCokeNoCocaine
