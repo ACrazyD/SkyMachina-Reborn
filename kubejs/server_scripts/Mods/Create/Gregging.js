@@ -348,7 +348,7 @@ ServerEvents.recipes(e => {
         'pHp',
         'p p'
     ],{
-        p: 'gtceu:aluminum_plate',
+        p: 'gtceu:aluminium_plate',
         H: hammer
     })
 

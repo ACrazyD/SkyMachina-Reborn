@@ -85,6 +85,12 @@ ServerEvents.recipes(e => {
     outRemover('create:hose_pulley')
     outRemover('create:item_drain')
     outRemover('create:spout')
+    idRemover('tfmg:crafting/pipes/brass_pipe_horizontal')
+    idRemover('tfmg:crafting/pipes/brass_pipe_vertical')
+    idRemover('tfmg:crafting/pipes/steel_pipe_horizontal')
+    idRemover('tfmg:crafting/pipes/steel_pipe_vertical')
+    idRemover('tfmg:crafting/pipes/aluminium_pipe_horizontal')
+    idRemover('tfmg:crafting/pipes/aluminium_pipe_vertical')
 
     //Create Stuffs
 	e.remove({ id: 'createaddition:mechanical_crafting/electric_motor' })
