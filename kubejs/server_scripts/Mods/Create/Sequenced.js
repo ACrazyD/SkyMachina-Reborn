@@ -15,7 +15,6 @@ ServerEvents.recipes(e => {
 		'iron_nugget',
 		'cobblestone'
 	], 'gtceu:brass_plate', [
-		e.recipes.createPressing(pm,pm),
 		e.recipes.createDeploying(pm, [pm, 'create:large_cogwheel']),
         e.recipes.createDeploying(pm, [pm, 'gtceu:vacuum_tube']),
         e.recipes.createDeploying(pm, [pm, 'gtceu:bronze_gear']),

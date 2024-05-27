@@ -2,6 +2,7 @@
   "favorites": [],
   "lookup_history": [
     "item:create:precision_mechanism",
+    "item:create:crushing_wheel",
     "item:gtceu:glass_tube",
     "item:gtceu:vacuum_tube",
     "item:gtceu:bronze_gear",
@@ -84,7 +85,6 @@
     "item:create:sequenced_gearshift",
     "item:create:flywheel",
     "item:create:white_sail",
-    "item:create:crushing_wheel",
     "item:create:windmill_bearing",
     "item:create:gantry_carriage",
     "item:create:mechanical_piston",
