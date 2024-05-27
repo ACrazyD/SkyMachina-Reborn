@@ -1,91 +1,12 @@
 console.info('Create Crafting: Registering recipes...')
 ServerEvents.recipes(e => {
 
-    //Functions and Constants
-    let idRemover = (output) =>
-		e.remove({ id: output})
-
-    let outRemover = (outputs) =>
-		e.remove({ output: outputs})
-
     var hammer = '#forge:tools/hammers'
     var saw = '#forge:tools/saws'
     var screwdriver = '#forge:tools/screwdrivers'
     var wrench = '#forge:tools/wrenches'
     var file = '#forge:tools/files'
     var wirecutter = '#forge:tools/wirecutters'
-
-    //Removing Create Casings and Machinisems
-    idRemover('create:item_application/andesite_casing_from_wood')
-    idRemover('create:item_application/andesite_casing_from_log')
-    idRemover('create:item_application/brass_casing_from_log')
-    idRemover('create:item_application/brass_casing_from_wood')
-    idRemover('create:item_application/copper_casing_from_log')
-    idRemover('create:item_application/copper_casing_from_wood')
-    idRemover('create:item_application/railway_casing')
-    idRemover('tfmg:item_application/steel_casing')
-    idRemover('tfmg:item_application/heavy_macinery_casing')
-    idRemover('create_dd:item_application/mithril_casing')
-    idRemover('create_dd:bronze_casing_from_wood')
-    idRemover('create_dd:bronze_casing_from_log')
-    idRemover('create_dd:tin_casing_from_wood')
-    idRemover('create_dd:tin_casing_from_log')
-    idRemover('create_dd:item_application/netherite_casing')
-    idRemover('create_dd:brick_casing_from_wood')
-    idRemover('create_dd:brick_casing_from_log')
-    idRemover('create_dd:item_application/nether_brick_casing')
-    idRemover('create_dd:crafting/moddy_andesite_casing')
-    idRemover('create_dd:item_application/hydraulic_casing')
-    idRemover('create_dd:item_application/idustrial_casing')
-    idRemover('create_dd:item_application/overburden_casing')
-    idRemover('create_dd:item_application/refined_radiance_casing')
-    idRemover('create_dd:acompat/create/createaddition/item_application/overcharged_casing')
-    idRemover('create_dd:item_application/blaze_gold_casing')
-    idRemover('create_dd:item_application/stargaze_singularity_casing')
-    idRemover('create_dd:item_application/bronze_casing_from_wood')
-    idRemover('create_dd:item_application/bronze_casing_from_log')
-
-
-
-    //Removing ReMade Items
-    outRemover('create:crushing_wheel')
-    outRemover('create:shaft')
-    outRemover('create:cogwheel')
-    outRemover('create:large_cogwheel')
-    outRemover('create:vertical_gearbox')
-    outRemover('create:gearbox')
-    outRemover('create:encased_chain_drive')
-    outRemover('create:clutch')
-    outRemover('create:gearshift')
-    outRemover('create:adjestable_chain_drive')
-    outRemover('create:belt_connector')
-    outRemover('create:water_wheel')
-    outRemover('create:large_water_wheel')
-    outRemover('create:turntable')
-    outRemover('create:nozzle')
-    outRemover('create:encased_fan')
-    outRemover('create:hand_crank')
-    outRemover('create:millstone')
-    outRemover('create:mechanical_press')
-    outRemover('create:mechanical_mixer')
-    outRemover('create:basin')
-    outRemover('create:weighted_ejector')
-    outRemover('create:empty_blaze_burner')
-    outRemover('create:chute')
-    outRemover('create:smart_chute')
-    outRemover('create:depot')
-    idRemover('create:crafting/kenetics/depot')
-    outRemover('create:fluid_pipe')
-    outRemover('create:mechanical_pump')
-    outRemover('create:smart_fluid_pipe')
-    outRemover('create:fluid_tank')
-    outRemover('create:copper_valve_handle')
-    outRemover('create:fluid_valve')
-    outRemover('create:hose_pulley')
-    outRemover('create:item_drain')
-    outRemover('create:spout')
-
-    e.remove({ output: 'hyperbox:hyperbox' })
 
     //Casings
     function casing(plate, frame, output){
@@ -392,12 +313,39 @@ ServerEvents.recipes(e => {
         a: 'kubejs:andesite_alloy_frame'
     })
 
-    e.shaped('create:fluid_pipe',[
+    e.shaped('4x create:fluid_pipe',[
         'p p',
         'pHp',
         'p p'
     ],{
-        p: 'create:copper_sheet',
+        p: 'gtceu:copper_plate',
+        H: hammer
+    })
+
+    e.shaped('4x tfmg:brass_pipe',[
+        'p p',
+        'pHp',
+        'p p'
+    ],{
+        p: 'gtceu:brass_plate',
+        H: hammer
+    })
+
+    e.shaped('4x tfmg:steel_pipe',[
+        'p p',
+        'pHp',
+        'p p'
+    ],{
+        p: 'gtceu:steel_plate',
+        H: hammer
+    })
+
+    e.shaped('4x tfmg:aluminum_pipe',[
+        'p p',
+        'pHp',
+        'p p'
+    ],{
+        p: 'gtceu:aluminum_plate',
         H: hammer
     })
 
@@ -417,7 +365,7 @@ ServerEvents.recipes(e => {
         'DcW',
         ' t '
     ],{
-        b: 'create:brass_sheet',
+        b: 'gtceu:brass_plate',
         D: screwdriver,
         c: 'create:fluid_pipe',
         W: wrench,

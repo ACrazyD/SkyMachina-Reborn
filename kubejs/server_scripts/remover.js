@@ -46,10 +46,6 @@ ServerEvents.recipes((e) => {
 	e.remove({ id: 'create_dd:crafting/rubber_planks' })
 	e.remove({ id: 'integrateddynamics:crafting/menril_planks' })
 
-	//Create Stuffs
-	e.remove({ id: 'createaddition:mechanical_crafting/electric_motor' })
-	e.remove({ id: 'createaddition:mechanical_crafting/alternator' })
-
 	//CB Stuffs
 	e.remove({ id: 'chiselandbits:chisel_stone' })
 	e.remove({ id: 'chiselandbits:chisel_iron' })
@@ -171,17 +167,5 @@ ServerEvents.recipes((e) => {
 	e.remove({ output: 'wirelesschargers:advanced_wireless_block_charger' })
 	e.remove({ output: 'wirelesschargers:basic_wireless_player_charger' })
 	e.remove({ output: 'wirelesschargers:advanced_wireless_player_charger' })
-
-	//-= Whole Mods =-
-	//Create
-	/* e.remove({ mod: 'create_new_age'})
-	e.remove({ mod: 'design_decor'})
-	e.remove({ mod: 'vintageinprovements'})
-	e.remove({ mod: 'railways'})
-	e.remove({ mod: 'create'})
-	e.remove({ mod: 'balancedflight'})
-	e.remove({ mod: 'tfmg'})
-	e.remove({ mod: 'create_dd'})
-	e.remove({ mod: 'createaddition'}) */
 
 }) //End Of File

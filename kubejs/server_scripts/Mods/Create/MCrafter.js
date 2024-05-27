@@ -10,7 +10,7 @@ ServerEvents.recipes(e => {
     ],{
         s: 'gtceu:stone_plate',
         w: 'gtceu:wood_plate',
-        a: 'gtceu:andesite_alloy_frame',
+        a: 'kubejs:andesite_alloy_frame',
         c: 'create:large_cogwheel'
     })
 
