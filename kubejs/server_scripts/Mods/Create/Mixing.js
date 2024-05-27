@@ -8,5 +8,5 @@ ServerEvents.recipes((e) => {
 			'gtceu:tin_ingot',
 			'create:zinc_nugget',
 		])
-		.superheated()
+		.heated()
 }) //End Of File
