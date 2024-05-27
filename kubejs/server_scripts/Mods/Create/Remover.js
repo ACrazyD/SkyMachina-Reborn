@@ -37,14 +37,14 @@ ServerEvents.recipes(e => {
     idRemover('create_dd:item_application/bronze_casing_from_wood')
     idRemover('create_dd:item_application/bronze_casing_from_log')
     idRemover('create_dd:item_application/shadow_steel_casing')
-    idRemover('create_dd:acompact/createaddition/item_application/overcharged_casing')
+    idRemover('create_dd:acompat/createaddition/item_application/overcharged_casing')
     idRemover('create_dd:item_application/steel_casing')
     idRemover('create_dd:item_application/industrial_casing')
     idRemover('create_dd:item_application/brick_casing_from_wood')
     idRemover('create_dd:item_application/brick_casing_from_log')
     idRemover('create_dd:item_application/tin_casing_from_wood')
     idRemover('create_dd:item_application/tin_casing_from_log')
-    
+
 
 
 
