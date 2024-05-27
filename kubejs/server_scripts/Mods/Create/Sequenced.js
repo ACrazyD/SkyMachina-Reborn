@@ -3,6 +3,7 @@ ServerEvents.recipes(e => {
 
     let pm = 'create:incomplete_precision_mechanism'
 
+    //Create Percision Mechanism Rework :)
     e.recipes.create.sequenced_assembly([
 		Item.of('create:precision_mechanism').withChance(130.0),
 		Item.of('gtceu:brass_plate').withChance(8.0),
