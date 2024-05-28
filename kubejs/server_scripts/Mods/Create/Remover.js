@@ -94,6 +94,7 @@ ServerEvents.recipes(e => {
     outRemover('create:propeller')
     outRemover('create:brass_hand')
     outRemover('create:whisk')
+    outRemover('create:electron_tube')
 
     //Create Stuffs
 	e.remove({ id: 'createaddition:mechanical_crafting/electric_motor' })

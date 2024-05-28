@@ -1,6 +1,8 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:create:electron_tube",
+    "item:gtceu:fine_copper_wire",
     "item:create:brass_hand",
     "item:create:whisk",
     "item:kubejs:andesite_alloy_long_rod",
@@ -81,7 +83,6 @@
     "item:minecraft:black_stained_glass_pane",
     "item:create:netherite_backtank{Air:900}",
     "item:create:copper_backtank{Air:900}",
-    "item:create:electron_tube",
     "item:create:mechanical_saw",
     "item:create:mechanical_drill",
     "item:create:deployer",

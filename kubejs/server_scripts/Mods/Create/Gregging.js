@@ -463,7 +463,17 @@ ServerEvents.recipes(e => {
         D: screwdriver
     })
 
-
-
+    e.shaped('create:electron_tube',[
+        ' v ',
+        'ptp',
+        'WwD'
+    ],{
+        v: 'gtceu:glass_tube',
+        p: 'gtceu:iron_plate',
+        t: 'gtceu:vacuum_tube',
+        W: wrench,
+        w: 'gtceu:fine_copper_wire',
+        D: screwdriver
+    })
 
 }) //End Of File
