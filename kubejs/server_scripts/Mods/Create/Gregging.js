@@ -440,6 +440,30 @@ ServerEvents.recipes(e => {
         D: screwdriver
     })
 
+    e.shaped('create:brass_hand',[
+        ' r ',
+        'prp',
+        'HpW'
+    ],{
+        r: 'kubejs:andesite_alloy_long_rod',
+        p: 'gtceu:brass_plate',
+        H: hammer,
+        W: wrench
+    })
+
+    e.shaped('create:whisk',[
+        ' r ',
+        'ipi',
+        'HiD'
+    ],{
+        r: 'kubejs:andesite_alloy_rod',
+        p: 'kubejs:andesite_alloy_plate',
+        i: 'gtceu:iron_rod',
+        H: hammer,
+        D: screwdriver
+    })
+
+
 
 
 }) //End Of File

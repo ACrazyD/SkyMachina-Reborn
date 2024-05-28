@@ -91,6 +91,9 @@ ServerEvents.recipes(e => {
     idRemover('tfmg:crafting/pipes/steel_pipe_vertical')
     idRemover('tfmg:crafting/pipes/aluminium_pipe_horizontal')
     idRemover('tfmg:crafting/pipes/aluminium_pipe_vertical')
+    outRemover('create:propeller')
+    outRemover('create:brass_hand')
+    outRemover('create:whisk')
 
     //Create Stuffs
 	e.remove({ id: 'createaddition:mechanical_crafting/electric_motor' })

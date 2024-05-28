@@ -35,4 +35,7 @@ ServerEvents.recipes((e) => {
 		'gtceu:beryllium_dust',
 		'4x gtceu:potassium_dust',
 	])
+
+	e.shapeless('create:propeller', 'gtceu:iron_rotor')
+	e.shapeless('gtceu:iron_rotor', 'create:propeller')
 }) //End Of File
