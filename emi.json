@@ -1,6 +1,15 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:mm:void_well",
+    {
+      "type": "fluid",
+      "id": "tfmg:crude_oil_fluid",
+      "amount": 0
+    },
+    "item:create_dd:hydraulic_casing",
+    "item:create_dd:steel_casing",
+    "item:create_dd:industrial_casing",
     "item:create_jetpack:jetpack{Air:900.0f}",
     "item:create:windmill_bearing",
     "item:create:portable_fluid_interface",
@@ -63,9 +72,6 @@
     "item:create:mechanical_harvester",
     "item:create:contraption_controls",
     "item:create:sticker",
-    "item:create_dd:steel_casing",
-    "item:create_dd:industrial_casing",
-    "item:create_dd:hydraulic_casing",
     "item:create_dd:brick_casing",
     "item:create_dd:overburden_casing",
     "item:create_dd:overcharged_casing",
