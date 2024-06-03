@@ -3,65 +3,48 @@
     "controllerIds": "mm:void_well",
     "layout": [
         [
-            "gfffg",
-            "ff ff",
-            "f e f",
-            "ff ff",
-            "gfffg"
+            "       ",
+            "       ",
+            "c      ",
+            "       ",
+            "       "
         ],
         [
-            "ff  f",
-            " cccf",
-            " ccc ",
-            "fccc ",
-            "f  ff"
+            "hhhhhhh",
+            "h     f",
+            "abbbbbC",
+            "h     d",
+            "hhhhhhh"
         ],
         [
-            "f  ff",
-            "fcccd",
-            " cccC",
-            " ccch",
-            "ff  f"
-        ],
-        [
-            "gfffg",
-            "f  fg",
-            "f b g",
-            "ff fg",
-            "gfffg"
-        ],
-        [
-            "f   f",
-            "     ",
-            "  f  ",
-            "     ",
-            "f   f"
+            "h     h",
+            "       ",
+            "       ",
+            "       ",
+            "h     h"
         ]
     ],
     "key": {
         "a": {
-            "block": "create:fluid_tank"
-        },
-        "b": {
             "block": "create:hose_pulley"
         },
-        "d": {
+        "b": {
+            "block": "design_decor:industrial_iron_boiler_large"
+        },
+        "c": {
             "port": "mm:basic_rot_port",
             "input": true
         },
-        "e": {
+        "d": {
             "port": "mm:basic_item_port",
             "input": true
         },
         "f": {
-            "block": "create:encased_fluid_pipe"
-        },
-        "g": {
-            "block": "create:fluid_pipe"
-        },
-        "h": {
             "port": "mm:basic_fluid_port",
             "input": false
+        },
+        "h": {
+            "block": "create:copper_casing"
         }
     }
 }

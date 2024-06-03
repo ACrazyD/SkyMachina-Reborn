@@ -1,14 +1,6 @@
 console.info('Shapeless Recipes: Registering recipes...')
 ServerEvents.recipes((e) => {
 	//Rewooding the BadWoods
-	e.shapeless(
-		'2x wizards_reborn:arcane_wood_planks',
-		'#wizards_reborn:arcane_wood_logs'
-	)
-	e.shapeless(
-		'2x wizards_reborn:innocent_wood_planks',
-		'#wizards_reborn:innocent_wood_logs'
-	)
 	e.shapeless('2x create_dd:rose_planks', '#create_dd:rose_logs')
 	e.shapeless('2x create_dd:smoked_planks', '#create_dd:smoked_logs')
 	e.shapeless('2x create_dd:spirit_planks', '#create_dd:spirit_logs')
@@ -38,4 +30,7 @@ ServerEvents.recipes((e) => {
 
 	e.shapeless('create:propeller', 'gtceu:iron_rotor')
 	e.shapeless('gtceu:iron_rotor', 'create:propeller')
+
+	e.shapeless('tfmg:screw', 'gtceu:steel_screw')
+	e.shapeless('gtceu:steel_screw', 'tfmg:screw')
 }) //End Of File

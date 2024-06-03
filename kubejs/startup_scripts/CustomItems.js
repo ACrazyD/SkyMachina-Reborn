@@ -2,6 +2,8 @@ console.info('Custom Items: Registering Additions...')
 StartupEvents.registry('item', e => {
 	e.create('menril_diode')
 	e.create('crude_steel')
+	e.create('oil_catalyst')
+	e.create('lava_catalyst')
 
 
 

@@ -27,6 +27,7 @@ minecraft:ruined_portal_ocean
 minecraft:ruined_portal_swamp
 minecraft:shipwreck
 minecraft:shipwreck_beached
+embers:small_ruin
 minecraft:stronghold
 minecraft:swamp_hut
 apotheosis:tower_leaf

@@ -15,8 +15,6 @@ ServerEvents.recipes((e) => {
 
 	//ReGregging Da Woods
 	const gwood_mapping = {
-		'4x wizards_reborn:arcane_wood_planks': '#wizards_reborn:arcane_wood_logs',
-		'4x wizards_reborn:innocent_wood_planks': '#wizards_reborn:innocent_wood_logs',
 		'4x create_dd:rose_planks': '#create_dd:rose_logs',
 		'4x create_dd:smoked_planks': '#create_dd:smoked_logs',
 		'4x create_dd:spirit_planks': '#create_dd:spirit_logs',

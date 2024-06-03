@@ -3,8 +3,6 @@ biomesoplenty:acacia_bush_tree
 biomesoplenty:acacia_twiglet
 biomesoplenty:acacia_twiglet_small
 minecraft:amethyst_geode
-wizards_reborn:arcane_wood
-wizards_reborn:arcanum_ore
 minecraft:azalea_tree
 minecraft:bamboo_no_podzol
 minecraft:bamboo_some_podzol
@@ -103,7 +101,6 @@ biomesoplenty:extra_glow_lichen
 biomesoplenty:eyebulb
 biomesoplenty:fallen_fir_log
 biomesoplenty:fallen_log
-wizards_reborn:fancy_arcane_wood
 minecraft:fancy_oak
 minecraft:fancy_oak_bees
 minecraft:fancy_oak_bees_0002
@@ -170,10 +167,8 @@ biomesoplenty:hellbark_tree
 biomesoplenty:high_grass
 minecraft:huge_brown_mushroom
 biomesoplenty:huge_clover
-wizards_reborn:huge_elder_mor
 biomesoplenty:huge_glowshroom_cave
 biomesoplenty:huge_lily_pad
-wizards_reborn:huge_mor
 minecraft:huge_red_mushroom
 biomesoplenty:huge_toadstool
 minecraft:ice_patch
@@ -184,8 +179,6 @@ immersive_weathering:icicles
 biomesoplenty:inferno_lava_lake
 biomesoplenty:inferno_lava_spring
 biomesoplenty:inferno_splatter
-wizards_reborn:innocent_wood
-wizards_reborn:innocent_wood_bees
 dawnoftimebuilder:ivy
 immersive_weathering:ivy_patch
 biomesoplenty:jacaranda_tree
@@ -236,7 +229,6 @@ minecraft:mushroom_island_vegetation
 biomesoplenty:mycelium_splatter
 biomesoplenty:nether_bone_spine
 biomesoplenty:nether_bramble
-wizards_reborn:nether_salt_ore
 minecraft:nether_sprouts
 minecraft:nether_sprouts_bonemeal
 biomesoplenty:nether_vines
@@ -273,10 +265,12 @@ minecraft:ore_iron
 minecraft:ore_iron_small
 minecraft:ore_lapis
 minecraft:ore_lapis_buried
+embers:ore_lead
 minecraft:ore_magma
 minecraft:ore_nether_gold
 minecraft:ore_quartz
 minecraft:ore_redstone
+embers:ore_silver
 minecraft:ore_soul_sand
 create_new_age:ore_thorium
 minecraft:ore_tuff
@@ -297,7 +291,6 @@ minecraft:patch_dead_bush
 biomesoplenty:patch_dead_grass
 biomesoplenty:patch_desert_grass
 biomesoplenty:patch_dune_grass
-wizards_reborn:patch_elder_mor
 biomesoplenty:patch_fern
 minecraft:patch_fire
 minecraft:patch_grass
@@ -307,7 +300,6 @@ minecraft:patch_large_fern
 biomesoplenty:patch_lilac
 minecraft:patch_melon
 delightful:patch_mini_melons
-wizards_reborn:patch_mor
 biomesoplenty:patch_peony
 minecraft:patch_pumpkin
 minecraft:patch_red_mushroom
@@ -420,9 +412,7 @@ minecraft:super_birch_bees
 minecraft:super_birch_bees_0002
 minecraft:swamp_oak
 biomesoplenty:tall_dead_twiglet_tree
-wizards_reborn:tall_elder_mor
 minecraft:tall_mangrove
-wizards_reborn:tall_mor
 biomesoplenty:tall_spruce_tree
 biomesoplenty:tall_spruce_tree_bees
 biomesoplenty:tall_twiglet_tree
