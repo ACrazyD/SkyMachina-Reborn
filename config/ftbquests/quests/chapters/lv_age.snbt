@@ -192,7 +192,7 @@
 				{
 					count: 16L
 					id: "561ACA7071323BC0"
-					item: { Count: 16b, id: "gtceu:cupronickel_coil_block" }
+					item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
 					type: "item"
 				}
 				{
@@ -951,56 +951,6 @@
 			}]
 			x: 1.5d
 			y: 8.0d
-		}
-		{
-			dependencies: ["5C596A4E47505283"]
-			description: [
-				"Generates Water from nothing."
-				""
-				"Will auto output to the block above it."
-				""
-				"Production can be increased x10 by placing a Cupronickel Coil Block underneath."
-			]
-			id: "5525313A43685BD4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "62511D408B17D320"
-				table_id: 8922341895479940012L
-				type: "loot"
-			}]
-			subtitle: "Infinite Water!"
-			tasks: [{
-				id: "392EDCDC42E5C3BF"
-				item: "simplefluidgenerators:basic_water_generator"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["5C596A4E47505283"]
-			description: [
-				"Generates Lava from nothing."
-				""
-				"Will auto output to the block above it."
-				""
-				"Production can be increased x10 by placing a Cupronickel Coil Block underneath."
-			]
-			id: "018E537D13400A7F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "497BCEAC05152403"
-				table_id: 8922341895479940012L
-				type: "loot"
-			}]
-			subtitle: "Infinite Lava!"
-			tasks: [{
-				id: "494934BD0A92D108"
-				item: "simplefluidgenerators:basic_lava_generator"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 7.0d
 		}
 	]
 	subtitle: ["Steel!"]

@@ -23,7 +23,7 @@
 				consume_items: true
 				count: 50L
 				id: "2EDCE2DF9FBBB3B0"
-				item: { Count: 50b, id: "numismatics:cog" }
+				item: { Count: 50, id: "numismatics:cog" }
 				type: "item"
 			}]
 			title: "Single Kelp for 50C"
@@ -43,7 +43,7 @@
 				consume_items: true
 				count: 50L
 				id: "4332125BBEB43AF9"
-				item: { Count: 50b, id: "numismatics:cog" }
+				item: { Count: 50, id: "numismatics:cog" }
 				type: "item"
 			}]
 			title: "1 SugarCane for 50C"

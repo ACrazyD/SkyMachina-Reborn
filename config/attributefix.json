@@ -99,6 +99,17 @@
         "value": 1000
       }
     },
+    "protection_pixel:floatshieldattribute": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
+      }
+    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -141,6 +152,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "xycraft_machines:hover_flight": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:generic.attack_speed": {
@@ -284,6 +306,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "botania:pixie_spawn_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:generic.max_health": {

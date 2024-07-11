@@ -193,13 +193,13 @@
 				{
 					count: 6L
 					id: "7A13FE3AAB552CFB"
-					item: { Count: 6b, id: "gtceu:cleanroom_glass" }
+					item: { Count: 6, id: "gtceu:cleanroom_glass" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "77AA5173D601A988"
-					item: { Count: 8b, id: "gtceu:filter_casing" }
+					item: { Count: 8, id: "gtceu:filter_casing" }
 					type: "item"
 				}
 				{
@@ -242,7 +242,7 @@
 				{
 					count: 21L
 					id: "4E827688F8538FE5"
-					item: { Count: 21b, id: "gtceu:clean_machine_casing" }
+					item: { Count: 21, id: "gtceu:clean_machine_casing" }
 					type: "item"
 				}
 			]
@@ -604,7 +604,7 @@
 				{
 					count: 18L
 					id: "5EAD25EA377CF28E"
-					item: { Count: 18b, id: "gtceu:frostproof_machine_casing" }
+					item: { Count: 18, id: "gtceu:frostproof_machine_casing" }
 					type: "item"
 				}
 			]
@@ -725,13 +725,13 @@
 				{
 					count: 16L
 					id: "20F8ECA60169A24E"
-					item: { Count: 16b, id: "gtceu:cupronickel_coil_block" }
+					item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
 					type: "item"
 				}
 				{
 					count: 19L
 					id: "729F33F5F16BEF06"
-					item: { Count: 19b, id: "gtceu:clean_machine_casing" }
+					item: { Count: 19, id: "gtceu:clean_machine_casing" }
 					type: "item"
 				}
 			]
@@ -816,7 +816,7 @@
 			tasks: [{
 				count: 16L
 				id: "5E290F6DCE1EEC86"
-				item: { Count: 16b, id: "gtceu:nichrome_coil_block" }
+				item: { Count: 16, id: "gtceu:nichrome_coil_block" }
 				type: "item"
 			}]
 			title: "Nichrome Coils"

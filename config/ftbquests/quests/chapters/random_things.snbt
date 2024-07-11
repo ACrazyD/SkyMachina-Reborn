@@ -22,7 +22,7 @@
 			tasks: [{
 				id: "492F4BDA412DBE97"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplemagnets:basicmagnet"
 					tag: { }
 				}
@@ -42,7 +42,7 @@
 			tasks: [{
 				id: "6BC2FFC44A7E8174"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "charginggadgets:charging_station"
 					tag: { }
 				}
@@ -74,7 +74,7 @@
 				{
 					id: "226A3D42BC086775"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "buildinggadgets2:gadget_copy_paste"
 						tag: { }
 					}
@@ -92,7 +92,7 @@
 				"Must be charged in the Charging Station with FE energy."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "buildinggadgets2:gadget_cut_paste"
 				tag: {
 					pastereplace: 1b
@@ -104,7 +104,7 @@
 				{
 					id: "03D1031418159760"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "buildinggadgets2:gadget_cut_paste"
 						tag: {
 							pastereplace: 1b
@@ -217,7 +217,7 @@
 			tasks: [{
 				id: "451EE843CD8742F2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endertanks:ender_tank"
 					tag: {
 						code: "000"
@@ -236,7 +236,7 @@
 			tasks: [{
 				id: "3654B0EB92C6B501"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "enderchests:ender_chest"
 					tag: {
 						code: "000"
@@ -496,7 +496,7 @@
 			tasks: [{
 				id: "2486572CE8E1A5F7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "shrink:shrinking_device"
 					tag: { }
 				}
@@ -512,7 +512,7 @@
 				"This will allow you to interact with the Entangled Block as if it were the linked block."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "entangled:block"
 				tag: { }
 			}
@@ -522,7 +522,7 @@
 				{
 					id: "3BF93E4500C98773"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "entangled:block"
 						tag: { }
 					}
@@ -531,7 +531,7 @@
 				{
 					id: "404B111ECEA36C81"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "entangled:item"
 						tag: { }
 					}

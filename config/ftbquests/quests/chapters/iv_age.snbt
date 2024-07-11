@@ -247,7 +247,7 @@
 				{
 					count: 10L
 					id: "00DD8265CADB1256"
-					item: { Count: 10b, id: "gtceu:inert_machine_casing" }
+					item: { Count: 10, id: "gtceu:inert_machine_casing" }
 					type: "item"
 				}
 				{
@@ -491,25 +491,25 @@
 				{
 					count: 5L
 					id: "073BDC007B86922C"
-					item: { Count: 5b, id: "gtceu:assembly_line_unit" }
+					item: { Count: 5, id: "gtceu:assembly_line_unit" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "270EEC7BEE3CB685"
-					item: { Count: 10b, id: "gtceu:laminated_glass" }
+					item: { Count: 10, id: "gtceu:laminated_glass" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "598DBF37BB421AEC"
-					item: { Count: 5b, id: "gtceu:assembly_line_casing" }
+					item: { Count: 5, id: "gtceu:assembly_line_casing" }
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "5C19B0A0BF443D75"
-					item: { Count: 9b, id: "gtceu:assembly_line_grating" }
+					item: { Count: 9, id: "gtceu:assembly_line_grating" }
 					type: "item"
 				}
 				{
@@ -619,7 +619,7 @@
 			tasks: [{
 				count: 16L
 				id: "239EA3204147A201"
-				item: { Count: 16b, id: "gtceu:hssg_coil_block" }
+				item: { Count: 16, id: "gtceu:hssg_coil_block" }
 				type: "item"
 			}]
 			title: "HSS-G Coils"

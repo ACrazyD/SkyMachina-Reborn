@@ -57,7 +57,7 @@
 				"&6Any item with durability can be made Unbreakable by using it on a Block of Netherite, this will consume the Block of Netherite.&r"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:wrought_iron_hammer"
 				tag: {
 					Damage: 0
@@ -217,13 +217,13 @@
 				{
 					count: 22L
 					id: "6FF437289192AF5E"
-					item: { Count: 22b, id: "gtceu:coke_oven_bricks" }
+					item: { Count: 22, id: "gtceu:coke_oven_bricks" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "3D9B364F17A24266"
-					item: { Count: 3b, id: "gtceu:coke_oven_hatch" }
+					item: { Count: 3, id: "gtceu:coke_oven_hatch" }
 					optional_task: true
 					type: "item"
 				}
@@ -263,13 +263,13 @@
 				{
 					count: 10L
 					id: "461481F8F07320F2"
-					item: { Count: 10b, id: "gtceu:pump_deck" }
+					item: { Count: 10, id: "gtceu:pump_deck" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "1231C7412BC83614"
-					item: { Count: 10b, id: "gtceu:treated_wood_frame" }
+					item: { Count: 10, id: "gtceu:treated_wood_frame" }
 					type: "item"
 				}
 			]
@@ -453,7 +453,7 @@
 				{
 					count: 32L
 					id: "515C57481C860B2B"
-					item: { Count: 32b, id: "gtceu:firebricks" }
+					item: { Count: 32, id: "gtceu:firebricks" }
 					type: "item"
 				}
 			]
@@ -644,39 +644,6 @@
 			}]
 			x: 1.0d
 			y: 10.5d
-		}
-		{
-			dependencies: ["67A71A946653F866"]
-			description: [
-				"Will generate whatever ore is above it at a rate of 1 per second and place it in its inventory."
-				""
-				"Advised to set one of these up for each ore you require, simulating a never ending automated ore vein of that type."
-				""
-				"You can use a combination of blocks from the Simple Resource Generators mod to get an ore where you need it to be."
-				""
-				"Keep in mind Nether and End Ores smelt into 2 ingots."
-				""
-				"If you want the raw ores instead of ores, look into a Block Breaker when you can."
-				""
-				"Before trying to progress too much you should try to get at least a few of these crafted."
-				""
-				"{image:kubejs:block/basic_ore_gen_setup width:200 height:100 align:1}"
-			]
-			id: "75D2A06BE6E6FFD9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1B5A6A240FC3A0EA"
-				table_id: 5211152349443614610L
-				type: "loot"
-			}]
-			subtitle: "No more mining!"
-			tasks: [{
-				id: "56EDAC7CE23A49E0"
-				item: "simple_resource_generators:simple_ore_generator"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 8.5d
 		}
 		{
 			dependencies: ["39DF76F5BACDCD50"]
@@ -876,13 +843,13 @@
 				{
 					count: 8L
 					id: "61B310C0AC0555AB"
-					item: { Count: 8b, id: "gtceu:bronze_firebox_casing" }
+					item: { Count: 8, id: "gtceu:bronze_firebox_casing" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "66EA371DDE914008"
-					item: { Count: 8b, id: "gtceu:steam_machine_casing" }
+					item: { Count: 8, id: "gtceu:steam_machine_casing" }
 					type: "item"
 				}
 				{
@@ -1046,7 +1013,7 @@
 				{
 					count: 3L
 					id: "0B8A33EB6F2076DF"
-					item: { Count: 3b, id: "gtceu:copper_dust" }
+					item: { Count: 3, id: "gtceu:copper_dust" }
 					type: "item"
 				}
 				{

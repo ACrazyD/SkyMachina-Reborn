@@ -265,7 +265,7 @@
 				"Note that GregTech also has Facades, they are used for GregTech Cables only."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ae2:facade"
 				tag: {
 					item: "minecraft:stone"
@@ -277,7 +277,7 @@
 				{
 					id: "797D1EFAE7A4F1B4"
 					item: {
-						Count: 2b
+						Count: 2
 						id: "ae2:facade"
 						tag: {
 							item: "minecraft:stone"
@@ -288,7 +288,7 @@
 				{
 					count: 4L
 					id: "0E059E95B9475951"
-					item: { Count: 4b, id: "ae2:cable_anchor" }
+					item: { Count: 4, id: "ae2:cable_anchor" }
 					type: "item"
 				}
 			]

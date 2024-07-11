@@ -1,6 +1,14 @@
 console.info('Shaped Recipes: Registering recipes...')
 ServerEvents.recipes((e) => {
 
+	e.remove({output: 'extendedcrafting:handheld_table'})
+	e.shaped('extendedcrafting:handheld_table',[
+		'pp',
+		'pp'
+	],{
+		p: '#minecraft:planks'
+	})
+
 	//Iron BLock
 	e.shaped('minecraft:iron_block', ['AAA', 'AhA', 'AAA'], {
 		A: 'gtceu:double_iron_plate',
@@ -15,10 +23,6 @@ ServerEvents.recipes((e) => {
 
 	//ReGregging Da Woods
 	const gwood_mapping = {
-		'4x create_dd:rose_planks': '#create_dd:rose_logs',
-		'4x create_dd:smoked_planks': '#create_dd:smoked_logs',
-		'4x create_dd:spirit_planks': '#create_dd:spirit_logs',
-		'4x create_dd:rubber_planks': '#create_dd:rubber_log',
 		'4x integrateddynamics:menril_planks': '#integrateddynamics:menril_logs',
 	}
 	Object.entries(gwood_mapping).forEach(([planks, logs]) => {

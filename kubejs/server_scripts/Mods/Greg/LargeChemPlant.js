@@ -244,4 +244,13 @@ ServerEvents.recipes((event) => {
 		.itemOutputs('1x advgenerators:advanced_pressure_valve')
 		.duration(200)
 		.EUt(IV)
+
+	event.recipes.gtceu
+		.large_chemical_reactor('flux_dust')
+		.itemInputs('32x minecraft:redstone')
+		.inputFluids('minecraft:lava 64000')
+		.itemOutputs('64x fluxnetworks:flux_dust')
+		.duration(2400)
+		.EUt(1024)
+		.circuit(1)
 }) //End Of File

@@ -9,4 +9,5 @@ ServerEvents.tags('item', (event) => {
 	event.add('forge:ores/sphalerite', 'create:zinc_ore')
 	event.add('srg:conversion_ores', 'create:zinc_ore')
 	event.add('srg:conversion_ores', 'create:raw_zinc')
+	event.remove('minecraft:planks', 'gtceu:treated_wood_planks');
 }) //End Of File

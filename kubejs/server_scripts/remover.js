@@ -1,6 +1,29 @@
 console.info('Remover: Registering Removed Items...')
 ServerEvents.recipes((e) => {
 
+	//ExDeorum
+	e.remove({ id: 'exdeorum:oak_compressed_sieve'})
+	e.remove({ id: 'exdeorum:spruce_compressed_sieve'})
+	e.remove({ id: 'exdeorum:birch_compressed_sieve'})
+	e.remove({ id: 'exdeorum:jungle_compressed_sieve'})
+	e.remove({ id: 'exdeorum:acacia_compressed_sieve'})
+	e.remove({ id: 'exdeorum:dark_oak_compressed_sieve'})
+	e.remove({ id: 'exdeorum:mangrove_compressed_sieve'})
+	e.remove({ id: 'exdeorum:cherry_compressed_sieve'})
+	e.remove({ id: 'exdeorum:bamboo_compressed_sieve'})
+	e.remove({ id: 'exdeorum:warped_compressed_sieve'})
+	e.remove({ id: 'exdeorum:crimson_compressed_sieve'})
+	e.remove({ id: 'exdeorum:fir_compressed_sieve'})
+	e.remove({ id: 'exdeorum:redwood_compressed_sieve'})
+	e.remove({ id: 'exdeorum:mahogany_compressed_sieve'})
+	e.remove({ id: 'exdeorum:jacaranda_compressed_sieve'})
+	e.remove({ id: 'exdeorum:palm_compressed_sieve'})
+	e.remove({ id: 'exdeorum:willow_compressed_sieve'})
+	e.remove({ id: 'exdeorum:dead_compressed_sieve'})
+	e.remove({ id: 'exdeorum:magic_compressed_sieve'})
+	e.remove({ id: 'exdeorum:umbran_compressed_sieve'})
+	e.remove({ id: 'exdeorum:hellbark_compressed_sieve'})
+
 	e.remove({ id: 'tfmg:stonecutting/screw'})
 
 	//Whyyy do i need this??? - IT DOESNT EVEN WORK!

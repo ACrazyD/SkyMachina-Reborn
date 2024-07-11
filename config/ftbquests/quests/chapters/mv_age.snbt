@@ -641,13 +641,13 @@
 				{
 					count: 16L
 					id: "4200E6A9870F97BF"
-					item: { Count: 16b, id: "gtceu:cupronickel_coil_block" }
+					item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "67D405DDBF37975E"
-					item: { Count: 10b, id: "gtceu:ulv_machine_casing" }
+					item: { Count: 10, id: "gtceu:ulv_machine_casing" }
 					type: "item"
 				}
 			]
@@ -786,7 +786,7 @@
 			tasks: [{
 				count: 16L
 				id: "7070CE4DAE693D91"
-				item: { Count: 16b, id: "gtceu:kanthal_coil_block" }
+				item: { Count: 16, id: "gtceu:kanthal_coil_block" }
 				type: "item"
 			}]
 			title: "Kanthal Coils"
@@ -885,13 +885,13 @@
 				{
 					count: 9L
 					id: "71294B7B989ED09C"
-					item: { Count: 9b, id: "gtceu:heatproof_machine_casing" }
+					item: { Count: 9, id: "gtceu:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "435EF8DE1E119817"
-					item: { Count: 8b, id: "gtceu:cupronickel_coil_block" }
+					item: { Count: 8, id: "gtceu:cupronickel_coil_block" }
 					type: "item"
 				}
 			]

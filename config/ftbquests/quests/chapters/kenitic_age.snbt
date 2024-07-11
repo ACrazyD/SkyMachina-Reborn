@@ -10,6 +10,12 @@
 	quests: [
 		{
 			id: "3E29139FFBCCBB5C"
+			rewards: [{
+				id: "3D0A9E0AFF12A83C"
+				item: "create:depot"
+				type: "item"
+			}]
+			subtitle: "Your gonna need this"
 			tasks: [{
 				id: "3B941A43C10FAA5E"
 				item: "create:andesite_alloy"
@@ -68,6 +74,7 @@
 		}
 		{
 			id: "3A1E711A058EC846"
+			subtitle: "Lincoln Logs?"
 			tasks: [{
 				id: "03B61A5E5E85DF9C"
 				item: "minecraft:oak_log"
@@ -77,45 +84,22 @@
 			y: 0.0d
 		}
 		{
-			id: "05FB3C48D15B6CE0"
-			tasks: [{
-				id: "0FE2D0952C7F3CD5"
-				item: {
-					Count: 1b
-					id: "ex_hammers:stone_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 11.5d
-			y: -3.0d
-		}
-		{
-			id: "52F2D621098CC36E"
-			tasks: [{
-				id: "681DA84025DBE5D5"
-				item: {
-					Count: 1b
-					id: "farmersdelight:flint_knife"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.0d
-		}
-		{
+			description: ["Shift and rightclick the ground to get pebbles, this is only for cobble, you will need a seismic agitator to get other stones without crafting"]
 			id: "3B8BB346262DC3E5"
-			tasks: [{
-				id: "6F764E308E609879"
-				item: "minecraft:cobblestone"
-				type: "item"
-			}]
-			x: 0.5d
+			subtitle: "The Same Old Fistpounding Ground"
+			tasks: [
+				{
+					id: "6F764E308E609879"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "21D7D118D289DF22"
+					item: "botania:pebble"
+					type: "item"
+				}
+			]
+			x: 2.5d
 			y: 1.0d
 		}
 		{
@@ -125,8 +109,8 @@
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			id: "5A6745819D1CA518"
@@ -135,8 +119,8 @@
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 8.5d
+			y: -2.0d
 		}
 		{
 			id: "6F36C45038D17441"
@@ -145,28 +129,8 @@
 				item: "ex_hammers:dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
-		}
-		{
-			id: "1DC4213F6895764A"
-			tasks: [{
-				id: "71E639458D840E82"
-				item: "minecraft:flint"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.0d
-		}
-		{
-			id: "45EB6773EECB3CB1"
-			tasks: [{
-				id: "6E517E217314EB47"
-				item: "ex_hammers:plant_fiber"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 3.0d
+			x: 8.5d
+			y: -3.0d
 		}
 		{
 			id: "6E4FC9E463AC9ACB"
@@ -175,51 +139,189 @@
 				item: "minecraft:string"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 3.0d
-		}
-		{
-			id: "0B8E344553758470"
-			tasks: [{
-				id: "0037AD227D171A80"
-				item: {
-					Count: 1b
-					id: "createsifter:string_mesh"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: 2.0d
 		}
 		{
 			id: "1C2D5F40B3ADEDDC"
 			tasks: [{
 				id: "6B6E9089D4F5B7C3"
-				item: {
-					Count: 1b
-					id: "createsifter:andesite_mesh"
-					tag: { }
-				}
+				item: "exdeorum:flint_mesh"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.0d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			id: "0C3AF6564E4C3EBF"
 			tasks: [{
 				id: "3AE694D0655ADE1D"
 				item: {
-					Count: 1b
-					id: "ex_hammers:stone_hammer"
+					Count: 1
+					id: "exdeorum:stone_hammer"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "24FE0CC150015DCE"
+			subtitle: "Got Rot... I mean Root?"
+			tasks: [{
+				count: 4L
+				id: "4B892A27CE44043D"
+				item: "botania:living_root"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "2253378364805CE8"
+			subtitle: "Its a seed, kinda, I think?"
+			tasks: [{
+				id: "3B65C8B2AD8883F7"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "3A1BB906197776CB"
+			tasks: [{
+				id: "72D89C785A6E5F85"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			id: "3680027E4ED19300"
+			subtitle: "There are no sheep here.... *Yet*"
+			tasks: [{
+				id: "7F4FFEFBAED39A0E"
+				item: {
+					Count: 1
+					id: "exdeorum:crook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "43C80C3B427EE0F5"
+			subtitle: "These need Chocolate"
+			tasks: [{
+				id: "1B927D83C6E4822B"
+				item: "exdeorum:silk_worm"
+				type: "item"
+			}]
 			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "53C96FFCB985E37F"
+			subtitle: "Its just fastererer"
+			tasks: [
+				{
+					id: "4CDE64D675FB20AF"
+					item: {
+						Count: 1
+						id: "exdeorum:compressed_stone_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E76B2439DDEA0F5"
+					item: "exdeorum:compressed_cobblestone"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: ["I admit, this is only needed because I created a softlock for crafting benches - woops, enjoy easy bench, you will need a real one soon..."]
+			id: "208867A807291D27"
+			subtitle: "The roundabout way"
+			tasks: [{
+				id: "51E057D0B5A9A5B5"
+				item: "extendedcrafting:handheld_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "0ED943530FC56631"
+			subtitle: "Kinda the Manual way...."
+			tasks: [{
+				id: "47BC8D61E743DED0"
+				item: {
+					Count: 1
+					id: "createsifter:string_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "33260279DDFD1792"
+			tasks: [{
+				id: "6A272CD759E9E490"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "34DC29C16BE41CE8"
+			tasks: [{
+				id: "054648D564FE0B96"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"I admit, this is janky but here it goes"
+				""
+				"Take 9 Iron Nuggets, place said ingots on a create Depot, then take the hammer your using to make gravel and rightclick on the depot"
+				""
+				"&l&oEMI isnt quite able to show this for whatever reason (Im working on it, but atleast its there, and easy)"
+			]
+			id: "5038614A8DB3CF4B"
+			rewards: [{
+				count: 9
+				id: "3C39358AF1BA1DAA"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "This is Strange..."
+			tasks: [{
+				id: "1600C148A8AB3ECE"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 5.5d
 			y: 1.0d
 		}
 	]

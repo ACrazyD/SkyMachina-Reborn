@@ -1128,7 +1128,7 @@
 			tasks: [{
 				id: "112CB41288E896D8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:max_battery"
 					tag: {
 						Charge: 9223372036854775807L

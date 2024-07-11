@@ -13,12 +13,12 @@
   "spawn": null,
   
   "spawns": {
-    "exported_at_2024-04-12T13:13:15-0400": {
+    "exported_at_2024-07-11T13:46:59-0400": {
       "north": [],
-      "east": [],
-      "south": [
-        [ 0, 1, 3 ]
+      "east": [
+        [ 3, 4, 8 ]
       ],
+      "south": [],
       "west": []
     }
   },
@@ -45,9 +45,9 @@
   // The list of templates being available. The first entry is the default template.
   "templates": [
     {
-      "name": "newdefault",
-      "file": "newdefault.snbt",
-      "spawns": "exported_at_2024-04-12T13:13:15-0400"
+      "name": "og_start",
+      "file": "og_start.snbt",
+      "spawns": "exported_at_2024-07-11T13:46:59-0400"
     }
   ]
 }

@@ -27,8 +27,8 @@ ServerEvents.recipes(e => {
     casing('gtceu:wood_plate', 'kubejs:andesite_alloy_frame', 'create:andesite_casing')
     casing('gtceu:treated_wood_plate', 'gtceu:brass_frame', 'create:brass_casing')
     casing('gtceu:treated_wood_plate', 'gtceu:copper_frame', 'create:copper_casing')
-    casing('gtceu:treated_wood_plate', 'gtceu:bronze_frame', 'create_dd:bronze_casing')
-    casing('create_dd:mithril_sheet', 'gtceu:steel_frame', 'create_dd:mithril_casing')
+    //casing('gtceu:treated_wood_plate', 'gtceu:bronze_frame', 'create_dd:bronze_casing')
+    //casing('create_dd:mithril_sheet', 'gtceu:steel_frame', 'create_dd:mithril_casing')
     casing('tfmg:hardened_planks', 'gtceu:steel_frame', 'tfmg:steel_casing')
     casing('gtceu:double_steel_plate', 'gtceu:steel_frame', 'tfmg:heavy_machinery_casing')
     casing('create:sturdy_sheet', 'gtceu:brass_frame', 'create:railway_casing')
@@ -476,4 +476,72 @@ ServerEvents.recipes(e => {
         D: screwdriver
     })
 
+    e.recipes.gtceu.polarizer('energized_gold')
+        .itemInputs('minecraft:gold_ingot')
+        .itemOutputs('create_new_age:overcharged_gold')
+        .duration(32)
+        .EUt(16)
+
+    e.recipes.gtceu.polarizer('energized_iron')
+        .itemInputs('gtceu:magnetic_iron_ingot')
+        .itemOutputs('create_new_age:overcharged_iron')
+        .duration(16)
+        .EUt(16)
+
+    e.recipes.gtceu.polarizer('energized_diamond')
+        .itemInputs('minecraft:diamond')
+        .itemOutputs('create_new_age:overcharged_diamond')
+        .duration(160)
+        .EUt(16)
+
+    e.recipes.gtceu.bender('overcharged_iron_plate')
+        .itemInputs('create_new_age:overcharged_iron')
+        .itemOutputs('create_new_age:overcharged_iron_sheet')
+        .duration(48)
+        .EUt(24);
+
+    e.recipes.gtceu.bender('overcharged_gold_plate')
+        .itemInputs('create_new_age:overcharged_gold')
+        .itemOutputs('create_new_age:overcharged_golden_sheet')
+        .duration(196)
+        .EUt(24);
+
+    e.recipes.gtceu.wiremill('copper_wire')
+        .itemInputs('gtceu:copper_plate')
+        .itemOutputs('4x create_new_age:copper_wire')
+        .duration(189)
+        .EUt(7);
+
+    e.recipes.gtceu.wiremill('iron_wire')
+        .itemInputs('create_new_age:overcharged_iron_sheet')
+        .itemOutputs('4x create_new_age:overcharged_iron_wire')
+        .duration(321)
+        .EUt(7);
+
+    e.recipes.gtceu.wiremill('gold_wire')
+        .itemInputs('create_new_age:overcharged_golden_sheet')
+        .itemOutputs('4x create_new_age:overcharged_golden_wire')
+        .duration(588)
+        .EUt(7);
+
+    e.recipes.gtceu.wiremill('diamond_wire')
+        .itemInputs('create_new_age:overcharged_diamond')
+        .itemOutputs('2x create_new_age:overcharged_diamond_wire')
+        .duration(764)
+        .EUt(7);
+
+    e.remove({output: 'create:andesite_alloy'});
+    e.shapeless('2x create:andesite_alloy', ['2x minecraft:iron_nugget', '2x exnihilosequentia:andesite_pebble']);
+    e.shapeless('16x create:andesite_alloy', ['4x minecraft:andesite', '5x minecraft:iron_nugget']);
+    
+    e.shaped('create:precision_mechanism', [
+        'NBN',
+        'SPS',
+        'NBN'
+    ], {
+        N: 'minecraft:iron_nugget',
+        B: 'create:large_cogwheel',
+        S: 'create:cogwheel',
+        P: 'gtceu:gold_plate'
+    });
 }) //End Of File

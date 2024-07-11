@@ -1,10 +1,10 @@
 console.info('Shapeless Recipes: Registering recipes...')
 ServerEvents.recipes((e) => {
 	//Rewooding the BadWoods
-	e.shapeless('2x create_dd:rose_planks', '#create_dd:rose_logs')
-	e.shapeless('2x create_dd:smoked_planks', '#create_dd:smoked_logs')
-	e.shapeless('2x create_dd:spirit_planks', '#create_dd:spirit_logs')
-	e.shapeless('2x create_dd:rubber_planks', '#create:rubber_logs')
+	//e.shapeless('2x create_dd:rose_planks', '#create_dd:rose_logs')
+	//e.shapeless('2x create_dd:smoked_planks', '#create_dd:smoked_logs')
+	//e.shapeless('2x create_dd:spirit_planks', '#create_dd:spirit_logs')
+	//e.shapeless('2x create_dd:rubber_planks', '#create:rubber_logs')
 	e.shapeless(
 		'2x integrateddynamics:menril_planks',
 		'#integrateddynamics:menril_logs'
