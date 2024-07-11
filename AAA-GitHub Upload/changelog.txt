@@ -2,30 +2,24 @@
 **This does not detail anything from any updates prior to this file.
 ***Only reason this file wasnt made sooner is because im lazu...
 
-## [V1.0.6]
-## Notice!!!
- This is a LARGE update, Users may want to restart due to the major overhaul of the
-
-### Added
- - Ex Deorum/Hammers
- - XyCraft
-### Changed
- - Updated Forge/nearly every mod
- - Rollback ProbeJS (Probe 7 not done)
- - New Default Starter Island, Less stuff, levers new
-### Removed
- - SkyResources/Cobblefordays/simplefluid gens (In favor of seives, and custom multiblocks)
-
 ## [V1.0.5]
+### Noteice!!!
+This is a LARGE update, Users may want to restart due to the major overhaul of the starting progression
 ### Added
+- Ex Deorum/Hammers
+- XyCraft
 - TreeBarks
 - BiomeBeans (For Biome Modification)
 - (On Trial) BOP - for builders mostly
 ### Changed
+- Updated Forge/nearly every mod
+- Rollback ProbeJS (Probe 7 not done)
+- New Default Starter Island, Less stuff, levers new
 - Updated IntegratedDynamics Config to disable Rewards
 - added rubber trees to the BotanyPots
 - Finally Fixed Freaking Singleplayer Default World Type! (Stupid Forge)!!
 ### Removed
+- SkyResources/Cobblefordays/simplefluid gens (In favor of seives, and custom multiblocks)
 - Forced GTCEU Texture Pack - will just be included with other options
 
 
