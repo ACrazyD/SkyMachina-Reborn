@@ -2,6 +2,16 @@
 **This does not detail anything from any updates prior to this file.
 ***Only reason this file wasnt made sooner is because im lazu...
 
+## [V1.0.6]
+### Changed
+- Updated a few mods (Notable AE2, and BotanyPots)
+- Values for the Sieve's (Turns out im bad at math, who knew!)
+## Added
+- Leaky
+- Staaaaaaaaaaaack (Stxck)
+- Item Filters (I honestly dont know how I missed this tell now... woops)
+## Removed
+
 ## [V1.0.5]
 ### Noteice!!!
 This is a LARGE update, Users may want to restart due to the major overhaul of the starting progression

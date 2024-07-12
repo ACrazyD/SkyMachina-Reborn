@@ -1,25 +1,108 @@
 {
   "favorites": [
     {
-      "stack": "item:create:turntable"
+      "stack": "item:gtceu:iron_hammer{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{Damage:0,Enchantability:14,HarvestLevel:2,MaxDamage:255,ToolSpeed:6.0f},HideFlags:2}",
+      "recipe": "gtceu:shaped/hammer_iron"
+    },
+    {
+      "stack": "item:gtceu:iron_file{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{Damage:0,Enchantability:14,MaxDamage:255},HideFlags:2}",
+      "recipe": "gtceu:shaped/file_iron"
+    },
+    {
+      "stack": "item:gtceu:iron_saw{DisallowContainerItem:0,GT.Behaviours:{HarvestIce:1},GT.Tool:{Damage:0,Enchantability:14,MaxDamage:255},HideFlags:2}",
+      "recipe": "gtceu:shaped/saw_iron"
+    },
+    {
+      "stack": "item:gtceu:iron_mortar{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{Damage:0,Enchantability:14,MaxDamage:255},HideFlags:2}",
+      "recipe": "gtceu:shaped/mortar_iron"
+    },
+    {
+      "stack": "item:aquaculture:iron_fillet_knife{Damage:0}",
+      "recipe": "aquaculture:iron_fillet_knife"
+    },
+    {
+      "stack": "item:gtceu:iron_wrench{DisallowContainerItem:0,GT.Behaviours:{Mode:2},GT.Tool:{Damage:0,Enchantability:14,HarvestLevel:2,MaxDamage:255,ToolSpeed:6.0f},HideFlags:2}",
+      "recipe": "gtceu:shaped/wrench_iron"
+    },
+    {
+      "stack": "item:gtceu:iron_screwdriver{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{Damage:0,Enchantability:14,MaxDamage:255},HideFlags:2}",
+      "recipe": "gtceu:shaped/screwdriver_iron"
+    },
+    {
+      "stack": "item:gtceu:iron_wire_cutter{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{Damage:0,Enchantability:14,HarvestLevel:2,MaxDamage:255,ToolSpeed:6.0f},HideFlags:2}",
+      "recipe": "gtceu:shaped/wire_cutter_iron"
+    },
+    {
+      "stack": "item:gtceu:iron_crowbar{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{Damage:0,Enchantability:14,HarvestLevel:2,MaxDamage:255,TintColor:16777215,ToolSpeed:6.0f},HideFlags:2}",
+      "recipe": "gtceu:shaped/crowbar_iron_white"
     }
   ],
   "lookup_history": [
     {
       "type": "item",
+      "id": "gtceu:crushed_iron_ore",
+      "amount": 4
+    },
+    "item:exdeorum:mechanical_sieve",
+    "item:exdeorum:oak_sieve",
+    {
+      "type": "item",
+      "id": "minecraft:gravel",
+      "amount": 13
+    },
+    "item:exdeorum:string_mesh",
+    "item:minecraft:oak_slab",
+    "item:minecraft:mossy_cobblestone_slab",
+    "item:gtceu:iron_crowbar{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{Damage:0,Enchantability:14,HarvestLevel:2,MaxDamage:255,TintColor:16777215,ToolSpeed:6.0f},HideFlags:2}",
+    "item:gtceu:iron_screw",
+    "item:gtceu:iron_wire_cutter{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{Damage:0,Enchantability:14,HarvestLevel:2,MaxDamage:255,ToolSpeed:6.0f},HideFlags:2}",
+    "item:gtceu:iron_bolt",
+    "item:gtceu:iron_rod",
+    "#item:forge:rods/iron",
+    "item:gtceu:iron_screwdriver{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{Damage:0,Enchantability:14,MaxDamage:255},HideFlags:2}",
+    "item:createaddition:iron_rod",
+    "item:create:iron_sheet",
+    "#item:forge:plates/iron",
+    "item:gtceu:iron_wrench{DisallowContainerItem:0,GT.Behaviours:{Mode:2},GT.Tool:{Damage:0,Enchantability:14,HarvestLevel:2,MaxDamage:255,ToolSpeed:6.0f},HideFlags:2}",
+    "item:minecraft:charcoal",
+    {
+      "type": "item",
+      "id": "minecraft:oak_log",
+      "amount": 5
+    },
+    "item:minecraft:furnace",
+    "item:gtceu:hv_arc_furnace",
+    "item:gtceu:iron_mortar{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{Damage:0,Enchantability:14,MaxDamage:255},HideFlags:2}",
+    "item:gtceu:iron_file{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{Damage:0,Enchantability:14,MaxDamage:255},HideFlags:2}",
+    "item:aquaculture:iron_fillet_knife{Damage:0}",
+    "item:gtceu:iron_saw{DisallowContainerItem:0b,GT.Behaviours:{HarvestIce:1b},GT.Tool:{Damage:0,Enchantability:14,MaxDamage:255},HideFlags:2}",
+    "item:gtceu:iron_hammer{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{Damage:0,Enchantability:14,HarvestLevel:2,MaxDamage:255,ToolSpeed:6.0f},HideFlags:2}",
+    "item:gtceu:wrought_iron_nugget",
+    "item:gtceu:wrought_iron_ingot",
+    "item:gtceu:bronze_ingot",
+    "item:vintageimprovements:bronze_sheet",
+    "#item:forge:plates/bronze",
+    "item:gtceu:lp_steam_solid_boiler",
+    "item:minecraft:chest",
+    "item:kubejs:double_andesite_alloy_plate",
+    "item:kubejs:andesite_alloy_rod",
+    "item:kubejs:andesite_alloy_gear",
+    "item:kubejs:andesite_alloy_plate",
+    "item:kubejs:menril_diode",
+    "item:create_optical:optical_receptor",
+    "item:create_optical:optical_sensor",
+    "item:create_optical:golden_coil",
+    "item:create_optical:laser",
+    "item:create_optical:optical_source",
+    {
+      "type": "item",
       "id": "minecraft:iron_ingot",
       "amount": 45
     },
-    "item:kubejs:andesite_alloy_rod",
     "item:kubejs:andesite_alloy_frame",
     "item:create:andesite_casing",
     "item:create:andesite_alloy",
     "item:createsifter:string_mesh{}",
-    {
-      "type": "item",
-      "id": "minecraft:gravel",
-      "amount": 61
-    },
     {
       "type": "item",
       "id": "minecraft:iron_nugget",
@@ -30,8 +113,6 @@
       "id": "gtceu:ingot_casting_mold",
       "chance": 0.0
     },
-    "item:gtceu:iron_hammer{GT.Tool:{Damage:0}}",
-    "#item:forge:tools/hammers",
     "item:gtceu:double_iron_plate",
     "item:minecraft:iron_block",
     "item:create:mechanical_press",
@@ -40,8 +121,6 @@
       "id": "embers:tinker_hammer",
       "remainder": "item:embers:tinker_hammer"
     },
-    "item:create:iron_sheet",
-    "#item:forge:plates/iron",
     "item:extendedcrafting:basic_component",
     "item:extendedcrafting:basic_table",
     "item:gtceu:crushed_copper_ore",
@@ -72,21 +151,13 @@
     "item:gtceu:hv_electric_gear_box_2a",
     "item:gtceu:ev_electric_gear_box_2a",
     "item:gtceu:lv_electric_gear_box_8a",
-    "item:create_optical:optical_source",
     "item:vintageimprovements:curving_press",
     "item:minecraft:raw_iron",
-    "item:kubejs:andesite_alloy_gear",
-    "item:kubejs:andesite_alloy_plate",
     "item:kubejs:andesite_alloy_small_gear",
-    "item:kubejs:double_andesite_alloy_plate",
     "item:kubejs:andesite_alloy_long_rod",
     "item:constructionwand:stone_wand{Damage:0,wand_options:{}}",
     "item:minecraft:campfire",
     "item:exdeorum:oak_barrel",
-    "item:gtceu:bronze_ingot",
-    "item:vintageimprovements:bronze_sheet",
-    "#item:forge:plates/bronze",
-    "item:gtceu:lp_steam_solid_boiler",
     "item:gtceu:sphalerite_dust",
     {
       "type": "item",
@@ -96,7 +167,6 @@
     "item:gtceu:tin_nugget",
     "item:embers:nugget_stamp",
     "item:gtceu:lv_sifter",
-    "item:exdeorum:string_mesh",
     "item:exdeorum:flint_mesh",
     "item:gtceu:magnetic_iron_rod",
     "item:gtceu:lv_electric_motor",
@@ -124,7 +194,6 @@
     "item:exdeorum:golden_mesh",
     "item:exdeorum:netherite_mesh",
     "item:exdeorum:diamond_mesh",
-    "#item:forge:tools/saws",
     "item:exdeorum:dead_barrel",
     "item:exdeorum:mangrove_barrel",
     "item:exdeorum:birch_barrel",
@@ -132,7 +201,6 @@
     "item:exdeorum:mangrove_sieve",
     "item:exdeorum:jungle_sieve",
     "item:exdeorum:birch_sieve",
-    "item:exdeorum:oak_sieve",
     "item:gtceu:luv_4a_energy_converter",
     "item:ex_hammers:dust",
     "item:minecraft:sand",
@@ -166,7 +234,6 @@
     "item:exdeorum:mahogany_sieve",
     "item:exdeorum:willow_sieve",
     "item:exdeorum:redwood_sieve",
-    "#item:exdeorum:compressed/sands",
     "item:exdeorum:compressed_sand",
     "item:exdeorum:compressed_granite",
     "item:exdeorum:warped_compressed_sieve",
@@ -512,22 +579,39 @@
     "item:minecraft:bamboo_trapdoor"
   ],
   "craft_history": [
-    "minecraft:stone_axe",
-    "minecraft:kjs/create_andesite_alloy_2",
-    "exdeorum:andesite",
-    "gtceu:shaped/crafting_table",
-    "exdeorum:stone_hammer",
-    "gardenofglass:pebble_to_cobblestone",
-    "constructionwand:stone_wand",
-    "minecraft:cobblestone_from_compressed_cobblestone",
-    "minecraft:stone_pickaxe",
+    "minecraft:kjs/exdeorum_oak_sieve",
+    "gtceu:shaped/oak_slab_saw",
+    "gtceu:shaped/wire_cutter_iron",
+    "gtceu:shaped/screw_iron",
+    "gtceu:shaped/bolt_saw_iron",
+    "gtceu:shaped/stick_iron",
+    "gtceu:shaped/screwdriver_iron",
+    "gtceu:shaped/wrench_iron",
+    "gtceu:shaped/plate_iron",
+    "aquaculture:iron_fillet_knife",
+    "gtceu:shaped/mortar_iron",
+    "gtceu:shaped/furnace",
+    "gtceu:shaped/saw_iron",
+    "gtceu:shaped/file_iron",
+    "gtceu:shaped/hammer_iron",
+    "craftingstation:crafting_station",
     "minecraft:kjs/createsifter_string_mesh",
     "exdeorum:string_mesh",
+    "gtceu:shaped/chest",
+    "gtceu:shapeless/oak_planks",
+    "gtceu:shaped/crafting_table",
+    "exdeorum:andesite",
     "exdeorum:crook",
+    "minecraft:kjs/create_andesite_alloy_2",
+    "constructionwand:stone_wand",
+    "exdeorum:stone_hammer",
     "enderio:stick",
     "minecraft:kjs/extendedcrafting_handheld_table",
-    "gtceu:shapeless/oak_planks",
-    "gardenofglass:root_to_sapling"
+    "gardenofglass:root_to_sapling",
+    "minecraft:stone_axe",
+    "gardenofglass:pebble_to_cobblestone",
+    "minecraft:cobblestone_from_compressed_cobblestone",
+    "minecraft:stone_pickaxe"
   ],
   "recipe_defaults": {
     "added": [],

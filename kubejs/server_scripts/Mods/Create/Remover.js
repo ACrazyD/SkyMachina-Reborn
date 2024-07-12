@@ -45,9 +45,6 @@ ServerEvents.recipes(e => {
     idRemover('create_dd:item_application/tin_casing_from_wood')
     idRemover('create_dd:item_application/tin_casing_from_log')
 
-
-
-
     //Removing ReMade Items
     outRemover('create:crushing_wheel')
     outRemover('create:shaft')

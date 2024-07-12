@@ -24,8 +24,8 @@ ServerEvents.recipes((event) => {
         "result": output,
         "result_amount": {
           "type": "minecraft:binomial",
-          "n": chance,
-          "p": 0.7
+          "n": 1.0,
+          "p": chance
         }
       }
       );
@@ -46,7 +46,7 @@ ServerEvents.recipes((event) => {
     sieve('exdeorum:string_mesh', 0.3, gravel, 'gtceu:crushed_tin_ore');
     sieve('exdeorum:string_mesh', 0.25, gravel, 'gtceu:crushed_sphalerite_ore');
     sieve('exdeorum:string_mesh', 0.4, black, 'gtceu:crushed_galena_ore');
-    sieve('exdeorum:string_mesh', 0.3, black, 'gtceu:crushed_stibnite_ore');  
+    sieve('exdeorum:string_mesh', 0.3, black, 'gtceu:crushed_stibnite_ore'); 
 
     sieve('exdeorum:flint_mesh', 0.1, gravel, 'gtceu:crushed_silver_ore');
     sieve('exdeorum:flint_mesh', 0.05, gravel, 'gtceu:crushed_gold_ore');
