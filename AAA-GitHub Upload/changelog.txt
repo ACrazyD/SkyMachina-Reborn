@@ -7,6 +7,7 @@
 - Updated a few mods (Notable AE2, and BotanyPots)
 - Values for the Sieve's (Turns out im bad at math, who knew!)
 - Fixed an issue with Iron Ingot Depot Recipes duping
+- Added Tin, Zinc, Copper to the depot nugget conversion
 ## Added
 - Leaky
 - Staaaaaaaaaaaack (Stxck)
