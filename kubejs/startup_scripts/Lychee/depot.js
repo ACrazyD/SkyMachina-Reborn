@@ -4,7 +4,7 @@ LycheeEvents.customAction('consume_item_on_depot', event => {
     event.action.applyFunc = (recipe, ctx, times) => {
         let be = ctx.getParam('block_entity')
         let inv = $LevelPlatformHelper.get().getInventoryFromBlockEntity(be, 'up')
-        inv.extractItem(0, 9, false)
+        inv.extractItem(0, 9, false) // Extract 9 items
     }
 })
 
@@ -13,6 +13,7 @@ LycheeEvents.customCondition('has_item_on_depot', event => {
     event.condition.testFunc = (recipe, ctx, times) => {
         let be = ctx.getParam('block_entity')
         let inv = $LevelPlatformHelper.get().getInventoryFromBlockEntity(be, 'up')
-        return ingredient.test(inv.getStackInSlot(0)) ? times : 0
+        let stack = inv.getStackInSlot(0)
+        return ingredient.test(stack) && stack.getCount() >= 9 ? times : 0 // Check if there are at least 9 items
     }
 })

@@ -6,6 +6,7 @@
 ### Changed
 - Updated a few mods (Notable AE2, and BotanyPots)
 - Values for the Sieve's (Turns out im bad at math, who knew!)
+- Fixed an issue with Iron Ingot Depot Recipes duping
 ## Added
 - Leaky
 - Staaaaaaaaaaaack (Stxck)
