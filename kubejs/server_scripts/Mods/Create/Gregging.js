@@ -37,7 +37,7 @@ ServerEvents.recipes(e => {
     casing('gtceu:steel_plate', 'gtceu:steel_frame', 'create_dd:steel_casing')
 
 
-    e.shaped('create:shaft',[
+    e.shaped('2x create:shaft',[
         'sHs'
     ],{
         s: 'kubejs:andesite_alloy_long_rod',
@@ -202,11 +202,10 @@ ServerEvents.recipes(e => {
 
     e.shaped('create:hand_crank',[
         'ss',
-        'lD',
+        'sD',
         'pH'
     ],{
         s: 'create:shaft',
-        l: 'create:large_cogwheel',
         p: '#minecraft:planks',
         D: screwdriver,
         H: hammer

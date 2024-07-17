@@ -8,6 +8,9 @@
 - Values for the Sieve's (Turns out im bad at math, who knew!)
 - Fixed an issue with Iron Ingot Depot Recipes duping
 - Added Tin, Zinc, Copper to the depot nugget conversion
+- Fixed Create Shafts not having a working recipe
+- Minor Tweaks to create handcrank recipe
+- Minor Fixes to create milling recipes
 ## Added
 - Leaky
 - Staaaaaaaaaaaack (Stxck)
