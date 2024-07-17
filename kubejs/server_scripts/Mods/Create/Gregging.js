@@ -40,7 +40,7 @@ ServerEvents.recipes(e => {
     e.shaped('create:shaft',[
         'sHs'
     ],{
-        s: 'gtceu:andesite_alloy_long_rod',
+        s: 'kubejs:andesite_alloy_long_rod',
         H: hammer
     })
 
