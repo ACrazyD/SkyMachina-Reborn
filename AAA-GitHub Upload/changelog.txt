@@ -2,7 +2,7 @@
 **This does not detail anything from any updates prior to this file.
 ***Only reason this file wasnt made sooner is because im lazu...
 
-## [V1.0.6]
+## [V2.0.6]
 ### Changed
 - Updated a few mods (Notable AE2, and BotanyPots)
 - Values for the Sieve's (Turns out im bad at math, who knew!)
@@ -15,9 +15,11 @@
 - Leaky
 - Staaaaaaaaaaaack (Stxck)
 - Item Filters (I honestly dont know how I missed this tell now... woops)
+- InvTweaks/Sorting
+- A Inventory Overhaul mod (In Testing)
 ## Removed
 
-## [V1.0.5]
+## [V2.0.5]
 ### Noteice!!!
 This is a LARGE update, Users may want to restart due to the major overhaul of the starting progression
 ### Added
@@ -38,7 +40,7 @@ This is a LARGE update, Users may want to restart due to the major overhaul of t
 - Forced GTCEU Texture Pack - will just be included with other options
 
 
-## [V1.0.4]
+## [V2.0.4]
 ### Added
 ### Changed
 - JukeBox Recipe Tweaked
@@ -49,7 +51,7 @@ This is a LARGE update, Users may want to restart due to the major overhaul of t
 ### Removed
 - Removed A Create Addon due to lack of active support.
 
-## [V1.0.3] - 2024-04-16
+## [V2.0.3] - 2024-04-16
 ### Added
 - Some Create Addons
 - Builders Wands
@@ -68,7 +70,7 @@ This is a LARGE update, Users may want to restart due to the major overhaul of t
 ### Removed
 - EnderIO Chassies pending Rebuild
 
-## [V1.0.2b] - 2024-04-14
+## [V2.0.2b] - 2024-04-14
 ### Added
 ### Changed
 ### Fixed
