@@ -43,6 +43,10 @@ ServerEvents.recipes((event) => {
     sieve('exdeorum:string_mesh', 0.45, gravel, 'gtceu:crushed_iron_ore');
     sieve('exdeorum:string_mesh', 0.25, gravel, 'gtceu:crushed_magnetite_ore');
     sieve('exdeorum:string_mesh', 0.35, gravel, 'gtceu:crushed_copper_ore');
+    sieve('exdeorum:string_mesh', 0.4, gravel, 'exdeorum:andesite_pebble');
+    sieve('exdeorum:string_mesh', 0.4, gravel, 'exdeorum:diorite_pebble');
+    sieve('exdeorum:string_mesh', 0.4, gravel, 'exdeorum:granite_pebble');
+    sieve('exdeorum:string_mesh', 0.4, gravel, 'exdeorum:stone_pebble');
     sieve('exdeorum:string_mesh', 0.3, gravel, 'gtceu:crushed_tin_ore');
     sieve('exdeorum:string_mesh', 0.25, gravel, 'gtceu:crushed_sphalerite_ore');
     sieve('exdeorum:string_mesh', 0.4, black, 'gtceu:crushed_galena_ore');

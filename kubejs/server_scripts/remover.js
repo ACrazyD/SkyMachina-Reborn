@@ -1,6 +1,12 @@
 console.info('Remover: Registering Removed Items...')
 ServerEvents.recipes((e) => {
 
+	//Intergrated Dynamics
+	e.remove({ mod: 'integrateddynamics' })
+	e.remove({ mod: 'integratedtunnels' })
+	e.remove({ mod: 'integratedterminals' })
+	e.remove({ mod: 'integratedcrafting' })
+
 	//ExDeorum
 	e.remove({ id: 'exdeorum:oak_compressed_sieve'})
 	e.remove({ id: 'exdeorum:spruce_compressed_sieve'})

@@ -37,6 +37,23 @@ ServerEvents.recipes(e => {
     casing('gtceu:steel_plate', 'gtceu:steel_frame', 'create_dd:steel_casing')
 
 
+    e.shaped('gtceu:stone_dust',[
+        'sss',
+        'sHs',
+        'sss'
+    ],{
+        s: 'minecraft:cobblestone',
+        H: hammer
+    })
+    e.shaped('gtceu:stone_plate',[
+        'sss',
+        'sHs',
+        'sss'
+    ],{
+        s: 'gtceu:stone_dust',
+        H: hammer
+    })
+    
     e.shaped('2x create:shaft',[
         'sHs'
     ],{
