@@ -297,7 +297,7 @@ ServerEvents.recipes(e => {
     ],{
         c: 'minecraft:chain',
         n: 'minecraft:netherrack',
-        a: 'gtceu:steel_frame'
+        a: 'gtceu:zinc_frame'
     })
 
     e.shaped('create:chute',[

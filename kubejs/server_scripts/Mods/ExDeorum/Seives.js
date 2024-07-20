@@ -38,6 +38,7 @@ ServerEvents.recipes((event) => {
     sieve('exdeorum:string_mesh', 0.05, sand, 'minecraft:sea_pickle');
     sieve('exdeorum:string_mesh', 0.05, sand, 'minecraft:kelp');
     sieve('exdeorum:string_mesh', 0.05, sand, 'minecraft:seagrass');
+    sieve('exdeorum:string_mesh', 0.3, sand, 'exdeorum:calcite_pebble');
 
     // gravel and blackstone
     sieve('exdeorum:string_mesh', 0.45, gravel, 'gtceu:crushed_iron_ore');
