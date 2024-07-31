@@ -4,7 +4,7 @@
 
 ## [V2.0.7]
 ### Changed
-- Botania Recipes (Arnt Working Idk why)
+- Botania Recipes
 - Custom Create Heat level systems
 - Added some fluids/items
 - Fixed a StonePlate "Stone Wall" (Softlock issue)
@@ -18,6 +18,7 @@
 - NoChatReports
 - E4MC (Allows Lan Worlds to be public, without all the extras of Essentials)
 ### Removed
+- The Inventory Overhaul mod... (Broke offhand interactions)
 - All Recipes for Intergrated Suite (Pending New Production Lines)
 ### Quest Changes
 - Theres a 4x quest that now needs a saw to be completed in kentic age
