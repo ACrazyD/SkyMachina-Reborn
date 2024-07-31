@@ -21,6 +21,6 @@ ServerEvents.recipes(e => {
         e.recipes.createDeploying(pm, [pm, 'gtceu:vacuum_tube']),
         e.recipes.createDeploying(pm, [pm, 'create:large_cogwheel']),
         e.recipes.createPressing(pm,pm)
-	]).transitionalItem(pm).loops(5)
+	]).transitionalItem(pm).loops(3)
 
 })//End Of File
