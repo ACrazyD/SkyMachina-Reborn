@@ -135,7 +135,7 @@ ServerEvents.recipes(e => {
         c: 'create:cogwheel',
         a: 'kubejs:andesite_alloy_frame',
         r: 'vintageimprovements:redstone_module',
-        y: 'minecraft:redstone_repeater',
+        y: 'minecraft:repeater',
         H: hammer,
         D: screwdriver
     })

@@ -88,7 +88,7 @@ ServerEvents.recipes((event) => {
     sieve('exdeorum:string_mesh', 0.08, sand, 'minecraft:lapis_lazuli');
     sieve('exdeorum:string_mesh', 0.1, sand, 'minecraft:amethyst_shard');
     sieve('exdeorum:string_mesh', 0.05, sand, 'minecraft:emerald');
-    sieve('exdeorum:string_mesh', 0.2, sand, 'minecraft:quartz');
+    sieve('exdeorum:string_mesh', 0.2, sand, 'gtceu:crushed_nether_quartz_ore');
 
     sieve('exdeorum:flint_mesh', 0.075, sand, 'gtceu:crushed_diamond_ore');
     sieve('exdeorum:flint_mesh', 0.05, sand, 'gtceu:crushed_emerald_ore');
