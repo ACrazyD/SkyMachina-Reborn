@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "refinedstorage:item/creative_wireless_crafting_monitor_disconnected"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "refinedstorage:connected": 0
+      },
+      "model": "refinedstorage:item/creative_wireless_crafting_monitor_disconnected"
+    },
+    {
+      "predicate": {
+        "refinedstorage:connected": 1
+      },
+      "model": "refinedstorage:item/creative_wireless_crafting_monitor_connected"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "block.refinedstorage.machine_casing": "Storage Casing",
+  "item.refinedstorage.raw_basic_processor": "Incomplete Basic Processor",
+  "item.refinedstorage.raw_improved_processor": "Incomplete Improved Processor",
+  "item.refinedstorage.raw_advanced_processor": "Incomplete Advanced Processor",
+  "item.refinedstorage.processor_binding": "Processor Glue"
+}
