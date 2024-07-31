@@ -550,14 +550,4 @@ ServerEvents.recipes(e => {
     e.shapeless('2x create:andesite_alloy', ['2x minecraft:iron_nugget', '2x exnihilosequentia:andesite_pebble']);
     e.shapeless('16x create:andesite_alloy', ['4x minecraft:andesite', '5x minecraft:iron_nugget']);
     
-    e.shaped('create:precision_mechanism', [
-        'NBN',
-        'SPS',
-        'NBN'
-    ], {
-        N: 'minecraft:iron_nugget',
-        B: 'create:large_cogwheel',
-        S: 'create:cogwheel',
-        P: 'gtceu:gold_plate'
-    });
 }) //End Of File

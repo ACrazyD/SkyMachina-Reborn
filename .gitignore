@@ -32,3 +32,5 @@ servers.dat
 /ldlib
 emi.json
 /schematics
+/kubejs/documentation
+.mixin.out

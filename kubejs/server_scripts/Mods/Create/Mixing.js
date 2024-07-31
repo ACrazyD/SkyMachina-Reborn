@@ -2,8 +2,8 @@ console.info('Create Mixing: Registering recipes...')
 ServerEvents.recipes((e) => {
 
 	//Quartz Solution
-	e.recipes.createMixing([Fluid.water(10)], 'gtceu:nether_quartz_dust'), [Fluid.of('kubejs:quartz_solution')].heated()
-
+	//e.recipes.createMixing([Fluid.water(10), 'gtceu:nether_quartz_dust'], [Fluid.of('kubejs:quartz_solution')]).heated()
+	e.recipes.createMixing([Fluid.of('kubejs:quartz_solution')], [Fluid.water(10), 'gtceu:nether_quartz_dust']).heated()
 	//BronzeRefactor
 	e.recipes
 		.createMixing('2x gtceu:bronze_ingot', [

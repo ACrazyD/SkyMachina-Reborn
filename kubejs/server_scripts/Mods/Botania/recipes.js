@@ -1,9 +1,10 @@
-console.info('Botania: Registering recipes...')
+console.log('Botania: Registering recipes...')
 ServerEvents.recipes(e => {
+    console.log('Removing pure daisy recipes...')
+    e.remove({ id: 'botania:pure_daisy/livingwood_log' })
+    e.remove({ id: 'botania:pure_daisy/livingwood' })
+    e.remove({ id: 'botania:pure_daisy/livingrock' })
 
-    e.remove({ output: 'botania:livingwood_log' })
-    e.remove({ output: 'botania:livingrock' })
-
-    //e.recipes.botania.pure_daisy("gtceu:treated_wood", "botania:livingwood_log")
-
+    console.log('Adding replacement recipes...')
+    e.recipes.botania.pure_daisy("botania:livingwood_log", "gtceu:treated_wood_planks")
 })//End Of File
