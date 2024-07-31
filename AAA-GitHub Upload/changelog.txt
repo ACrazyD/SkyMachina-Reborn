@@ -4,11 +4,16 @@
 
 ## [V2.0.7]
 ### Changed
+- Botania Recipes (Arnt Working Idk why)
+- Custom Create Heat level systems
+- Added some fluids/items
 - Fixed a StonePlate "Stone Wall" (Softlock issue)
 - Updated Mods (FTBQuests Being a bit one!)
 - Quests (Tho I update them nearly every update, this fixes some typos i have found and some other strange issues.)
 ### Added
-- IntergratedCrafting
+- More KubeJS Tools
+- RefinedStorage
+- IntergratedCrafting (Pending, May Remove Before Launch)
 - ChatHeads
 - NoChatReports
 - E4MC (Allows Lan Worlds to be public, without all the extras of Essentials)
