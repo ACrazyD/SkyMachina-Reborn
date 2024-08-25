@@ -1,6 +1,9 @@
 console.info('Remover: Registering Removed Items...')
 ServerEvents.recipes((e) => {
 
+	//AppBot
+	e.remove({ id: 'appbot:fluix_mana_pool'})
+
 	//Intergrated Dynamics
 	e.remove({ mod: 'integrateddynamics' })
 	e.remove({ mod: 'integratedtunnels' })

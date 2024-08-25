@@ -24,7 +24,7 @@ MMEvents.createProcesses((event) => {
 			type: 'mm:output/simple',
 			ingredient: {
 				type: 'mm:fluid',
-				fluid: 'tfmg:crude_oil_fluid',
+				fluid: 'tfmg:crude_oil',
 				amount: 1000,
 			},
 		})

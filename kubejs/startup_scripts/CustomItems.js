@@ -1,5 +1,46 @@
 console.info('Custom Items: Registering Additions...')
+
+
+StartupEvents.registry('item', e => {
+
+	//Storage Module
+	e.create('incomplete_storage_module').texture('kubejs:item/storage_module').color(0x5f5f5f)
+	//RS Item Disks
+	e.create('incomplete_rs_1k_storage_part', 'create:sequenced_assembly').texture('kubejs:item/1k_storage_part').color(0x5f5f5f)//1chests
+	e.create('incomplete_rs_4k_storage_part', 'create:sequenced_assembly').texture('kubejs:item/4k_storage_part').color(0x5f5f5f)//2chests
+	e.create('incomplete_rs_16k_storage_part', 'create:sequenced_assembly').texture('kubejs:item/16k_storage_part').color(0x5f5f5f)//4chests
+	e.create('incomplete_rs_64k_storage_part', 'create:sequenced_assembly').texture('kubejs:item/64k_storage_part').color(0x5f5f5f)//8Chests
+	//RS Extra Disks
+	e.create('incomplete_rs_256k_storage_part', 'create:sequenced_assembly').texture('kubejs:item/256k_storage_part').color(0x5f5f5f)//16Chests
+	e.create('incomplete_rs_1024k_storage_part', 'create:sequenced_assembly').texture('kubejs:item/1024k_storage_part').color(0x5f5f5f)//32Chests
+	e.create('incomplete_rs_4096k_storage_part', 'create:sequenced_assembly').texture('kubejs:item/4096k_storage_part').color(0x5f5f5f)//64Chests
+	e.create('incomplete_rs_16384k_storage_part', 'create:sequenced_assembly').texture('kubejs:item/16384k_storage_part').color(0x5f5f5f)//128Chests
+	e.create('incomplete_rs_65536k_storage_part', 'create:sequenced_assembly').texture('kubejs:item/65536k_storage_part').color(0x5f5f5f)//256Chests
+	e.create('incomplete_rs_264M_storage_part', 'create:sequenced_assembly').texture('kubejs:item/264m_storage_part').color(0x5f5f5f)//512Chests
+	e.create('incomplete_rs_1048M_storage_part', 'create:sequenced_assembly').texture('kubejs:item/1048m_storage_part').color(0x5f5f5f)//1024Chests
+	//RS Fluid Disks
+	e.create('incomplete_rs_64k_fluid_storage_part', 'create:sequenced_assembly').texture('kubejs:item/64k_fluid_storage_part').color(0x5f5f5f)
+	e.create('incomplete_rs_256k_fluid_storage_part', 'create:sequenced_assembly').texture('kubejs:item/256k_fluid_storage_part').color(0x5f5f5f)
+	e.create('incomplete_rs_1024k_fluid_storage_part', 'create:sequenced_assembly').texture('kubejs:item/1024k_fluid_storage_part').color(0x5f5f5f)
+	e.create('incomplete_rs_4096k_fluid_storage_part', 'create:sequenced_assembly').texture('kubejs:item/4096k_fluid_storage_part').color(0x5f5f5f)
+	e.create('incomplete_rs_16384k_fluid_storage_part', 'create:sequenced_assembly').texture('kubejs:item/16384k_fluid_storage_part').color(0x5f5f5f)
+	e.create('incomplete_rs_65536k_fluid_storage_part', 'create:sequenced_assembly').texture('kubejs:item/65536k_fluid_storage_part').color(0x5f5f5f)
+	e.create('incomplete_rs_264M_fluid_storage_part', 'create:sequenced_assembly').texture('kubejs:item/264m_fluid_storage_part').color(0x5f5f5f)
+	e.create('incomplete_rs_1048M_fluid_storage_part', 'create:sequenced_assembly').texture('kubejs:item/1048m_fluid_storage_part').color(0x5f5f5f)
+
+})
+
 StartupEvents.registry('item', (e) => {
+
+	//Trade Medallions
+	e.create('nature_trade_medallion').parentModel('kubejs:item/trade_medallion').texture('kubejs:item/trade_medallion').color(0x00ff00)
+	e.create('tech_trade_medallion').parentModel('kubejs:item/trade_medallion').color(0x00ffff)
+	e.create('magic_trade_medallion').parentModel('kubejs:item/trade_medallion').color(0xff00ff)
+	e.create('trade_medallion').modelJson('kubejs:item/trade_medallion').color(0xffff00)
+	e.create('bio_trade_medallion').parentModel('kubejs:item/trade_medallion').color(0xff0000)
+
+	e.create('storage_module').texture('kubejs:item/storage_module')
+
 	e.create('menril_diode')
 	e.create('crude_steel')
 	e.create('oil_catalyst')
@@ -24,356 +65,8 @@ StartupEvents.registry('item', (e) => {
 })
 
 StartupEvents.registry('block', (event) => {
-	// Custom Casings
-	event
-		.create('soul_infused_casing', 'gtceu:renderer')
-		.hardness(10)
-		.resistance(1)
-		.lightLevel(0)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureOverrideRenderer('minecraft:block/cube_all', {
-			'all': new ResourceLocation(
-				'kubejs',
-				'block/casings/casing-soul-infused'
-			),
-		})
-
-	event
-		.create('signalum_casing', 'gtceu:renderer')
-		.displayName(
-			'Ultra High Pressure and Temperature Resistant Signalum Casing'
-		)
-		.hardness(10)
-		.resistance(1)
-		.lightLevel(2)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureOverrideRenderer('minecraft:block/cube_all', {
-			'all': new ResourceLocation('kubejs', 'block/casings/casing-signalum'),
-		})
-
-	event
-		.create('lumium_casing', 'gtceu:renderer')
-		.hardness(10)
-		.resistance(1)
-		.lightLevel(2)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureOverrideRenderer('minecraft:block/cube_all', {
-			'all': new ResourceLocation('kubejs', 'block/casings/casing-lumium'),
-		})
-
-	event
-		.create('enderium_casing', 'gtceu:renderer')
-		.displayName('Thermal Fluctuation Proof Enderium Casing')
-		.hardness(10)
-		.resistance(1)
-		.lightLevel(0)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureOverrideRenderer('minecraft:block/cube_all', {
-			'all': new ResourceLocation('kubejs', 'block/casings/casing-enderium'),
-		})
-
-	event
-		.create('shellite_casing', 'gtceu:renderer')
-		.displayName('Ultra-Resistant Shellite Casing')
-		.hardness(10)
-		.resistance(1)
-		.lightLevel(0)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureOverrideRenderer('minecraft:block/cube_all', {
-			'all': new ResourceLocation('kubejs', 'block/casings/casing-shellite'),
-		})
-
-	event
-		.create('twinite_casing', 'gtceu:renderer')
-		.displayName('Bend-Resistant Twinite Casing')
-		.hardness(10)
-		.resistance(1)
-		.lightLevel(0)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureOverrideRenderer('minecraft:block/cube_all', {
-			'all': new ResourceLocation('kubejs', 'block/casings/casing-twinite'),
-		})
-
-	event
-		.create('dragonsteel_casing', 'gtceu:renderer')
-		.displayName('Unbendable Dragonsteel Casing')
-		.hardness(10)
-		.resistance(1)
-		.lightLevel(0)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureOverrideRenderer('minecraft:block/cube_all', {
-			'all': new ResourceLocation('kubejs', 'block/casings/casing-dragonsteel'),
-		})
-
-	event
-		.create('prismalium_casing', 'gtceu:renderer')
-		.displayName('Transportation Prismalium Casing')
-		.hardness(10)
-		.resistance(1)
-		.lightLevel(2)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureOverrideRenderer('minecraft:block/cube_all', {
-			'all': new ResourceLocation('kubejs', 'block/casings/casing-prismalium'),
-		})
-
-	event
-		.create('melodium_casing', 'gtceu:renderer')
-		.displayName('Reinforced Melodium Casing')
-		.hardness(10)
-		.resistance(1)
-		.lightLevel(2)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureOverrideRenderer('minecraft:block/cube_all', {
-			'all': new ResourceLocation('kubejs', 'block/casings/casing-melodium'),
-		})
-
-	event
-		.create('stellarium_casing', 'gtceu:renderer')
-		.displayName('Structurally Integral Stellarium Casing')
-		.hardness(10)
-		.resistance(1)
-		.lightLevel(2)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureOverrideRenderer('minecraft:block/cube_all', {
-			'all': new ResourceLocation('kubejs', 'block/casings/casing-stellarium'),
-		})
-
-	event
-		.create('austenitic_stainless_steel_304_casing', 'gtceu:renderer')
-		.displayName('Austenitic Stainless Steel 304 Nuclear Casing')
-		.hardness(2)
-		.resistance(3)
-		.lightLevel(0)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureOverrideRenderer('minecraft:block/cube_all', {
-			'all': new ResourceLocation(
-				'kubejs',
-				'block/casings/casing-austenitic-stainless-steel-304'
-			),
-		})
-
-	event
-		.create('inconel_625_casing', 'gtceu:renderer')
-		.displayName('Inconel 625 Thermal Fluctuation Resistant Casing')
-		.hardness(2)
-		.resistance(3)
-		.lightLevel(0)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureOverrideRenderer('minecraft:block/cube_all', {
-			'all': new ResourceLocation('kubejs', 'block/casings/casing-inconel-625'),
-		})
-
-	event
-		.create('wood_casing', 'gtceu:renderer')
-		.displayName('Treatedwood Reinforced Casing')
-		.hardness(5)
-		.resistance(1)
-		.material('wood')
-		.requiresTool(true)
-		.tagBlock('mineable/axe')
-		.tagBlock('minecraft:needs_stone_tool')
-		.textureOverrideRenderer('minecraft:block/cube_all', {
-			'all': new ResourceLocation('kubejs', 'block/casings/casing-wood'),
-		})
-
-	event
-		.create('peek_casing', 'gtceu:renderer')
-		.displayName('PEEK Casing')
-		.hardness(5)
-		.resistance(1)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureOverrideRenderer('minecraft:block/cube_all', {
-			'all': new ResourceLocation(
-				'kubejs',
-				'block/casings/machine_casing_peek'
-			),
-		})
-
-	event
-		.create('beryllium_aluminium_alloy_casing')
-		.displayName('Beryllium-Aluminium Casing')
-		.hardness(5)
-		.resistance(1)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureAll('kubejs:block/casings/beryllium-aluminium_casing')
-
-	event
-		.create('birmabright_casing')
-		.displayName('Birmabright Casing')
-		.hardness(5)
-		.resistance(1)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureAll('kubejs:block/casings/birmabright_casing')
-
-	event
-		.create('beryllium_bronze_casing')
-		.displayName('Beryllium Bronze Casing')
-		.hardness(5)
-		.resistance(1)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureAll('kubejs:block/casings/bizmuth_bronze_casing')
-
-	event
-		.create('blue_steel_casing')
-		.displayName('Blue Steel Casing')
-		.hardness(5)
-		.resistance(1)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureAll('kubejs:block/casings/blue_steel_casing')
-
-	event
-		.create('duralumin_casing')
-		.displayName('Duralumin Casing')
-		.hardness(5)
-		.resistance(1)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureAll('kubejs:block/casings/duralumin_casing')
-
-	event
-		.create('elgiloy_casing')
-		.displayName('Elgiloy Casing')
-		.hardness(5)
-		.resistance(1)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureAll('kubejs:block/casings/elgiloy_casing')
-
-	event
-		.create('hydronalium_casing')
-		.displayName('Hydronalium Casing')
-		.hardness(5)
-		.resistance(1)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureAll('kubejs:block/casings/hydronallium_casing')
-
-	event
-		.create('kovar_casing')
-		.displayName('Kovar Casing')
-		.hardness(5)
-		.resistance(1)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureAll('kubejs:block/casings/kovar_casing')
-
-	event
-		.create('red_steel_casing')
-		.displayName('Red Steel Casing')
-		.hardness(5)
-		.resistance(1)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureAll('kubejs:block/casings/red_steel_casing')
-
-	event
-		.create('silicon_bronze_casing')
-		.displayName('Silicon Bronze Casing')
-		.hardness(5)
-		.resistance(1)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureAll('kubejs:block/casings/silicon_bronze_casing')
-
-	event
-		.create('sterling_silver_casing')
-		.displayName('Sterling Silver Casing')
-		.hardness(5)
-		.resistance(1)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureAll('kubejs:block/casings/sterling_silver_casing')
-
-	event
-		.create('zamak_casing')
-		.displayName('Zamak Casing')
-		.hardness(5)
-		.resistance(1)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureAll('kubejs:block/casings/zamak_casing')
-
-	event
-		.create('tumbaga_casing')
-		.displayName('Tumbaga Casing')
-		.hardness(5)
-		.resistance(1)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureAll('kubejs:block/casings/tumbaga_casing')
-
-	// Custom Coils
-	event
-		.create('zalloy_coil_block', 'gtceu:coil')
-		.temperature(13499)
-		.level(24)
-		.energyDiscount(16)
-		.tier(10)
-		.coilMaterial(() => GTMaterials.get('zalloy'))
-		.texture('kubejs:block/coils/machine_coil_zalloy')
-		.hardness(5)
-		.requiresTool(true)
-		.material('metal')
-
-	// Extras
-	event
-		.create('laser_casing')
-		.displayName(
-			'Schrubblaser Beam Concentrator & Emmiter Capable Stellarium Casing'
-		)
-		.hardness(5)
-		.resistance(10)
-		.lightLevel(10)
-		.requiresTool(true)
-		.tagBlock('mineable/pickaxe')
-		.tagBlock('minecraft:needs_iron_tool')
-		.textureAll('kubejs:block/casings/laser_casing')
-
+	
 	// Meshblock for Kinetic Sieve
-
 	event
 		.create('meshblock')
 		.displayName('Treatedwood Reinforced Mesh')

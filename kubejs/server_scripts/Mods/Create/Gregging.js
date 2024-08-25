@@ -32,9 +32,9 @@ ServerEvents.recipes(e => {
     casing('tfmg:hardened_planks', 'gtceu:steel_frame', 'tfmg:steel_casing')
     casing('gtceu:double_steel_plate', 'gtceu:steel_frame', 'tfmg:heavy_machinery_casing')
     casing('create:sturdy_sheet', 'gtceu:brass_frame', 'create:railway_casing')
-    casing('gtceu:copper_plate', 'gtceu:copper_frame', 'create_dd:hydraulic_casing')
-    casing('gtceu:double_steel_plate', 'gtceu:steel_frame', 'create_dd:industrial_casing')
-    casing('gtceu:steel_plate', 'gtceu:steel_frame', 'create_dd:steel_casing')
+    //casing('gtceu:copper_plate', 'gtceu:copper_frame', 'create_dd:hydraulic_casing')
+    //casing('gtceu:double_steel_plate', 'gtceu:steel_frame', 'create_dd:industrial_casing')
+    //casing('gtceu:steel_plate', 'gtceu:steel_frame', 'create_dd:steel_casing')
 
 
     e.shaped('gtceu:stone_dust',[

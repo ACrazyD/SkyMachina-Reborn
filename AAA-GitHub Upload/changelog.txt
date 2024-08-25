@@ -2,30 +2,41 @@
 **This does not detail anything from any updates prior to this file.
 ***Only reason this file wasnt made sooner is because im lazu...
 
+##[V2.0.8]
+### Changed
+- Updated All Mods
+### Added
+- Custom Textures for RS (Credits will be added to dev of textures.)
+### Removed
+### Quest Changes
+- Fixed a few chapters giving wrong rewards (I forgot how numbers work for a bit there...) 
+
 ## [V2.0.7]
 ### Changed
-- All of create should have working recipes now (Report missing or broken ones)
-- Botania Recipes
-- Custom Create Heat level systems
-- Added some fluids/items
-- Fixed a StonePlate "Stone Wall" (Softlock issue)
-- Updated Mods (FTBQuests Being a bit one!)
-- Quests (Tho I update them nearly every update, this fixes some typos i have found and some other strange issues.)
+- All Create mod recipes should be working now (Report any missing or broken ones).
+- Updated Botania recipes.
+- Introduced custom Create heat level systems.
+- Added some new fluids and items.
+- Fixed a StonePlate "Stone Wall" softlock issue.
+- Updated mods (FTBQuests being a significant one).
+- Updated quests to fix typos and other issues.
 ### Added
-- More KubeJS Tools
-- RefinedStorage
-- IntergratedCrafting (Pending, May Remove Before Launch)
-- ChatHeads
-- NoChatReports
-- E4MC (Allows Lan Worlds to be public, without all the extras of Essentials)
+- Integrated [Refined Storage Recreated](https://www.curseforge.com/minecraft/texture-packs/refined-storage-recreated) texture pack into the modpack.
+- Added more KubeJS tools.
+- Added RefinedStorage.
+- Added IntergratedCrafting (Pending, may remove before launch).
+- Added ChatHeads.
+- Added NoChatReports.
+- Added E4MC (Allows LAN worlds to be public without all the extras of Essentials).
 ### Removed
-- The Inventory Overhaul mod... (Broke offhand interactions)
-- All Recipes for Intergrated Suite (Pending New Production Lines)
+- Removed The Inventory Overhaul mod (Broke offhand interactions).
+- Removed all recipes for Intergrated Suite (Pending new production lines).
 ### Quest Changes
-- Theres a 4x quest that now needs a saw to be completed in kentic age
-- Added onto kentic age as well.
-- fixed an few missing "OreTags" on some quests
-- Blanket added some coin rewards to all existing quests. (At the time of typeing this line atleast)
+- A quest in the kinetic age now requires a saw to be completed.
+- Added new content to the kinetic age.
+- Fixed missing "OreTags" on some quests.
+- Added coin rewards to all existing quests (at the time of writing this line).
+
 
 ## [V2.0.6]
 ### Changed

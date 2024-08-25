@@ -4,6 +4,10 @@ const lv = 700
 
 ServerEvents.recipes(e => {
 
+    /* function tcoilerRecipe(input, count, output, time) {
+        e.recipes.vintageimprovements.coiling(output, [Ingredient.of(input), count]).processingTime(time);
+    } */
+
     function tcoilerRecipe(input, count, output, time) {
         e.custom({
             "type": "vintageimprovements:coiling",
