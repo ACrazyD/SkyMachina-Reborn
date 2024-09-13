@@ -7,7 +7,7 @@ Embark on an extraordinary journey in SkyMachina, a midlevel expert skyblock adv
 
 ![Things](https://www.bisecthosting.com/images/CF/SkyMachina_(updated)/BH_SkyMach_features.webp)
 
-- **Sky-High Multiblocks:** Build your empire in the sky with a focus on constructing intricate multiblocks, starting with Create and advancing to the complexities of GregTech.
+- **Sky-High Multiblocks:** Build your empire in the sky with a focus on constructing intricate multiblocks, starting with Create and advancing to the complexities of Mek and Thermal (with spice).
 
 - **Forge an Oblivion Catalyst:** From the ground up (or what little ground you get), embark on a quest to craft the elusive "Oblivion Catalyst," a symbol of mastery over the skies.
 

@@ -34,3 +34,6 @@ emi.json
 /schematics
 /kubejs/documentation
 .mixin.out
+knownkeys.txt
+/mod_data
+.gitignore
