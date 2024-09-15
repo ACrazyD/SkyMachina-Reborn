@@ -4,8 +4,9 @@ ServerEvents.recipes(e => {
     e.remove({id: 'create:milling/gravel'})
     e.remove({id: 'create:milling/calcite'})
     
-    e.recipes.create.milling('minecraft:sand', 'minecraft:gravel')
-    e.recipes.create.milling('kubejs:dust', 'minecraft:sand')
+    e.recipes.createMilling('minecraft:sand', 'minecraft:gravel')
+    e.recipes.createMilling('minecraft:gravel', 'minecraft:cobblestone')
+    e.recipes.createMilling('kubejs:dust', 'minecraft:sand')
 
 
 })//End Of File
