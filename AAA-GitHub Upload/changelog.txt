@@ -2,6 +2,26 @@
 **This does not detail anything from any updates prior to this file.
 ***Only reason this file wasnt made sooner is because im lazu...
 
+##[V3.0.2]
+### Changed
+- Server Listing Info (This is a hotPatch)
+
+##[V3.0.1]
+### Changed
+- All Mods Updated
+- New Dev Branch Internally (Major changes For Yall)
+- A bunch of stuff I forgot to type out as I did it...
+### Added
+- A few Create Addons
+###
+- First Person Models
+- Some other stuff i cant recall...
+### Quest Changes
+- ***FULL RESET OF ALL QUESTS***
+### MAJOR NOTE!!!!
+*** !!! NOTICE !!! - THIS UPDATE WILL RESET ALL WORLDS - DO NOT UPDATE IF YOU DONT WANT TO RESTART!!!! - SUPPORT FOR OLDER VERSIONS IS NO LONGER GOING TO BE GIVIN!
+THIS IS A TOTAL RESET OF NEARLY EVERYTHING INTERNALLY AND WILL NOT BE UNDONE!!! ***
+
 ##[V2.0.8]
 ### Changed
 - Updated All Mods
