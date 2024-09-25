@@ -2,6 +2,12 @@
 **This does not detail anything from any updates prior to this file.
 ***Only reason this file wasnt made sooner is because im lazu...
 
+##[V3.0.3]
+### Changed
+- Updated Mods that Needed Updated
+- Fixed some issues with the serverpack (Will attempt to push those each update now btw)
+
+
 ##[V3.0.2]
 ### Changed
 - Server Listing Info (This is a hotPatch)
