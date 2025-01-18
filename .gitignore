@@ -39,3 +39,6 @@ knownkeys.txt
 command_history.txt
 realms_persistence.json
 /.probe
+
+.probe
+kubejs/config/probe-settings.json
