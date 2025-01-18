@@ -18,7 +18,6 @@ ServerEvents.recipes(e => {
     e.remove({ mod: 'industrialforegoingsouls'})
     e.remove({ mod: 'computercraft'})
     e.remove({ mod: 'enderio'})
-    e.remove({ mod: 'exdeorum'})
     e.remove({ mod: 'torchmaster'})
     e.remove({ mod: 'pocketgps'})
     e.remove({ mod: 'easy_villagers'})
@@ -26,6 +25,7 @@ ServerEvents.recipes(e => {
     e.remove({ mod: 'buildinggadgets2'})
     e.remove({ mod: 'enderchests'})
     e.remove({ mod: 'endertanks'})
+    e.remove({ mod: 'flightblocks'})
 
 
     // Remove All AE2 and Related Mods
