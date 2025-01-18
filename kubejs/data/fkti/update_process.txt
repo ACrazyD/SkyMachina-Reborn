@@ -1,0 +1,19 @@
+### UPDATE PROCESS
+
+# Pull official Terralith's updates
+1. minecraft:dimension/overworld
+2. minecraft:dimension_type/overworld
+
+# Remove unused biomes in "minecraft:dimension/overworld" if necessary
+1. oceans
+2. rivers
+3. deep_caves
+
+# Add ambient light in "minecraft:dimension_type/overworld"
+1. Around: 0.05
+
+# Chose the generation weight
+1. refer to the right file in "minecraft:dimension/overworld"
+
+# Change the tellraw in the load function
+value: TINY / SMALL / MEDIUM / LARGE / MASSIVE

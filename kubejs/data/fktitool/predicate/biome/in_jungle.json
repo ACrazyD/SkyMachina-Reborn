@@ -1,0 +1,23 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biomes": "minecraft:jungle"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biomes": "minecraft:sparse_jungle"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biomes": "minecraft:bamboo_jungle"
+      }
+    }
+  ]
+}

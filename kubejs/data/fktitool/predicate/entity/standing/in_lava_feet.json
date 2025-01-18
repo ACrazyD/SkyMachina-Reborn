@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:location_check",
+  "offsetY": 0,
+  "predicate": {
+    "fluid": {
+      "fluids": "#minecraft:lava"
+    }
+  }
+}

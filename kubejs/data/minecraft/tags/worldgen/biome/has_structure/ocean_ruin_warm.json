@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#minecraft:is_jungle",
+    "minecraft:beach",
+    "minecraft:snowy_beach",
+    "minecraft:swamp",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills"
+  ]
+}

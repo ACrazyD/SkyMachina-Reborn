@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#minecraft:is_jungle",
+    "#minecraft:is_beach",
+    "minecraft:swamp",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills",
+    "terralith:tropical_jungle",
+    "terralith:rocky_jungle",
+    "terralith:orchid_swamp",
+    "#terralith:all_terralith_biomes"
+  ]
+}

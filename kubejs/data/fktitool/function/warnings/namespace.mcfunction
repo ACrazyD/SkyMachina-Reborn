@@ -1,0 +1,1 @@
+tellraw @s[tag=fkdev] [{"text":"[fktool] namespace not renamed (incompatibility)","color":"red"}]

@@ -36,3 +36,6 @@ emi.json
 .mixin.out
 knownkeys.txt
 /mod_data
+command_history.txt
+realms_persistence.json
+/.probe

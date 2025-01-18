@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "block": {
+      "blocks": [
+        "minecraft:air",
+        "minecraft:cave_air",
+        "minecraft:void_air"
+      ]
+    }
+  }
+}
