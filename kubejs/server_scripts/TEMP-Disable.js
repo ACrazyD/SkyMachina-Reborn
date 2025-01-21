@@ -26,11 +26,18 @@ ServerEvents.recipes(e => {
     e.remove({ mod: 'enderchests'})
     e.remove({ mod: 'endertanks'})
     e.remove({ mod: 'flightblocks'})
+    e.remove({ mod: 'prefab'})
+    e.remove({ mod: 'reliquary'})
+    e.remove({ mod: 'xycraft_core'})
+    e.remove({ mod: 'xycraft_machines'})
+    e.remove({ mod: 'xycraft_world'})
+    e.remove({ mod: 'fluxnetworks'})
 
 
     // Remove All AE2 and Related Mods
     e.remove({ mod: 'advanced_ae'})
     e.remove({ mod: 'ae2'})
+    e.remove({ mod: 'megacells'})
     e.remove({ mod: 'ae2_mega_things'})
     e.remove({ mod: 'appflux'})
     e.remove({ mod: 'appmek'})
@@ -38,6 +45,7 @@ ServerEvents.recipes(e => {
     e.remove({ mod: 'arseng'})
     e.remove({ mod: 'soulplied_energistics'})
     e.remove({ mod: 'fulleng'})
+    e.remove({ mod: 'ae2netanalyser'})
 
     // Remove All Ars Nouveau and Related Mods
     e.remove({ mod: 'ars_additions'})

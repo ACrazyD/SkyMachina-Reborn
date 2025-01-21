@@ -48,6 +48,29 @@ ServerEvents.recipes(e => {
         })
     }
 
+    let hammer = (ingot, plate, output) => {
+        e.shaped(output, [
+            'pip',
+            'psp',
+            ' s '
+        ],{
+            i: ingot,
+            p: plate,
+            s: 'stick'
+        })
+    }
+
+    let chammer = (hammer, plate, output) => {
+        e.shaped(output, [
+            ' h ',
+            'hph',
+            ' h '
+        ],{
+            h: hammer,
+            p: plate
+        })
+    }
+
 
     //Recipes
     // Normal Sieves
@@ -104,7 +127,38 @@ ServerEvents.recipes(e => {
     crucible('ars_nouveau:red_archwood_log', 'ars_nouveau:archwood_slab', 'exdeorum:red_archwood_crucible')
     crucible('ars_nouveau:green_archwood_log', 'ars_nouveau:archwood_slab', 'exdeorum:green_archwood_crucible')
     crucible('ars_nouveau:purple_archwood_log', 'ars_nouveau:archwood_slab', 'exdeorum:purple_archwood_crucible')
+    // Hammers
+    hammer('#minecraft:planks', '#minecraft:planks', 'exdeorum:wooden_hammer')
+    hammer('#c:stones', '#c:stones', 'exdeorum:stone_hammer')
+    hammer('iron_ingot', 'alltheores:iron_plate', 'exdeorum:iron_hammer')
+    hammer('gold_ingot', 'alltheores:gold_plate', 'exdeorum:golden_hammer')
+    hammer('diamond', 'alltheores:diamond_plate', 'exdeorum:diamond_hammer')
+    hammer('netherite_ingot', 'alltheores:netherite_plate', 'exdeorum:netherite_hammer')
+    // Compressed Hammers
+    chammer('exdeorum:wooden_hammer', '#minecraft:planks', 'exdeorum:compressed_wooden_hammer')
+    chammer('exdeorum:stone_hammer', '#c:stones', 'exdeorum:compressed_stone_hammer')
+    chammer('exdeorum:iron_hammer', 'alltheores:iron_plate', 'exdeorum:compressed_iron_hammer')
+    chammer('exdeorum:golden_hammer', 'alltheores:gold_plate', 'exdeorum:compressed_golden_hammer')
+    chammer('exdeorum:diamond_hammer', 'alltheores:diamond_plate', 'exdeorum:compressed_diamond_hammer')
+    chammer('exdeorum:netherite_hammer', 'alltheores:netherite_plate', 'exdeorum:compressed_netherite_hammer')
 
+
+    // normal Crafting Recipes
+    e.shaped('exdeorum:crook',[
+        'sss',
+        's s',
+        '  s'
+    ],{
+        s: '#c:rods/wooden'
+    })
+    
+    e.shaped('exdeorum:bone_crook',[
+        'sss',
+        's s',
+        '  s'
+    ],{
+        s: '#c:bones'
+    })
 
 })
 // End of File
