@@ -1,16 +1,16 @@
-ServerEvents.recipes(allthemods => {
+ServerEvents.recipes(e => {
 
-    function cell(output, item, typeA, typeB, component){
-        allthemods.shaped(output, [
+    function cell(output, top, left, right, component){
+        e.shaped(output, [
                 'GIG',
                 'XCY',
                 'AVU'
             ], {
                 G: 'ae2:quartz_glass',
-                I: item,
-                X: typeA,
+                I: top,
+                X: left,
                 C: component,
-                Y: typeB,
+                Y: right,
                 A: 'mysticalagradditions:insanium_ingot',
                 V: 'mysticalagradditions:insanium_ingot',
                 U: 'mysticalagradditions:insanium_ingot'
