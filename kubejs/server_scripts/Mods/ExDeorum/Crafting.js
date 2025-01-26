@@ -71,6 +71,16 @@ ServerEvents.recipes(e => {
         })
     }
 
+    let mesh = (weave, output) => {
+        e.shaped(output, [
+            'ppp',
+            'ppp',
+            'ppp'
+        ],{
+            p: weave
+        })
+    }
+
 
     //Recipes
     // Normal Sieves
@@ -141,6 +151,13 @@ ServerEvents.recipes(e => {
     chammer('exdeorum:golden_hammer', 'alltheores:gold_plate', 'exdeorum:compressed_golden_hammer')
     chammer('exdeorum:diamond_hammer', 'alltheores:diamond_plate', 'exdeorum:compressed_diamond_hammer')
     chammer('exdeorum:netherite_hammer', 'alltheores:netherite_plate', 'exdeorum:compressed_netherite_hammer')
+    // Meshes
+    mesh('minecraft:string', 'exdeorum:string_mesh')
+    mesh('kubejs:flint_weave', 'exdeorum:iron_mesh')
+    mesh('kubejs:iron_weave', 'exdeorum:iron_mesh')
+    mesh('kubejs:gold_weave', 'exdeorum:golden_mesh')
+    mesh('kubejs:diamond_weave', 'exdeorum:diamond_mesh')
+    mesh('kubejs:netherite_weave', 'exdeorum:netherite_mesh')
 
 
     // normal Crafting Recipes

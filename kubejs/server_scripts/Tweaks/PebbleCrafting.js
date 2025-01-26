@@ -24,54 +24,54 @@ ServerEvents.recipes(e => {
     
     //Flake Crafting
     // Copper
-    e.shaped('skytweaker:copper_flake',[
+    e.shaped('kubejs:copper_flake',[
         'p  ',
         ' pp',
         '  p'
     ],{
-        p: '#skytweaker:owpebbles'
+        p: '#kubejs:owpebbles'
     })
     // Iron
-    e.shaped('skytweaker:iron_flake',[
+    e.shaped('kubejs:iron_flake',[
         '  p',
         'pp ',
         'p  '
     ],{
-        p: '#skytweaker:owpebbles'
+        p: '#kubejs:owpebbles'
     })
     // Gold
-    e.shaped(' skytweaker:gold_flake',[
+    e.shaped('kubejs:gold_flake',[
         'p  ',
         'pp ',
         'p  '
     ],{
-        p: '#skytweaker:owpebbles'
+        p: '#kubejs:owpebbles'
     })
     // Coal Shavings
-    e.shaped('skytweaker:coal_shavings',[
+    e.shaped('kubejs:coal_shavings',[
         'p  ',
         'pp ',
         ' p '
     ],{
-        p: '#skytweaker:owpebbles'
+        p: '#kubejs:owpebbles'
     })
     
     //Flake To Something??
     // Copper
     e.shapeless('minecraft:raw_copper',[
-        'skytweaker:copper_flake'
+        'kubejs:copper_flake'
     ])
     // Iron
     e.shapeless('minecraft:raw_iron',[
-        'skytweaker:iron_flake'
+        'kubejs:iron_flake'
     ])
     // Gold
     e.shapeless('minecraft:raw_gold',[
-        'skytweaker:gold_flake'
+        'kubejs:gold_flake'
     ])
     // Coal Shavings
     e.shapeless('minecraft:coal',[
-        'skytweaker:coal_shavings'
+        'kubejs:coal_shavings'
     ])
 
 })

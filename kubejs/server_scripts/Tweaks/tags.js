@@ -3,7 +3,7 @@ ServerEvents.tags('block', e => {
 })
 
 ServerEvents.tags('item', e => {
-    e.add('skytweaker:owpebbles',
+    e.add('kubejs:owpebbles',
         [
             'skyblockessentials:dirt_chunk',
             'skyblockessentials:stone_chunk',
@@ -23,7 +23,7 @@ ServerEvents.tags('item', e => {
         ]
     )
 
-    e.add('skytweaker:npebbles',
+    e.add('kubejs:npebbles',
         [
             'skyblockessentials:netherrack_chunk',
             'skyblockessentials:basalt_chunk',
@@ -34,7 +34,7 @@ ServerEvents.tags('item', e => {
         ]
     )
 
-    e.add('skytweaker:epebbles',
+    e.add('kubejs:epebbles',
         [
             'skyblockessentials:end_stone_chunk',
         ]
