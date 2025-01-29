@@ -2,7 +2,7 @@
   "hide_server_script_errors": false,
   "server_only": false,
   "announce_reload": true,
-  "packmode": "",
+  "packmode": "expert",
   "save_dev_properties_in_config": false,
   "allow_async_streams": true,
   "match_json_recipes": true,
