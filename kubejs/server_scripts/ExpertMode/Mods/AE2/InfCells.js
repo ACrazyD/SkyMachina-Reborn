@@ -1,3 +1,6 @@
+//priority: 10
+//packmode: expert
+
 ServerEvents.recipes(e => {
 
     function cell(output, top, left, right, component){

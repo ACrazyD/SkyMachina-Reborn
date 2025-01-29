@@ -1,3 +1,6 @@
+//priority: 10
+//packmode: expert
+
 ServerEvents.recipes(e => {
 
     // This File Only Exists To Remove Mods Pending Rebuild of Recipes

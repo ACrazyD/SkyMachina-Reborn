@@ -1,3 +1,6 @@
+//priority: 10
+//packmode: expert
+
 ServerEvents.recipes((event) => {
     // Removes every sieve recipe added by default in Ex Deorum
     exdeorum.removeDefaultSieveRecipes(event);
