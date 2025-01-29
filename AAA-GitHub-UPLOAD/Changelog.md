@@ -1,3 +1,22 @@
+[Beta-4.0.0a]
+## Changed
+    # Quests
+    # KubeJS Related
+    # Other
+        - Updated GitHub Readme
+## Removed
+    # Quests
+    # KubeJS Related
+    # Other
+        - Removed MoonlightLib and mods that used it for servers to work at all
+        - Removed ProbeJS from Prod
+## Added
+    # Quests
+    # KubeJS Related
+    # Other
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
 [Beta-4.0.0]
 ## Changed
     # Quests

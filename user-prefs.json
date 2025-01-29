@@ -210,7 +210,7 @@
         "isSelected": true
       },
       {
-        "path": "config\\ars_nouveau\\search_index\\segments_s",
+        "path": "config\\ars_nouveau\\search_index\\segments_t",
         "isSelected": true
       },
       {
@@ -218,15 +218,15 @@
         "isSelected": true
       },
       {
-        "path": "config\\ars_nouveau\\search_index\\_r.cfe",
+        "path": "config\\ars_nouveau\\search_index\\_s.cfe",
         "isSelected": true
       },
       {
-        "path": "config\\ars_nouveau\\search_index\\_r.cfs",
+        "path": "config\\ars_nouveau\\search_index\\_s.cfs",
         "isSelected": true
       },
       {
-        "path": "config\\ars_nouveau\\search_index\\_r.si",
+        "path": "config\\ars_nouveau\\search_index\\_s.si",
         "isSelected": true
       },
       {
@@ -2142,6 +2142,14 @@
         "isSelected": true
       },
       {
+        "path": "config\\jei\\world\\server",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\world\\server\\A_Minecraft_Server_1201d791",
+        "isSelected": true
+      },
+      {
         "path": "config\\jei\\blacklist.json",
         "isSelected": true
       },
@@ -3854,6 +3862,10 @@
         "isSelected": false
       },
       {
+        "path": "fancymenu_data\\fancymenu_temp\\decoded_fma_images",
+        "isSelected": false
+      },
+      {
         "path": "fancymenu_data\\last_world.fmdata",
         "isSelected": false
       },
@@ -3915,6 +3927,118 @@
       },
       {
         "path": "journeymap\\data\\mp",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\biome",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\biome\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\biome\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\biome\\0,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\cache\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\cache\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\cache\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\cache\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\day",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\day\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\day\\0,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\night",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\night\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\night\\0,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\topo",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\topo\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\topo\\cache\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\topo\\cache\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\topo\\cache\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\topo\\cache\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\topo\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\topo\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\overworld\\topo\\0,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\waypoints",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\A~Minecraft~Server_5a88ba79~2d9d~4e89~ad8a~5ba3ac3b16b0\\waypoints\\WaypointData.dat",
         "isSelected": false
       },
       {
@@ -5575,6 +5699,14 @@
       },
       {
         "path": "journeymap\\icon\\entity\\ars_nouveau\\starbuncle_cyan_outlined.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\icon\\entity\\ars_nouveau\\whirlisprig_summer.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\icon\\entity\\ars_nouveau\\whirlisprig_summer_outlined.png",
         "isSelected": false
       },
       {
@@ -8926,11 +9058,11 @@
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\24492_1738156970.info",
+        "path": "local\\crash_assistant\\28280_1738162429.info",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\24492_1738156970_app.jar",
+        "path": "local\\crash_assistant\\28280_1738162429_app.jar",
         "isSelected": false
       },
       {
@@ -9431,6 +9563,50 @@
       },
       {
         "path": "local\\ftbchunks\\data\\95c60525-925c-4d00-b9ff-b1cf0287c4b6\\dimensions.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\ce39fcef-3ed8-496e-9600-cb173fc06f79",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\ce39fcef-3ed8-496e-9600-cb173fc06f79\\minecraft_overworld",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\ce39fcef-3ed8-496e-9600-cb173fc06f79\\minecraft_overworld\\0EA5F-0EA5F.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\ce39fcef-3ed8-496e-9600-cb173fc06f79\\minecraft_overworld\\0EA5F-0EA60.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\ce39fcef-3ed8-496e-9600-cb173fc06f79\\minecraft_overworld\\0EA60-0EA5F.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\ce39fcef-3ed8-496e-9600-cb173fc06f79\\minecraft_overworld\\0EA60-0EA60.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\ce39fcef-3ed8-496e-9600-cb173fc06f79\\minecraft_overworld\\dimension.regions",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\ce39fcef-3ed8-496e-9600-cb173fc06f79\\minecraft_overworld\\waypoints.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\ce39fcef-3ed8-496e-9600-cb173fc06f79\\biome_map.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\ce39fcef-3ed8-496e-9600-cb173fc06f79\\block_map.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\ce39fcef-3ed8-496e-9600-cb173fc06f79\\dimensions.txt",
         "isSelected": false
       },
       {
@@ -14254,6 +14430,10 @@
         "isSelected": false
       },
       {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-01-29_08-22-56.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\crash_assistant\\latest.log",
         "isSelected": false
       },
@@ -14670,10 +14850,6 @@
         "isSelected": true
       },
       {
-        "path": "mods\\amendments-1.21-1.2.22-neoforge.jar",
-        "isSelected": true
-      },
-      {
         "path": "mods\\Apotheosis-1.21.1-8.1.2.jar",
         "isSelected": true
       },
@@ -14914,10 +15090,6 @@
         "isSelected": true
       },
       {
-        "path": "mods\\dummmmmmy-1.21-2.0.6-neoforge.jar",
-        "isSelected": true
-      },
-      {
         "path": "mods\\e4mc_minecraft-neoforge-5.2.1.jar",
         "isSelected": true
       },
@@ -14995,10 +15167,6 @@
       },
       {
         "path": "mods\\FastFurnace-1.21.1-9.0.0.jar",
-        "isSelected": true
-      },
-      {
-        "path": "mods\\fastpaintings-1.21-1.2.15-neoforge.jar",
         "isSelected": true
       },
       {
@@ -15382,10 +15550,6 @@
         "isSelected": true
       },
       {
-        "path": "mods\\moonlight-1.21-2.17.20-neoforge.jar",
-        "isSelected": true
-      },
-      {
         "path": "mods\\more-immersive-wires-1.21.1-1.1.6.jar",
         "isSelected": true
       },
@@ -15423,10 +15587,6 @@
       },
       {
         "path": "mods\\NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
-        "isSelected": true
-      },
-      {
-        "path": "mods\\NotEnoughTrials-1.21-v2.1.jar",
         "isSelected": true
       },
       {
@@ -15479,7 +15639,7 @@
       },
       {
         "path": "mods\\ProbeJS-7.5.1.jar",
-        "isSelected": true
+        "isSelected": false
       },
       {
         "path": "mods\\productivebees-1.21.1-13.6.9.jar",
@@ -15603,10 +15763,6 @@
       },
       {
         "path": "mods\\supermartijn642corelib-1.1.18a-neoforge-mc1.21.jar",
-        "isSelected": true
-      },
-      {
-        "path": "mods\\supplementaries-1.21-3.0.33-beta-neoforge.jar",
         "isSelected": true
       },
       {
@@ -16578,6 +16734,10 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\tombstone\\saved_players\\e7571960-a0c0-4e1e-80c0-6bff047db401\\20250129-091359.save",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\icon.png",
         "isSelected": false
       },
@@ -17031,6 +17191,14 @@
       },
       {
         "path": "screenshots\\worlds\\screenshots\\worlds",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\worlds\\screenshots\\worlds\\servers",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\worlds\\screenshots\\worlds\\servers\\2600_4040_5db6_5d00_f4c0_c334_9f81_29f3_25565.png",
         "isSelected": false
       },
       {
@@ -20551,6 +20719,10 @@
       },
       {
         "path": "realms_persistence.json",
+        "isSelected": false
+      },
+      {
+        "path": "servers.dat",
         "isSelected": false
       },
       {
