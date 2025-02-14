@@ -1,0 +1,20 @@
+{
+    "pack": {
+        "pack_format": 10,
+        "description": "Removes Tinkers' Construct Geodes from worldgen."
+    },
+    "data": {
+        "minecraft": {
+            "worldgen": {
+                "removed_features": {
+                    "features": [
+                        "tconstruct:earth_geode",
+                        "tconstruct:sky_geode",
+                        "tconstruct:fire_geode",
+                        "tconstruct:water_geode"
+                    ]
+                }
+            }
+        }
+    }
+}

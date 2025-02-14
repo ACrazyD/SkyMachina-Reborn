@@ -42,3 +42,6 @@ realms_persistence.json
 
 .probe
 kubejs/config/probe-settings.json
+gtceu/prospection_cache
+data/fabricDefaultResourcePacks.dat
+win_event1739379697884.txt
