@@ -1,0 +1,5 @@
+// Compost colors for create_hc. You may add your own colors, change existing ones, or remove colors that aren't needed.
+drill_head, #fefcfe
+press_head, #4b4b4e
+rope, #ffffff
+saw_blade, #a8a4a5

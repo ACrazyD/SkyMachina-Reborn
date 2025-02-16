@@ -1,0 +1,9 @@
+// Compost colors for tinkers_things. You may add your own colors, change existing ones, or remove colors that aren't needed.
+hematite, #5b0700
+large_repair_kit_gold_cast, #ffff84
+large_repair_kit_red_sand_cast, #ff962f
+large_repair_kit_sand_cast, #ffffeb
+shield_plating_dummy, #b1afac
+shield_plating_gold_cast, #ffff7f
+shield_plating_red_sand_cast, #ff932f
+shield_plating_sand_cast, #ffffea
