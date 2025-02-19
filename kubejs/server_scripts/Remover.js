@@ -11,6 +11,7 @@ ServerEvents.recipes((e) => {
 	e.remove({ mod: 'ae2' })
 	e.remove({ mod: 'megacells' })
     e.remove({ mod: 'expatternprovider'})
+	e.remove({ mod: 'appflux'})
 
 	//Create + Addons
 	e.remove({ mod: 'create' })
@@ -25,6 +26,8 @@ ServerEvents.recipes((e) => {
     e.remove({ mod: 'createoreexcavation'})
     e.remove({ mod: 'create_ore_excavation_plus'})
     e.remove({ mod: 'createmetallurgy'})
+	e.remove({ mod: 'create_mechanical_extruder'})
+
 
 	//Immersive Engineering + Addons
 	e.remove({ mod: 'immersiveengineering' })
