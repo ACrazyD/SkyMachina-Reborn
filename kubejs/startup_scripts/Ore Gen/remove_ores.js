@@ -1908,6 +1908,9 @@ WorldgenEvents.remove((e) => {
 		'tfmg:lithium_ore',
 		'tfmg:nickel_ore',
 		'tconstruct:cobalt_ore',
+		"createmetallurgy:wolframite_ore",
+		"powah:uraninite_ore",
+		'create_better_motors:reggarfoniteore'
 	]
 
 	oresToRemove.forEach((ore) => {

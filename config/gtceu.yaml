@@ -519,10 +519,10 @@ compat:
       ftbChunksIntegration: false
 
       # Journey Map integration enabled
-      journeyMapIntegration: true
+      journeyMapIntegration: false
 
       # Xaerox's map integration enabled
-      xaerosMapIntegration: true
+      xaerosMapIntegration: false
 
     # The radius, in blocks, that picking up a surface rock will search for veins in.
     # -1 to disable.

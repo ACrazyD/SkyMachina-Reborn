@@ -1,0 +1,14 @@
+{
+  "type": "createoreexcavation:extracting",
+  "drill": {
+    "tag": "create_ore_excavation_plus:powerfull_drills"
+  },
+  "output": {
+    "amount": 500,
+    "fluid": "minecraft:lava"
+  },
+  "priority": 0,
+  "stress": 256,
+  "ticks": 250,
+  "vein_id": "create_ore_excavation_plus:ore_vein_type/lava_overworld_vein"
+}
