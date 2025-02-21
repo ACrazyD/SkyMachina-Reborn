@@ -175,9 +175,9 @@
     "modId": "cloth_config",
     "version": "11.1.136"
   },
-  "collective-1.20.1-7.91.jar": {
+  "collective-1.20.1-7.92.jar": {
     "modId": "collective",
-    "version": "7.91"
+    "version": "7.92"
   },
   "comforts-forge-6.4.0+1.20.1.jar": {
     "modId": "comforts",
@@ -283,9 +283,9 @@
     "modId": "createartifactscompat",
     "version": "1.0.2.2-1.20.1"
   },
-  "createenchantablemachinery-2.9.9-mc1.20.1-forge.jar": {
+  "createenchantablemachinery-2.9.10-mc1.20.1-forge.jar": {
     "modId": "createenchantablemachinery",
-    "version": "2.9.9"
+    "version": "2.9.10"
   },
   "createhc-1.0.9-forge-1.20.1.jar": {
     "modId": "create_hc",
@@ -399,9 +399,9 @@
     "modId": "enderchests",
     "version": "1.20.1-1.3"
   },
-  "EnderIO-1.20.1-6.2.7-beta-all.jar": {
+  "EnderIO-1.20.1-6.2.9-beta-all.jar": {
     "modId": "enderio",
-    "version": "6.2.7-beta"
+    "version": "6.2.9-beta"
   },
   "endermanoverhaul-forge-1.20.1-1.0.4.jar": {
     "modId": "endermanoverhaul",
@@ -749,9 +749,9 @@
     "modId": "monomorphism",
     "version": "1.0.10"
   },
-  "moonlight-1.20-2.13.67-forge.jar": {
+  "moonlight-1.20-2.13.68-forge.jar": {
     "modId": "moonlight",
-    "version": "1.20-2.13.67"
+    "version": "1.20-2.13.68"
   },
   "more-immersive-wires-1.20.1-1.1.4.jar": {
     "modId": "more_immersive_wires",
@@ -893,9 +893,9 @@
     "modId": "searchables",
     "version": "1.0.3"
   },
-  "seasonhud-forge-1.20.1-1.12.0.jar": {
+  "seasonhud-forge-1.20.1-1.12.1.jar": {
     "modId": "seasonhud",
-    "version": "1.12.0"
+    "version": "1.12.1"
   },
   "SereneSeasons-forge-1.20.1-9.1.0.0.jar": {
     "modId": "sereneseasons",
@@ -937,9 +937,9 @@
     "modId": "sophisticatedbackpacks",
     "version": "3.23.5.1200"
   },
-  "sophisticatedcore-1.20.1-1.2.14.875.jar": {
+  "sophisticatedcore-1.20.1-1.2.15.879.jar": {
     "modId": "sophisticatedcore",
-    "version": "1.2.14.875"
+    "version": "1.2.15.879"
   },
   "sophisticatedstorage-1.20.1-1.3.8.1074.jar": {
     "modId": "sophisticatedstorage",

@@ -12,6 +12,8 @@ ServerEvents.recipes((e) => {
 	e.remove({ mod: 'megacells' })
     e.remove({ mod: 'expatternprovider'})
 	e.remove({ mod: 'appflux'})
+	e.remove({ mod: 'appmek'})
+
 
 	//Create + Addons
 	e.remove({ mod: 'create' })
@@ -23,10 +25,15 @@ ServerEvents.recipes((e) => {
 	e.remove({ mod: 'vintageimprovements' })
 	e.remove({ mod: 'moreburners' })
 	e.remove({ mod: 'petrolsparts' })
-    //e.remove({ mod: 'createoreexcavation'})
-    //e.remove({ mod: 'create_ore_excavation_plus'})
+    e.remove({ mod: 'createoreexcavation'})
+    e.remove({ mod: 'create_ore_excavation_plus'})
     e.remove({ mod: 'createmetallurgy'})
 	e.remove({ mod: 'create_mechanical_extruder'})
+	e.remove({ mod: 'create_things_and_misc'})
+	e.remove({ mod: 'createpowerlines'})
+	e.remove({ mod: 'create_better_motors'})
+	e.remove({ mod: 'create_jetpack'})
+	e.remove({ mod: 'balancedflight'})
 
 
 	//Immersive Engineering + Addons
@@ -61,5 +68,8 @@ ServerEvents.recipes((e) => {
     e.remove({ mod: 'exmachinis'})
     e.remove({ mod: 'excompressum'})
     e.remove({ mod: 'adfinders'})
+	e.remove({ mod: 'enderchests'})
+	e.remove({ mod: 'endertanks'})
+	e.remove({ mod: 'powah'})
 
 }) //EF
