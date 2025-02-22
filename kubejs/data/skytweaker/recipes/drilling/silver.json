@@ -1,15 +1,15 @@
 {
   "type": "createoreexcavation:drilling",
   "drill": {
-    "tag": "createoreexcavation:drills"
+    "tag": "createoreexcavation:crudedrills"
   },
   "output": [
     {
-      "item": "immersivegeology:normal_ore_copper"
+      "item": "immersivegeology:normal_ore_silver"
     }
   ],
   "priority": 0,
   "stress": 256,
   "ticks": 600,
-  "vein_id": "skytweaker:ore_vein_type/ig_copper"
+  "vein_id": "skytweaker:ore_vein_type/silver"
 }

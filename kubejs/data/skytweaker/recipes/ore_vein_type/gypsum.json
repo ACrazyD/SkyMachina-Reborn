@@ -4,11 +4,13 @@
   "amountMin": 8.0,
   "biomeWhitelist": "minecraft:is_overworld",
   "icon": {
-    "item": "immersivegeology:normal_ore_copper"
+    "item": "immersivegeology:normal_ore_gypsum"
   },
-  "name": "{\"translate\":\"item.immersivegeology.normal_ore_copper\"}",
+  "name": {
+    "translate": "item.immersivegeology.normal_ore_gypsum"
+  },
   "placement": {
-    "salt": 1768524180,
+    "salt": 469013089,
     "separation": 8,
     "spacing": 128
   },
