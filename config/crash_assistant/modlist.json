@@ -215,13 +215,17 @@
     "modId": "cosmeticarmorreworked",
     "version": "1.20.1-v1a"
   },
+  "crafting-on-a-stick-1.20.1-1.1.5.jar": {
+    "modId": "crafting_on_a_stick",
+    "version": "1.1.5"
+  },
   "craftingtweaks-forge-1.20.1-18.2.5.jar": {
     "modId": "craftingtweaks",
     "version": "18.2.5"
   },
-  "crash_assistant-forge-1.4.1.jar": {
+  "crash_assistant-forge-1.4.3.jar": {
     "modId": "crash_assistant",
-    "version": "1.4.1"
+    "version": "1.4.3"
   },
   "Create Mekanism Ore Excavation 1.20.1 B.1.0.jar": {
     "modId": "tmtcmoe",
@@ -346,6 +350,10 @@
   "droppedbuffs-1.20.1-1.4.jar": {
     "modId": "droppedbuffs",
     "version": "1.20.1-1.4"
+  },
+  "droptherock-1.20.1-1.0.jar": {
+    "modId": "droptherock",
+    "version": "1.20.1-1.0"
   },
   "dtimmersiveweathering-1.20.1-forge-1.0.0.jar": {
     "modId": "dtimmersiveweathering",
@@ -700,6 +708,10 @@
     "modId": "lootr",
     "version": "0.7.35.90"
   },
+  "Lychee-1.20.1-forge-5.1.14.jar": {
+    "modId": "lychee",
+    "version": "5.1.14"
+  },
   "Mantle-1.20.1-1.11.36.jar": {
     "modId": "mantle",
     "version": "1.11.36"
@@ -767,6 +779,10 @@
   "netherportalspread-1.20.1-8.4.jar": {
     "modId": "netherportalspread",
     "version": "8.4"
+  },
+  "notreepunching-forge-1.20-7.1.0.jar": {
+    "modId": "notreepunching",
+    "version": "7.1.0"
   },
   "NumismaticBounties-universal.jar": {
     "modId": "numismaticbounties",

@@ -6,64 +6,148 @@
 	id: "1DDBB1F0D4BD9BE7"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "2064BB079481502A"
-		rewards: [
-			{
-				id: "7CE9156E79A20AAB"
-				item: {
-					Count: 1
-					id: "wooden_elytra:wooden_elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}
-			{
-				id: "09EB414BC2332720"
-				item: {
-					Count: 1
-					id: "wooden_elytra:wooden_elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}
-			{
-				id: "7942481F6D6808CE"
-				item: {
-					Count: 1
-					id: "wooden_elytra:wooden_elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}
-			{
-				count: 32
-				id: "27C3876CD13DF66D"
-				item: {
-					Count: 1
-					id: "minecraft:firework_rocket"
-					tag: {
-						Fireworks: {
-							Flight: 3b
+	quests: [
+		{
+			id: "2064BB079481502A"
+			rewards: [
+				{
+					id: "7CE9156E79A20AAB"
+					item: {
+						Count: 1
+						id: "wooden_elytra:wooden_elytra"
+						tag: {
+							Damage: 0
 						}
 					}
+					type: "item"
 				}
+				{
+					id: "09EB414BC2332720"
+					item: {
+						Count: 1
+						id: "wooden_elytra:wooden_elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7942481F6D6808CE"
+					item: {
+						Count: 1
+						id: "wooden_elytra:wooden_elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "27C3876CD13DF66D"
+					item: {
+						Count: 1
+						id: "minecraft:firework_rocket"
+						tag: {
+							Fireworks: {
+								Flight: 3b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0ADDA8EA9D2644DA"
+				title: "First Join"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "08C9462FAE280E88"
+			rewards: [{
+				id: "1F50821D7825B421"
+				item: "comforts:sleeping_bag_white"
 				type: "item"
-			}
-		]
-		tasks: [{
-			id: "0ADDA8EA9D2644DA"
-			title: "First Join"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+			}]
+			tasks: [{
+				id: "42F2E7BF35C05D87"
+				title: "bed"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "5FC9F573AF0E86EC"
+			rewards: [
+				{
+					id: "7FE05F9F0F648122"
+					item: "sophisticatedbackpacks:iron_backpack"
+					type: "item"
+				}
+				{
+					id: "3C54AC5939697DB4"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "750287C8F918CFE5"
+				title: "backpack"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "298DC35D1F96D692"
+			rewards: [
+				{
+					id: "2B5C7B8B41007BD7"
+					item: {
+						Count: 1
+						id: "adfinders:mineral_finder"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B7A413A99E99AB2"
+					item: {
+						Count: 1
+						id: "adfinders:mineral_finder"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "358E5B0737EDEB87"
+					item: {
+						Count: 1
+						id: "adfinders:mineral_finder"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56B4B84C487E15BB"
+				title: "Finders"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+	]
 	title: "Starting"
 }

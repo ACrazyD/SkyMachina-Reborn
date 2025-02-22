@@ -1,0 +1,4 @@
+// Compost colors for droptherock. You may add your own colors, change existing ones, or remove colors that aren't needed.
+black_sandstone_loose_rock_bop, #575757
+orange_sandstone_loose_rock, #d3842a
+white_sandstone_loose_rock_bop, #ffffff
