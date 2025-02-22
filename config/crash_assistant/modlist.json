@@ -151,10 +151,6 @@
     "modId": "capsule",
     "version": "1.20.1-8.0.105"
   },
-  "carryon-forge-1.20.1-2.1.2.7.jar": {
-    "modId": "carryon",
-    "version": "2.1.2.7"
-  },
   "chat_heads-0.13.13-forge-1.20.jar": {
     "modId": "chat_heads",
     "version": "0.13.13"
@@ -191,9 +187,9 @@
     "modId": "configured",
     "version": "2.2.3"
   },
-  "connectivity-1.20.1-6.8.jar": {
+  "connectivity-1.20.1-7.0.jar": {
     "modId": "connectivity",
-    "version": "1.20.1-6.8"
+    "version": "1.20.1-7.0"
   },
   "Controlling-forge-1.20.1-12.0.2.jar": {
     "modId": "controlling",
@@ -223,9 +219,9 @@
     "modId": "craftingtweaks",
     "version": "18.2.5"
   },
-  "crash_assistant-forge-1.3.9.jar": {
+  "crash_assistant-forge-1.4.1.jar": {
     "modId": "crash_assistant",
-    "version": "1.3.9"
+    "version": "1.4.1"
   },
   "Create Mekanism Ore Excavation 1.20.1 B.1.0.jar": {
     "modId": "tmtcmoe",
@@ -331,9 +327,9 @@
     "modId": "cupboard",
     "version": "1.20.1-2.7"
   },
-  "curios-forge-5.11.1+1.20.1.jar": {
+  "curios-forge-5.12.0+1.20.1.jar": {
     "modId": "curios",
-    "version": "5.11.1+1.20.1"
+    "version": "5.12.0+1.20.1"
   },
   "CyclopsCore-1.20.1-1.19.7.jar": {
     "modId": "cyclopscore",
@@ -399,9 +395,9 @@
     "modId": "enderchests",
     "version": "1.20.1-1.3"
   },
-  "EnderIO-1.20.1-6.2.9-beta-all.jar": {
+  "EnderIO-1.20.1-6.2.10-beta-all.jar": {
     "modId": "enderio",
-    "version": "6.2.9-beta"
+    "version": "6.2.10-beta"
   },
   "endermanoverhaul-forge-1.20.1-1.0.4.jar": {
     "modId": "endermanoverhaul",
@@ -487,9 +483,9 @@
     "modId": "ftbquests",
     "version": "2001.4.11"
   },
-  "ftb-ranks-forge-2001.1.3.jar": {
+  "ftb-ranks-forge-2001.1.4.jar": {
     "modId": "ftbranks",
-    "version": "2001.1.3"
+    "version": "2001.1.4"
   },
   "ftb-teams-forge-2001.3.1.jar": {
     "modId": "ftbteams",
@@ -575,9 +571,9 @@
     "modId": "immersiveengineeringartifacts",
     "version": "1.0.2.1-1.20.1"
   },
-  "ImmersiveGeology-0.5.2-b40.jar": {
+  "ImmersiveGeology-0.5.3-b43.jar": {
     "modId": "immersivegeology",
-    "version": "0.5.2-b40"
+    "version": "0.5.3-b43"
   },
   "immersivemessages-forge-1.0.16-1.20.1.jar": {
     "modId": "immersivemessages",
@@ -684,7 +680,6 @@
     "modId": "laserio",
     "version": "1.3.2"
   },
-  "lazyyyyy-lexforge-core-0.7.14.jar": {},
   "LegendaryTooltips-1.20.1-forge-1.4.5.jar": {
     "modId": "legendarytooltips",
     "version": "1.4.5"
@@ -937,13 +932,13 @@
     "modId": "sophisticatedbackpacks",
     "version": "3.23.5.1200"
   },
-  "sophisticatedcore-1.20.1-1.2.15.879.jar": {
+  "sophisticatedcore-1.20.1-1.2.18.885.jar": {
     "modId": "sophisticatedcore",
-    "version": "1.2.15.879"
+    "version": "1.2.18.885"
   },
-  "sophisticatedstorage-1.20.1-1.3.8.1074.jar": {
+  "sophisticatedstorage-1.20.1-1.3.9.1075.jar": {
     "modId": "sophisticatedstorage",
-    "version": "1.3.8.1074"
+    "version": "1.3.9.1075"
   },
   "spark-1.10.53-forge.jar": {
     "modId": "spark",
@@ -957,9 +952,9 @@
     "modId": "railways",
     "version": "1.6.7+forge-mc1.20.1"
   },
-  "Super Factory Manager-1.20.1-4.19.0.jar": {
+  "Super Factory Manager (SFM)-MC1.20.1-4.20.0.jar": {
     "modId": "sfm",
-    "version": "4.19.0"
+    "version": "4.20.0"
   },
   "supermartijn642configlib-1.1.8-forge-mc1.20.jar": {
     "modId": "supermartijn642configlib",

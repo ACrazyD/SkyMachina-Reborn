@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_thorianite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_thorianite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_thorianite\"}",
   "placement": {
-    "salt": 905176799,
+    "salt": 137868196,
     "separation": 8,
     "spacing": 128
   },

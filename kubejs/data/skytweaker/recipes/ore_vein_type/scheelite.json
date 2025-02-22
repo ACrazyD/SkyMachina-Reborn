@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_scheelite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_scheelite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_scheelite\"}",
   "placement": {
-    "salt": 761375357,
+    "salt": 943538605,
     "separation": 8,
     "spacing": 128
   },

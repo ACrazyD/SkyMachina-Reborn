@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_molybdenite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_molybdenite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_molybdenite\"}",
   "placement": {
-    "salt": 105030302,
+    "salt": 536072978,
     "separation": 8,
     "spacing": 128
   },

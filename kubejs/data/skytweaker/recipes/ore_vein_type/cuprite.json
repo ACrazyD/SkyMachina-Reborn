@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_cuprite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_cuprite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_cuprite\"}",
   "placement": {
-    "salt": 936529606,
+    "salt": 725513786,
     "separation": 8,
     "spacing": 128
   },

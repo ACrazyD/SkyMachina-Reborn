@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_uraninite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_uraninite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_uraninite\"}",
   "placement": {
-    "salt": 872436928,
+    "salt": 657904493,
     "separation": 8,
     "spacing": 128
   },

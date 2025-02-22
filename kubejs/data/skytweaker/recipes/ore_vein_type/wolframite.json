@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_wolframite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_wolframite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_wolframite\"}",
   "placement": {
-    "salt": 813175577,
+    "salt": 567421840,
     "separation": 8,
     "spacing": 128
   },

@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_chromite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_chromite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_chromite\"}",
   "placement": {
-    "salt": 685970032,
+    "salt": 129423151,
     "separation": 8,
     "spacing": 128
   },

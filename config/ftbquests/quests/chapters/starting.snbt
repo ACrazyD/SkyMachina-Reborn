@@ -1,0 +1,69 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starting"
+	group: "4A59A70DD9DDE21E"
+	id: "1DDBB1F0D4BD9BE7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "2064BB079481502A"
+		rewards: [
+			{
+				id: "7CE9156E79A20AAB"
+				item: {
+					Count: 1
+					id: "wooden_elytra:wooden_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "09EB414BC2332720"
+				item: {
+					Count: 1
+					id: "wooden_elytra:wooden_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "7942481F6D6808CE"
+				item: {
+					Count: 1
+					id: "wooden_elytra:wooden_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				count: 32
+				id: "27C3876CD13DF66D"
+				item: {
+					Count: 1
+					id: "minecraft:firework_rocket"
+					tag: {
+						Fireworks: {
+							Flight: 3b
+						}
+					}
+				}
+				type: "item"
+			}
+		]
+		tasks: [{
+			id: "0ADDA8EA9D2644DA"
+			title: "First Join"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Starting"
+}

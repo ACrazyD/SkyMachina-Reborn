@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_osmium"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_osmium"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_osmium\"}",
   "placement": {
-    "salt": 229249266,
+    "salt": 724992200,
     "separation": 8,
     "spacing": 128
   },

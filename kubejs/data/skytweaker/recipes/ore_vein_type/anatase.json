@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_anatase"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_anatase"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_anatase\"}",
   "placement": {
-    "salt": 401471968,
+    "salt": 568935354,
     "separation": 8,
     "spacing": 128
   },

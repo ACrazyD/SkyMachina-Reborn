@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_vanadinite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_vanadinite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_vanadinite\"}",
   "placement": {
-    "salt": 464293731,
+    "salt": 673094888,
     "separation": 8,
     "spacing": 128
   },

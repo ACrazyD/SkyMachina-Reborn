@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_ilmenite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_ilmenite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_ilmenite\"}",
   "placement": {
-    "salt": 501728716,
+    "salt": 364968303,
     "separation": 8,
     "spacing": 128
   },

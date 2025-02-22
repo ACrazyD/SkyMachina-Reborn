@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_alumina"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_alumina"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_alumina\"}",
   "placement": {
-    "salt": 599161803,
+    "salt": 552066996,
     "separation": 8,
     "spacing": 128
   },

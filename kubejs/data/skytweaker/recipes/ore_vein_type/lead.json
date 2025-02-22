@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_lead"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_lead"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_lead\"}",
   "placement": {
-    "salt": 686253644,
+    "salt": 721328811,
     "separation": 8,
     "spacing": 128
   },

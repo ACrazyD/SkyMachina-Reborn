@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_cassiterite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_cassiterite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_cassiterite\"}",
   "placement": {
-    "salt": 987043495,
+    "salt": 220961091,
     "separation": 8,
     "spacing": 128
   },

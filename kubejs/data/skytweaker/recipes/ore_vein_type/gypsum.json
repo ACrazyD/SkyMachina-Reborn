@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_gypsum"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_gypsum"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_gypsum\"}",
   "placement": {
-    "salt": 469013089,
+    "salt": 326391937,
     "separation": 8,
     "spacing": 128
   },

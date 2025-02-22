@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_sphalerite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_sphalerite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_sphalerite\"}",
   "placement": {
-    "salt": 870904718,
+    "salt": 462371012,
     "separation": 8,
     "spacing": 128
   },

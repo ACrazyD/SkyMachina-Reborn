@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_chalcocite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_chalcocite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_chalcocite\"}",
   "placement": {
-    "salt": 300893933,
+    "salt": 259196735,
     "separation": 8,
     "spacing": 128
   },

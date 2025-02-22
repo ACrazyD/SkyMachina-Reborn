@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_thorite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_thorite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_thorite\"}",
   "placement": {
-    "salt": 104562470,
+    "salt": 810730217,
     "separation": 8,
     "spacing": 128
   },

@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_galena"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_galena"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_galena\"}",
   "placement": {
-    "salt": 937448366,
+    "salt": 764875671,
     "separation": 8,
     "spacing": 128
   },

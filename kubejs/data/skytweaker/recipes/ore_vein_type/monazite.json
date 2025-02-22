@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_monazite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_monazite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_monazite\"}",
   "placement": {
-    "salt": 415378364,
+    "salt": 923195315,
     "separation": 8,
     "spacing": 128
   },

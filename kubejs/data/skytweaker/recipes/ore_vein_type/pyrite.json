@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_pyrite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_pyrite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_pyrite\"}",
   "placement": {
-    "salt": 721031086,
+    "salt": 365147984,
     "separation": 8,
     "spacing": 128
   },

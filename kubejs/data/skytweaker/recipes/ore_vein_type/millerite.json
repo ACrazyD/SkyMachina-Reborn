@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_millerite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_millerite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_millerite\"}",
   "placement": {
-    "salt": 598613135,
+    "salt": 567127234,
     "separation": 8,
     "spacing": 128
   },

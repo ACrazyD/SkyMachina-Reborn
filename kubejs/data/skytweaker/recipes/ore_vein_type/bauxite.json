@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_bauxite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_bauxite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_bauxite\"}",
   "placement": {
-    "salt": 838175693,
+    "salt": 829770073,
     "separation": 8,
     "spacing": 128
   },

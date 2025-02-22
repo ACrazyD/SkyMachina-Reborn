@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_magnetite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_magnetite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_magnetite\"}",
   "placement": {
-    "salt": 966299195,
+    "salt": 131411760,
     "separation": 8,
     "spacing": 128
   },

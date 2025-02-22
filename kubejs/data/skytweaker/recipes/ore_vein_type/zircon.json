@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_zircon"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_zircon"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_zircon\"}",
   "placement": {
-    "salt": 910400925,
+    "salt": 249466921,
     "separation": 8,
     "spacing": 128
   },

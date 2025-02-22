@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_copper"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_copper"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_copper\"}",
   "placement": {
-    "salt": 495080435,
+    "salt": 597978128,
     "separation": 8,
     "spacing": 128
   },

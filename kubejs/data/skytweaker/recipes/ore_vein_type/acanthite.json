@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_acanthite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_acanthite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_acanthite\"}",
   "placement": {
-    "salt": 540074872,
+    "salt": 835341707,
     "separation": 8,
     "spacing": 128
   },

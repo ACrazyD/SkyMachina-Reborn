@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_fluorite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_fluorite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_fluorite\"}",
   "placement": {
-    "salt": 550081986,
+    "salt": 457807356,
     "separation": 8,
     "spacing": 128
   },

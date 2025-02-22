@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_cryolite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_cryolite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_cryolite\"}",
   "placement": {
-    "salt": 285965793,
+    "salt": 982364299,
     "separation": 8,
     "spacing": 128
   },

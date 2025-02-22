@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_hematite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_hematite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_hematite\"}",
   "placement": {
-    "salt": 404210210,
+    "salt": 587024776,
     "separation": 8,
     "spacing": 128
   },

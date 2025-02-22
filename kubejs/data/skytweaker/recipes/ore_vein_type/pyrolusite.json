@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_pyrolusite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_pyrolusite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_pyrolusite\"}",
   "placement": {
-    "salt": 886451791,
+    "salt": 239998618,
     "separation": 8,
     "spacing": 128
   },

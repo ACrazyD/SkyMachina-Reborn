@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_smithsonite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_smithsonite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_smithsonite\"}",
   "placement": {
-    "salt": 463651927,
+    "salt": 414754428,
     "separation": 8,
     "spacing": 128
   },

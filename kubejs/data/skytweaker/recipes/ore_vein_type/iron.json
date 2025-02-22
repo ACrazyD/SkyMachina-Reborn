@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_iron"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_iron"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_iron\"}",
   "placement": {
-    "salt": 654555991,
+    "salt": 644373819,
     "separation": 8,
     "spacing": 128
   },

@@ -6,11 +6,9 @@
   "icon": {
     "item": "immersivegeology:normal_ore_cobaltite"
   },
-  "name": {
-    "translate": "item.immersivegeology.normal_ore_cobaltite"
-  },
+  "name": "{\"translate\":\"item.immersivegeology.normal_ore_cobaltite\"}",
   "placement": {
-    "salt": 476153486,
+    "salt": 548017513,
     "separation": 8,
     "spacing": 128
   },
