@@ -34,15 +34,7 @@ ServerEvents.recipes((e) => {
 	e.remove({ mod: 'create_better_motors'})
 	e.remove({ mod: 'create_jetpack'})
 	e.remove({ mod: 'balancedflight'})
-
-
-	//Immersive Engineering + Addons
-	e.remove({ mod: 'immersiveengineering' })
-	e.remove({ mod: 'immersivepetroleum' })
-	e.remove({ mod: 'more_immersive_wires' })
-	e.remove({ mod: 'immersivegeology' })
-	e.remove({ mod: 'immersive_aircraft' }) //Yes i know this isnt really an addon.. Bugger off
-
+	
 	//Random Stuff
 	e.remove({ mod: 'apotheosis' })
 	e.remove({ mod: 'functionalstorage' })
