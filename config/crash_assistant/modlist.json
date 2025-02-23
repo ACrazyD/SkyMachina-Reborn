@@ -419,10 +419,6 @@
     "modId": "entityculling",
     "version": "1.7.2"
   },
-  "excompressum-forge-1.20.1-20.1.8.jar": {
-    "modId": "excompressum",
-    "version": "20.1.8"
-  },
   "exdeorum-1.44.jar": {
     "modId": "exdeorum",
     "version": "1.44"
@@ -455,9 +451,9 @@
     "modId": "fabric_api",
     "version": "0.92.2+1.11.11+1.20.1"
   },
-  "fancymenu_forge_3.4.4_MC_1.20.1.jar": {
+  "fancymenu_forge_3.4.5_MC_1.20.1.jar": {
     "modId": "fancymenu",
-    "version": "3.4.4"
+    "version": "3.4.5"
   },
   "ferritecore-6.0.1-forge.jar": {
     "modId": "ferritecore",
@@ -944,13 +940,13 @@
     "modId": "solapplepie",
     "version": "1.20.1-2.3.0"
   },
-  "sophisticatedbackpacks-1.20.1-3.23.5.1200.jar": {
+  "sophisticatedbackpacks-1.20.1-3.23.5.1203.jar": {
     "modId": "sophisticatedbackpacks",
-    "version": "3.23.5.1200"
+    "version": "3.23.5.1203"
   },
-  "sophisticatedcore-1.20.1-1.2.18.885.jar": {
+  "sophisticatedcore-1.20.1-1.2.18.890.jar": {
     "modId": "sophisticatedcore",
-    "version": "1.2.18.885"
+    "version": "1.2.18.890"
   },
   "sophisticatedstorage-1.20.1-1.3.9.1075.jar": {
     "modId": "sophisticatedstorage",
