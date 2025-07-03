@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "45376F0B102084D8"
+	id: "4414DADBAAB6CE3E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "3CC3A6FCFAB10178"
+			optional: true
+			require_sequential_tasks: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/kubejs packmode expert"
+					feedback_message: "Expert Mode Enabled"
+					id: "1C31A2E3CC47C569"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/reload"
+					feedback_message: "Please Wait!"
+					id: "214741AC7D77C3ED"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "56683871231F91A2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "1B02741C8CB85B55"
+			optional: true
+			require_sequential_tasks: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/kubejs packmode normal"
+					id: "242E882BC1B319B6"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/reload"
+					id: "0D5C5050337D83C4"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3796AFBD333F1228"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "066AAB80DC983D77"
+			tasks: [{
+				id: "143602073F9E470F"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	chapter.4414DADBAAB6CE3E.title: "Welcome!"
+	chapter_group.45376F0B102084D8.title: "Intro"
+	file.0000000000000001.title: "SkyMachina"
+	quest.066AAB80DC983D77.quest_desc: [
+		"Please note! - This may not be the best way to do this - the best way would be to edit the packmode file located here in your minecraft root folder"
+		""
+		"File at '&n~/skymachina/kubejs/config/common,json&r` "
+		""
+		"Chance the following value \"packmode\" to expert or normal"
+	]
+	quest.1B02741C8CB85B55.quest_desc: [
+		"These 2 quests are really only here to make changing packmode easy - we do not however recommend these quests exist on ANY server."
+		""
+		"These quests do affect the whole world - there is no way or reason to make these effect the user one by one. Doing so would break more things then it would solve, so please dont ask."
+	]
+	quest.1B02741C8CB85B55.quest_subtitle: "Hi"
+	quest.3CC3A6FCFAB10178.quest_desc: [
+		"We are using packmodes for the time being - Your likely in Normal mode as this is default."
+		""
+		"this is TEMP, and also very broken at this time."
+		""
+		"This was setup to allow people the chance to play and tinker as we make the stuff work - I may later make it a more permant feature of the modpack, but as we are a dev team of \"Me, Myself, and I\" that will be later on."
+	]
+	quest.3CC3A6FCFAB10178.quest_subtitle: "Its a Wonder!"
+	task.143602073F9E470F.title: "NOTICE!"
+	task.1CC6179F1848B43F.title: "GPS!!!"
+	task.3796AFBD333F1228.title: "Wanna Go Back?"
+	task.56683871231F91A2.title: "Why are the recipes Normal??"
+	task.578569111D5471CC.title: "PackMode?"
+	task.7ABE14461118A047.title: "TEMP"
+}
