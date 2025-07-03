@@ -1,0 +1,13 @@
+// Compost colors for create_optical. You may add your own colors, change existing ones, or remove colors that aren't needed.
+copper_coil, #ff9b72
+golden_coil, #fff45e
+incomplete_copper_coil, #ffa764
+incomplete_golden_coil, #ffdd58
+incomplete_mirror, #d7ffff
+incomplete_optical_device, #9084ae
+incomplete_polarizing_filter, #463a4b
+incomplete_rose_quartz_catalyst_coil, #ff8796
+mirror, #bbe6ff
+optical_device, #7c7d8c
+polarizing_filter, #666269
+rose_quartz_catalyst_coil, #ff94a1

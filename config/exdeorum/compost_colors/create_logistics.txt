@@ -1,0 +1,4 @@
+// Compost colors for create_logistics. You may add your own colors, change existing ones, or remove colors that aren't needed.
+incomplete_item_silo, #4e5262
+item_silo, #646e7f
+placed_item_silo, #646e7f

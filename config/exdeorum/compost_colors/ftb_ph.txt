@@ -1,0 +1,5 @@
+// Compost colors for ftb_ph. You may add your own colors, change existing ones, or remove colors that aren't needed.
+ascend, #cc6cff
+exp, #ffffa4
+passive, #ffff9e
+talent, #ffffae

@@ -26,7 +26,6 @@ servers.dat
 /.vscode
 /otyacraftengine
 /iammusicplayer
-/config
 /defaultconfigs
 /downloads
 /ldlib
@@ -42,3 +41,9 @@ realms_persistence.json
 
 .probe
 kubejs/config/probe-settings.json
+gtceu/prospection_cache
+data/fabricDefaultResourcePacks.dat
+win_event1739379697884.txt
+immersivetips.json
+/icon-exports-x32
+.lazyyyyy/lazyyyyy-lexforge-bootstrap.jar

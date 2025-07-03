@@ -1,0 +1,6 @@
+// Compost colors for immersiveengineeringartifacts. You may add your own colors, change existing ones, or remove colors that aren't needed.
+infinity_wirecoil_copper, #a08278
+infinity_wirecoil_electrum, #af9678
+infinity_wirecoil_steel, #807f7f
+steel_shoes, #cfcdcd
+uranium_plate_shoes, #839776
